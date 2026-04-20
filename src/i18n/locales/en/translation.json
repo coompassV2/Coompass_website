@@ -1,0 +1,1279 @@
+{
+  "Newsroom": "Newsroom",
+  "Dashboard": "Dashboard",
+  "Search": "Search",
+  "Search missions...": "Search missions...",
+  "Work Hour Analysis": "Work Hour Analysis",
+  "Missions": "Missions",
+  "Mission": "Mission",
+  "Leave Mission": "Leave Mission",
+  "Schedule": "Schedule",
+  "Events": "Events",
+  "Meetings": "Meetings",
+  "Remote": "Remote",
+  "Active": "Active",
+  "See All": "See All",
+  "Change language": "Change language",
+  "Newsfeed": "Newsfeed",
+  "Partnerships": "Partnerships",
+  "Calendar": "Calendar",
+  "Wallet": "Wallet",
+  "Leaderboard": "Leaderboard",
+  "All Organizations": "All Organizations",
+  "All Missions": "All Missions",
+  "Help center": "Help center",
+  "Terms & Conditions": "Terms & Conditions",
+  "Settings": "Settings",
+  "Organizations": "Organizations",
+  "Institutions": "Institutions",
+  "In-Person Only": "In-Person Only",
+  "Active Missions Only": "Active Missions Only",
+  "Suitable for me": "Suitable for me",
+  "Ask AI": "Ask AI",
+  "Search by keyword...": "Search by keyword...",
+  "Cause Areas": "Cause Areas",
+  "Skills": "Skills",
+  "Current Score": "Current Score",
+  "Claim your prize": "Claim your prize",
+  "Log out": "Log out",
+  "View More": "View More",
+  "Donate": "Donate",
+  "Active Missions": "Active Missions",
+  "Active missions": "Active missions",
+  "Complete missions": "Complete missions",
+  "I want to help!": "I want to help!",
+  "spots available": "spots available",
+  "participants": "participants",
+  "Posted": "Posted",
+  "Hours": "Hours",
+  "Join date": "Join date",
+  "Volunteers": "Volunteers",
+  "Organization": "Organization",
+  "mission_description": "With Christmas approaching, we have many orders for solidarity baskets and need help making cookies, packing and preparing the baskets...",
+  "organization_description": "One Community is an all-volunteer nonprofit think tank creating open source plans for all aspects of sustainability...",
+  "partnership_description": "Manage and enhance the online presence of Coompass, engaging with the public through social media and content creation...",
+  "Current Partnerships": "Current Partnerships",
+  "Available Organizations for Partnership": "Available Organizations for Partnership",
+  "Adding nonprofits as partners will make them available for your employees to collaborate and do volunteering work with them": "Adding nonprofits as partners will make them available for your employees to collaborate and do volunteering work with them",
+  "Privacy Policy": "Privacy Policy",
+  "Ex: Voluntário do Mês": "Ex: Volunteer of the Month",
+  "Ex: €5.000 - €10.000": "Ex: €5,000 - €10,000",
+  "Ex: 50% redução, 1000 horas": "Ex: 50% reduction, 1000 hours",
+  "Analytics & Reporting": "Analytics & Reporting",
+  "Impact Reports": "Impact Reports",
+  "Employee Engagement": "Employee Engagement",
+  "Focus Areas": "Focus Areas",
+  "View Details": "View Details",
+  "Export Full Report": "Export Full Report",
+  "Relatório": "Report",
+  "Coming Soon": "Coming Soon",
+  "Analytics": "Analytics",
+  "Employees": "Employees",
+  "Your Volunteers": "Your Volunteers",
+  "Active Volunteers": "Active Volunteers",
+  "No active volunteers": "No active volunteers",
+  "Pending Missions": "Pending Missions",
+  "Availability": "Availability",
+  "Join Date": "Applied Date",
+  "Impact Reporting": "Impact Reporting",
+  "My Missions": "My Missions",
+  "Organization Missions": "Organization Missions",
+  "Our Missions": "Our Missions",
+  "My Activity": "My Activity",
+  "Opportunities": "Opportunities",
+  "Only Active Missions": "Only Active Missions",
+  "Apadrinhar": "Sponsor",
+  "ESG Dashboard": "ESG Dashboard",
+  "Projects": "Projects",
+  "Questions?": "Questions?",
+  "Soon": "Soon",
+  "Impact & Performance Overview": "Impact & Performance Overview",
+  "Group View": "Group View",
+  "Company View": "Company View",
+  "Select a company": "Select a company",
+  "Last 30 days": "Last 30 days",
+  "Last login": "Last login",
+  "Last 90 days": "Last 90 days",
+  "Last year": "Last year",
+  "All time": "All time",
+  "Company Performance": "Company Performance",
+  "Individual ESG contribution across all group companies": "Individual ESG contribution across all group companies",
+  "Total Volunteer Hours": "Total Volunteer Hours",
+  "Employee Participation": "Employee Participation",
+  "NGO Partnerships": "NGO Partnerships",
+  "from last period": "from last period",
+  "Group-wide": "Group-wide",
+  "Company": "Company",
+  "ESG Impact": "ESG Impact",
+  "Real-time metrics across all sustainability initiatives": "Real-time metrics across all sustainability initiatives",
+  "Overall Performance": "Overall Performance",
+  "companies": "companies",
+  "Group totals": "Group totals",
+  "Avg engagement": "Avg engagement",
+  "Engagement Rate": "Engagement Rate",
+  "ESG Focus Areas": "ESG Focus Areas",
+  "Reports & Downloads": "Reports & Downloads",
+  "Download detailed ESG reports and data exports": "Download detailed ESG reports and data exports",
+  "Export Options": "Export Options",
+  "Report Period": "Report Period",
+  "Company Filter": "Company Filter",
+  "All Companies": "All Companies",
+  "Last Month": "Last Month",
+  "Last Quarter": "Last Quarter",
+  "Last Year": "Last Year",
+  "All Time": "All Time",
+  "Feedback & Contact": "Feedback & Contact",
+  "Share your thoughts or get in touch with our team": "Share your thoughts or get in touch with our team",
+  "Share Your Feedback": "Share Your Feedback",
+  "Contact Coompass": "Contact Coompass",
+  "Submit Feedback": "Submit Feedback",
+  "Contact Our Team": "Contact Our Team",
+  "ESG Support Team": "ESG Support Team",
+  "Business Hours": "Business Hours",
+  "Impact Analytics": "Impact Analytics",
+  "Data-driven insights into ESG performance and trends": "Data-driven insights into ESG performance and trends",
+  "ESG Category Distribution": "ESG Category Distribution",
+  "SDG Alignment": "SDG Alignment",
+  "SDG Filters": "SDG Filters",
+  "SDG most used in initiatives": "SDG most used in initiatives",
+  "Sustainable Development Goals": "Sustainable Development Goals",
+  "Select ODS": "Select ODS",
+  "{{count}} ODS selected": "{{count}} ODS selected",
+  "Impact Growth Trend": "Impact Growth Trend",
+  "Featured Impact Stories": "Featured Impact Stories",
+  "Highlighting recent mission successes and community impact": "Highlighting recent mission successes and community impact",
+  "Environment": "Environment",
+  "Education": "Education",
+  "Health & Wellbeing": "Health & Wellbeing",
+  "Poverty & Basic Needs": "Poverty & Basic Needs",
+  "Social Inclusion": "Social Inclusion",
+  "Community": "Community",
+  "Children & Youth": "Children & Youth",
+  "Elderly Support": "Elderly Support",
+  "Disability Inclusion": "Disability Inclusion",
+  "Humanitarian Aid": "Humanitarian Aid",
+  "Animal Welfare": "Animal Welfare",
+  "Culture": "Culture",
+  "Employability": "Employability",
+  "Human Rights": "Human Rights",
+  "Civic Engagement": "Civic Engagement",
+  "Mobility & Transport": "Mobility & Transport",
+  "Total": "Total",
+  "hours": "hours",
+  "Social": "Social",
+  "Governance": "Governance",
+  "Help us improve the dashboard and ESG reporting experience.": "Help us improve the dashboard and ESG reporting experience.",
+  "Need assistance or have questions about ESG initiatives? Our team is here to help.": "Need assistance or have questions about ESG initiatives? Our team is here to help.",
+  "Save": "Save",
+  "Save changes": "Save changes",
+  "Cancel": "Cancel",
+  "Loading": "Loading",
+  "Submit": "Submit",
+  "Back": "Back",
+  "Next": "Next",
+  "Close": "Close",
+  "Edit": "Edit",
+  "Delete": "Delete",
+  "Add": "Add",
+  "Remove": "Remove",
+  "Confirm": "Confirm",
+  "No data available yet.": "No data available yet.",
+  "Not available yet": "Not available yet",
+  "Timeframe": "Timeframe",
+  "This Quarter": "This Quarter",
+  "This Year": "This year",
+  "Last 7 days": "Last 7 days",
+  "Executive Dashboard": "Executive Dashboard",
+  "Directory": "Directory",
+  "Applications": "Applications",
+  "Search volunteers...": "Search volunteers...",
+  "Application accepted.": "Application accepted.",
+  "Application rejected.": "Application rejected.",
+  "This feature is under development. Check back later.": "This feature is under development. Check back later.",
+  "Under construction": "Under construction",
+  "Login to Coompass": "Login to Coompass",
+  "Welcome back!": "Welcome back!",
+  "You have successfully signed in.": "You have successfully signed in.",
+  "Authentication Error": "Authentication Error",
+  "Volunteer Rewards Hub": "Volunteer Rewards Hub",
+  "Nonprofit Resource Center": "Nonprofit Resource Center",
+  "Corporate Wallet": "Corporate Wallet",
+  "Nonprofit Dashboard": "Nonprofit Dashboard",
+  "Volunteer Dashboard": "Volunteer Dashboard",
+  "Company Dashboard": "Company Dashboard",
+  "No session found. Please try again.": "No session found. Please try again.",
+  "An unexpected error occurred during authentication.": "An unexpected error occurred during authentication.",
+  "Volunteer of the Month": "Volunteer of the Month",
+  "Environmental Champion": "Environmental Champion",
+  "Community Builder": "Community Builder",
+  "1000 Hour Club": "1000 Hour Club",
+  "Recognizes outstanding contribution and dedication": "Recognizes outstanding contribution and dedication",
+  "Based on hours contributed and impact made": "Based on hours contributed and impact made",
+  "For exceptional work on environmental projects": "For exceptional work on environmental projects",
+  "Participation in at least 3 environmental initiatives with positive outcomes": "Participation in at least 3 environmental initiatives with positive outcomes",
+  "Recognizes volunteers who foster community connections": "Recognizes volunteers who foster community connections",
+  "Demonstrates leadership in community engagement activities": "Demonstrates leadership in community engagement activities",
+  "Milestone recognition for dedicated service": "Milestone recognition for dedicated service",
+  "Completion of 1000+ volunteer hours": "Completion of 1000+ volunteer hours",
+  "Removed employee": "Removed employee",
+  "Welcome!": "Welcome!",
+  "Authenticating...": "Authenticating...",
+  "Recognition Programs": "Recognition Programs",
+  "Overview of all active recognition programs": "Overview of all active recognition programs",
+  "Program": "Program",
+  "Frequency": "Frequency",
+  "Total Nominations": "Total Nominations",
+  "Active Nominations": "Active Nominations",
+  "Created": "Created",
+  "Actions": "Actions",
+  "Recent Awards & Nominations": "Recent Awards & Nominations",
+  "Latest activity across all recognition programs": "Latest activity across all recognition programs",
+  "Volunteer": "Volunteer",
+  "Date": "Date",
+  "Status": "Status",
+  "Monthly": "Monthly",
+  "Quarterly": "Quarterly",
+  "Annual": "Annual",
+  "One-time": "One-time",
+  "Milestone": "Milestone",
+  "Awarded": "Awarded",
+  "Nominated": "Nominated",
+  "Corporate Impact": "Corporate Impact",
+  "View Analytics": "View Analytics",
+  "For detailed analytics": "For detailed analytics",
+  "Total Active Missions": "Total Active Missions",
+  "Total Missions": "Total Missions",
+  "Total Beneficiaries Impacted": "Total Beneficiaries Impacted",
+  "from last month": "from last month",
+  "Inactive": "Inactive",
+  "Impact Score": "Impact Score",
+  "Participação dos colaboradores": "Employee Participation",
+  "Registados / Ativos": "Registered / Active",
+  "Pontuação de impacto": "Impact Score",
+  "Este mês / Meta": "This month / Target",
+  "Registados": "Registered",
+  "Ativos": "Active",
+  "Meta": "Target",
+  "No data yet": "No data yet",
+  "Last updated": "Last updated",
+  "30 days": "30 days",
+  "90 days": "90 days",
+  "1 year": "1 year",
+  "All time": "All time",
+  "Formula details": "Formula details",
+  "Mission Completion Formula": "Mission completion = missions finished / missions started in selected period.",
+  "Participant Completion Formula": "Participant completion = participants completed / participants enrolled total.",
+  "Active Missions Formula": "Active missions = approved missions still in progress.",
+  "Total Missions Formula": "Total missions = all platform missions excluding rejected and cancelled ones.",
+  "Participants Enrolled Formula": "Participants enrolled = active + completed + dropped.",
+  "Volunteer Hours Formula": "Volunteer hours = sum of participants final hours (final_hours) in completed missions.",
+  "Beneficiaries Impacted Formula": "Beneficiaries impacted = sum of beneficiaries across all completed missions.",
+  "Mobility & Infrastructure": "Mobility & Infrastructure",
+  "Lisbon, PT": "Lisbon, PT",
+  "Founded": "Founded",
+  "company_brisa_description": "Connecting people and communities through safe, sustainable mobility. Our volunteer and CSR programs support road safety, environmental action, and social impact across Portugal.",
+  "Recent Activities": "Recent Activities",
+  "Activity Feed": "Activity Feed",
+  "activity_feed_logged_in": "{{userName}} logged in",
+  "activity_feed_joined_mission": "{{userName}} joined a new mission",
+  "activity_feed_joined_mission_prefix": "{{userName}} joined a new mission:",
+  "activity_feed_created_account": "{{userName}} created an account",
+  "activity_feed_downloaded_report": "{{userName}} downloaded impact report",
+  "activity_feed_org_launched": "{{orgName}} launched a new mission",
+  "activity_feed_org_launched_prefix": "{{orgName}} launched a new mission:",
+  "activity_feed_project_created": "{{actorName}} created a project",
+  "activity_feed_project_created_prefix": "{{actorName}} created a project:",
+  "activity_feed_mission_created": "{{actorName}} created a mission",
+  "activity_feed_mission_created_prefix": "{{actorName}} created a mission:",
+  "activity_feed_mission_created_part_of_project": "as part of project",
+  "activity_feed_mission_started": "{{actorName}} started a mission",
+  "activity_feed_mission_started_prefix": "{{actorName}} started a mission:",
+  "activity_feed_mission_completed": "{{actorName}} completed a mission",
+  "activity_feed_mission_completed_prefix": "{{actorName}} completed a mission:",
+  "activity_feed_volunteer_applied_to_mission": "{{actorName}} applied to a mission",
+  "activity_feed_volunteer_applied_to_mission_prefix": "{{actorName}} applied to a mission:",
+  "activity_feed_project_commented": "{{actorName}} commented on a project",
+  "activity_feed_project_commented_prefix": "{{actorName}} commented on project:",
+  "Failed to load activity feed": "Failed to load activity feed",
+  "No activity yet": "No activity yet",
+  "2 hours ago": "2 hours ago",
+  "Yesterday": "Yesterday",
+  "{{count}} days ago": "{{count}} days ago",
+  "{{count}} weeks ago": "{{count}} weeks ago",
+  "Loading more activities...": "Loading more activities...",
+  "No more activities to load": "No more activities to load",
+  "activity_completed_mission": "completed '{{name}}' mission",
+  "activity_joined_program": "joined the volunteer program",
+  "activity_partnered_with": "partnered with '{{name}}'",
+  "activity_generated_report": "generated Q2 Impact Report",
+  "activity_scheduled_mission": "scheduled '{{name}}' mission",
+  "Missões Agendadas": "Scheduled Missions",
+  "Ver": "View",
+  "View All Missions": "View All Missions",
+  "Active (missions tab)": "Active",
+  "Past": "Past",
+  "No active missions.": "No active missions.",
+  "active missions count_one": "{{count}} active mission",
+  "active missions count_other": "{{count}} active missions",
+  "No past missions.": "No past missions.",
+  "No scheduled missions yet.": "No scheduled missions yet.",
+  "No active missions yet.": "No active missions yet.",
+  "No past missions yet.": "No past missions yet.",
+  "Community Garden Project": "Community Garden Project",
+  "Green Earth Foundation": "Green Earth Foundation",
+  "Downtown Area": "Downtown Area",
+  "Coding Workshop for Kids": "Coding Workshop for Kids",
+  "Tech Learning Center": "Tech Learning Center",
+  "Food Bank Volunteering": "Food Bank Volunteering",
+  "City Food Bank": "City Food Bank",
+  "North District": "North District",
+  "Senior Center Renovation": "Senior Center Renovation",
+  "Elder Care Association": "Elder Care Association",
+  "West Side": "West Side",
+  "Beach Cleanup Initiative": "Beach Cleanup Initiative",
+  "Ocean Preservation Society": "Ocean Preservation Society",
+  "South Beach": "South Beach",
+  "Browse and join missions from our partners.": "Browse and join missions from our partners.",
+  "Volunteer Missions - Find Impact Opportunities": "Volunteer Missions - Find Impact Opportunities",
+  "Discover volunteer missions and social impact opportunities. Browse by cause, skills, location, and join meaningful projects with companies and nonprofits.": "Discover volunteer missions and social impact opportunities. Browse by cause, skills, location, and join meaningful projects with companies and nonprofits.",
+  "Create Initiative": "Create Initiative",
+  "Launch Your Initiative": "Launch Your Initiative",
+  "Propose a volunteering initiative": "Propose a volunteering initiative",
+  "Active (tabs)": "Active",
+  "Completed": "Completed",
+  "Completed (mission)": "Completed",
+  "Project not found": "Project not found",
+  "The project you are looking for does not exist or was removed.": "The project you are looking for does not exist or was removed.",
+  "Back to projects": "Back to projects",
+  "Creating...": "Creating...",
+  "Create Project": "Create Project",
+  "Please fill in all required fields": "Please fill in all required fields",
+  "End date must be after start date": "End date must be after start date",
+  "Make a Donation": "Make a Donation",
+  "Claim Rewards": "Claim Rewards",
+  "Matching Programs": "Matching Programs",
+  "Set Up Matching": "Set Up Matching",
+  "Create Fundraising Campaign": "Create Fundraising Campaign",
+  "Support nonprofits and social causes with financial contributions.": "Support nonprofits and social causes with financial contributions.",
+  "Match your employees' donations to amplify your company's social impact.": "Match your employees' donations to amplify your company's social impact.",
+  "Exchange your earned tokens for gift cards and other rewards.": "Exchange your earned tokens for gift cards and other rewards.",
+  "Support causes you care about by donating your earned tokens.": "Support causes you care about by donating your earned tokens.",
+  "Launch a campaign to raise funds for your nonprofit's initiatives.": "Launch a campaign to raise funds for your nonprofit's initiatives.",
+  "Generate Report": "Generate Report",
+  "Export": "Export",
+  "Employee not found": "Employee not found",
+  "Mission Not Found": "Mission Not Found",
+  "Welcome": "Welcome",
+  "User": "User",
+  "Pro": "Pro",
+  "Nonprofit Organizations - Discover Impact Partners": "Nonprofit Organizations - Discover Impact Partners",
+  "Browse verified nonprofit organizations working on social impact, sustainability, and community development.": "Browse verified nonprofit organizations working on social impact, sustainability, and community development.",
+  "Partnerships - Connect Companies & Nonprofits": "Partnerships - Connect Companies & Nonprofits",
+  "Newsroom - Latest Impact Stories & Updates": "Newsroom - Latest Impact Stories & Updates",
+  "Register for Coompass": "Register for Coompass",
+  "Pricing": "Pricing",
+  "Terms and Conditions": "Terms and Conditions",
+  "About Us": "About Us",
+  "Help Center": "Help Center",
+  "Find answers and learn how to make the most of Coompass": "Find answers and learn how to make the most of Coompass",
+  "For Nonprofits": "For Nonprofits",
+  "For Volunteers": "For Volunteers",
+  "For Companies - Enhance ESG & Employee Engagement": "For Companies - Enhance ESG & Employee Engagement",
+  "Nonprofits": "Nonprofits",
+  "Expand your reach and amplify your impact": "Expand your reach and amplify your impact",
+  "Make an impact with your skills and time": "Make an impact with your skills and time",
+  "Companies": "Companies",
+  "Enhance your ESG strategy and employee engagement": "Enhance your ESG strategy and employee engagement",
+  "Connect for Impact - Companies, Nonprofits & Volunteers Unite": "Connect for Impact - Companies, Nonprofits & Volunteers Unite",
+  "Failed to create project": "Failed to create project",
+  "The employee you are looking for doesn't exist or has been removed.": "The employee you are looking for doesn't exist or has been removed.",
+  "Back to Employees": "Back to Employees",
+  "Corporate Funds": "Corporate Funds",
+  "Donations Made": "Donations Made",
+  "Active Grants": "Active Grants",
+  "Impact Investments": "Impact Investments",
+  "Total Balance": "Total Balance",
+  "My Digital Coins": "My Digital Coins",
+  "My Donations": "My Donations",
+  "My Balance": "My Balance",
+  "Earned Tokens": "Earned Tokens",
+  "Available Rewards": "Available Rewards",
+  "Organization Funds": "Organization Funds",
+  "Received Donations": "Received Donations",
+  "Fundraising Campaigns": "Fundraising Campaigns",
+  "About Coompass": "About Coompass",
+  "Learn about Coompass's mission to connect companies, nonprofits, and volunteers for maximum social impact and ESG initiatives.": "Learn about Coompass's mission to connect companies, nonprofits, and volunteers for maximum social impact and ESG initiatives.",
+  "Our mission is to connect companies, nonprofits, and volunteers for maximum social impact": "Our mission is to connect companies, nonprofits, and volunteers for maximum social impact",
+  "Learn about Coompass's mission, team, values and vision. Discover how we're connecting companies, nonprofits, and volunteers for maximum social impact.": "Learn about Coompass's mission, team, values and vision. Discover how we're connecting companies, nonprofits, and volunteers for maximum social impact.",
+  "Home": "Home",
+  "Stay updated with the latest news, impact stories, and updates from Coompass. Discover how companies, nonprofits, and volunteers are creating meaningful social change.": "Stay updated with the latest news, impact stories, and updates from Coompass. Discover how companies, nonprofits, and volunteers are creating meaningful social change.",
+  "Manage corporate-nonprofit partnerships and discover collaboration opportunities. Connect companies with aligned nonprofits to maximize social impact and ESG outcomes.": "Manage corporate-nonprofit partnerships and discover collaboration opportunities. Connect companies with aligned nonprofits to maximize social impact and ESG outcomes.",
+  "Access guides, tutorials, and FAQs to help you get the most out of the Coompass platform. Find answers to your questions about companies, nonprofits, volunteers, and service providers features.": "Access guides, tutorials, and FAQs to help you get the most out of the Coompass platform. Find answers to your questions about companies, nonprofits, volunteers, and service providers features.",
+  "Employees can browse volunteering missions, join initiatives, track participation, and build an Impact CV—all in one place.": "Employees can browse volunteering missions, join initiatives, track participation, and build an Impact CV—all in one place.",
+  "Register or sign in": "Register or sign in",
+  "See mission examples": "See mission examples",
+  "Role-based access": "Role-based access",
+  "Impact tracking": "Impact tracking",
+  "Learn more": "Learn more",
+  "Build your Impact CV": "Build your Impact CV",
+  "Volunteer hours recognized": "Volunteer hours recognized",
+  "Volunteer hours over time": "Volunteer hours over time",
+  "Monthly volunteer hours": "Monthly volunteer hours",
+  "Impact by cause area": "Impact by cause area",
+  "Active volunteers monthly": "Active volunteers monthly",
+  "Number of missions monthly": "Number of missions monthly",
+  "Employee participation by company": "Employee participation by company",
+  "Active employees in volunteer missions / registered employees": "Active employees in volunteer missions / registered employees",
+  "Flexible participation": "Flexible participation",
+  "Recognition & awards": "Recognition & awards",
+  "Develop your skills": "Develop your skills",
+  "Make a difference": "Make a difference",
+  "Join a community": "Join a community",
+  "ESG impact visibility": "ESG impact visibility",
+  "Corporate volunteering": "Corporate volunteering",
+  "One platform for all": "One platform for all",
+  "Track your impact": "Track your impact",
+  "landingBrisa.onboarding.title": "Join Impact Hub in 4 simple steps",
+  "landingBrisa.onboarding.subtitle": "Become a volunteer and partner with BRISA's nonprofits for real impact.",
+  "landingBrisa.onboarding.step1Title": "Sign in",
+  "landingBrisa.onboarding.step1Desc": "Use your BRISA account (Okta). One click.",
+  "landingBrisa.onboarding.step2Title": "Browse missions",
+  "landingBrisa.onboarding.step2Desc": "Explore missions from BRISA's nonprofit partners.",
+  "landingBrisa.onboarding.step3Title": "Join & track",
+  "landingBrisa.onboarding.step3Desc": "Join initiatives, log hours, build your Impact CV.",
+  "landingBrisa.onboarding.step4Title": "Become a partner",
+  "landingBrisa.onboarding.step4Desc": "Volunteer regularly and grow with our nonprofits.",
+  "landingBrisa.onboarding.ctaCaption": "Start making a difference with BRISA's partner NGOs.",
+  "onboarding.profileNoticeTitle": "Complete your profile",
+  "onboarding.profileNotice": "Hello {{name}}, please complete your profile before continuing,",
+  "onboarding.genericName": "there",
+  "landingBrisa.auth.chooseAccount": "Choose how you want to sign in",
+  "landingBrisa.auth.oktaTitle": "Volunteer",
+  "landingBrisa.auth.oktaDesc": "Sign in with your BRISA work account (Okta SSO).",
+  "landingBrisa.auth.signInWithOkta": "Sign in with Okta",
+  "landingBrisa.auth.emailTitle": "Login with email and password",
+  "landingBrisa.auth.emailDesc": "Sign in with your work email or Gmail.",
+  "landingBrisa.auth.signInWithEmail": "Sign in with email",
+  "landingBrisa.auth.comingSoon": "Coming soon",
+  "landingBrisa.auth.comingSoonDesc": "Authentication and SSO integration are in development.",
+  "landingBrisa.poweredBy": "Powered by",
+  "Enter address": "Enter address",
+  "Address": "Address",
+  "Additional requirements": "Additional requirements",
+  "Your volunteer profile has been updated.": "Your volunteer profile has been updated.",
+  "Your name": "Your name",
+  "Profile Picture": "Profile Picture",
+  "Choose File": "Choose File",
+  "Dashboard Banner": "Dashboard Banner",
+  "Organization Logo": "Organization Logo",
+  "Organization Description": "Organization Description",
+  "Location": "Location",
+  "Contact Information": "Contact Information",
+  "Contact Email": "Contact Email",
+  "Contact Phone": "Contact Phone",
+  "Organization Type": "Organization Type",
+  "Year Founded": "Year Founded",
+  "Point of Contact (Email)": "Point of Contact (Email)",
+  "Point of contact": "Point of contact",
+  "Pending": "Pending",
+  "pending": "Pending",
+  "active": "Active",
+  "invited": "Invited",
+  "accepted": "Accepted",
+  "expired": "Expired",
+  "disabled": "Disabled",
+  "All statuses": "All statuses",
+  "Nonprofit invites tab": "Nonprofit invites",
+  "Nonprofit invites heading": "Nonprofit invites",
+  "Nonprofit invites description": "Invite nonprofit organizations to join Coompass and track pending invitations.",
+  "Nonprofit invites empty hint": "Create an invitation to send an onboarding link to the nonprofit contact.",
+  "inviteCount": "{{count}} invites",
+  "userCount": "{{count}} users",
+  "applicationsCount": "{{count}} applications",
+  "Company admin users description": "Manage company members, volunteers, and pending invitations.",
+  "Company employees applications description": "Mission applications from your organization’s volunteers.",
+  "Company employees leaderboard description": "Rankings and recognition for volunteers will appear here.",
+  "No applications to show": "No applications to show yet.",
+  "Application date": "Application date",
+  "Volunteer Department": "Department",
+  "Name": "Name",
+  "Refresh tab": "Refresh",
+  "No matching invites": "No invites match your filters",
+  "No matching invites hint": "Try adjusting the search or status filter.",
+  "Invite nonprofit": "Invite nonprofit",
+  "Search by organization or email...": "Search by organization or email...",
+  "No nonprofit invites found": "No nonprofit invites found",
+  "Invite expires at": "Expires at",
+  "Accepted at": "Accepted at",
+  "Acceptance URL": "Acceptance URL",
+  "Resend invite": "Resend invite",
+  "Resending...": "Resending...",
+  "Delete invite": "Delete invite",
+  "Invite removed": "Invite removed",
+  "Invite and pending nonprofit data removed": "Invite and pending nonprofit data removed",
+  "This removes the invite and deletes any pending nonprofit placeholder data created for it.": "This removes the invite and deletes any pending nonprofit placeholder data created for it.",
+  "Deleting...": "Deleting...",
+  "Could not delete invite": "Could not delete invite",
+  "Invite not found.": "Invite not found.",
+  "Accepted invites cannot be deleted.": "Accepted invites cannot be deleted.",
+  "All roles": "All roles",
+  "Administrator": "Administrator",
+  "approved": "Approved",
+  "rejected": "Rejected",
+  "withdrawn": "Withdrawn",
+  "View all pending": "View all pending",
+  "Pending Mission Approvals": "Pending Mission Approvals",
+  "Additional requirements...": "Additional requirements...",
+  "Search skills...": "Search skills...",
+  "Search cause areas...": "Search cause areas...",
+  "Search SDGs...": "Search SDGs...",
+  "Edit preferences": "Edit preferences",
+  "No results found.": "No results found.",
+  "No recent activity": "No recent activity",
+  "Email placeholder": "email@example.com",
+  "Company email placeholder": "contact@company.com",
+  "Phone placeholder": "+1 (555) 123-4567",
+  "Website placeholder": "https://www.company.com",
+  "Your suggestions, questions, or feedback...": "Your suggestions, questions, or feedback...",
+  "Hours placeholder": "0.0",
+  "Campaign name placeholder": "Ex: Summer Youth Program",
+  "Amount placeholder": "0.00",
+  "Select a category": "Select a category",
+  "Describe your campaign and how the funds will be used...": "Describe your campaign and how the funds will be used...",
+  "Select an organization": "Select an organization",
+  "Custom Amount": "Custom Amount",
+  "Search options...": "Search options...",
+  "Select your industry...": "Select your industry...",
+  "Select sustainability goals...": "Select sustainability goals...",
+  "Select ESG priorities...": "Select ESG priorities...",
+  "Select organization type...": "Select organization type...",
+  "Select SDGs you work on...": "Select SDGs you work on...",
+  "Select your skills...": "Select your skills...",
+  "Select SDGs you care about...": "Select SDGs you care about...",
+  "Select a country": "Select a country",
+  "Enter your email": "Enter your email",
+  "Select skills": "Select skills",
+  "Select causes": "Select causes",
+  "Select causes your organization works on...": "Select causes your organization works on...",
+  "Enter mission title": "Enter mission title",
+  "Describe the mission...": "Describe the mission...",
+  "Enter required hours": "Enter required hours",
+  "Enter number of volunteers needed": "Enter number of volunteers needed",
+  "Search FAQs...": "Search FAQs...",
+  "API key placeholder": "sk-...",
+  "Full Name": "Full Name",
+  "Email": "Email",
+  "Department": "Department",
+  "Enter your department": "Enter your department",
+  "Department is required": "Department is required",
+  "Add your department": "Add your department",
+  "Organization Email": "Organization Email",
+  "Password": "Password",
+  "Work email address": "Work email address",
+  "Use an organization email to easily collaborate with teammates": "Use an organization email to easily collaborate with teammates",
+  "Forgot password?": "Forgot password?",
+  "Continue": "Continue",
+  "Create Mission": "Create Mission",
+  "Create a New Mission": "Create a New Mission",
+  "Mission Details": "Mission Details",
+  "Volunteering Missions and Experience": "Volunteering Missions and Experience",
+  "Nonprofits I've volunteered for": "Nonprofits I've volunteered for",
+  "My Profile": "My Profile",
+  "Volunteer Hours": "Volunteer Hours",
+  "Associations Helped": "Associations Helped",
+  "Retry": "Retry",
+  "Completed Missions": "Completed Missions",
+  "SDGs": "SDGs",
+  "Latest Activity": "Latest Activity",
+  "Mission Summary": "Mission Summary",
+  "Point of contact:": "Point of contact:",
+  "From": "From",
+  "Causes": "Causes",
+  "Required Skills": "Required Skills",
+  "Start Date": "Start Date",
+  "End Date": "End Date",
+  "Virtual Mission": "Virtual Mission",
+  "Active Organizations": "Active Organizations",
+  "to": "to",
+  "View All Organizations": "View All Organizations",
+  "With Active Missions": "With Active Missions",
+  "Interests & Skills Summary": "Interests & Skills Summary",
+  "Placeholder contact email": "contact@example.com",
+  "Error loading profile": "Error loading profile",
+  "Error loading interests": "Error loading interests",
+  "Toggle theme": "Toggle theme",
+  "Logged in as": "Logged in as",
+  "No nonprofits yet. Start volunteering to see organizations here!": "No nonprofits yet. Start volunteering to see organizations here!",
+  "No missions yet. Start volunteering to see your experience here!": "No missions yet. Start volunteering to see your experience here!",
+  "No user found": "No user found",
+  "Need more help?": "Need more help?",
+  "Chat conversation": "Chat conversation",
+  "Choose the Company you work for": "Choose the Company you work for",
+  "Select company and role": "Select company and role",
+  "Choose the company you work for": "Choose the company you work for",
+  "Choose your role": "Choose your role",
+  "Collaborators on missions": "Collaborators on missions",
+  "Volunteer hours provided": "Volunteer hours provided",
+  "Initiatives supported": "Initiatives supported",
+  "Activate matching program": "Activate matching program",
+  "Make this a monthly donation": "Make this a monthly donation",
+  "Drive positive change in communities worldwide.": "Drive positive change in communities worldwide.",
+  "Exchange your digital coins for gift cards in just a few clicks.": "Exchange your digital coins for gift cards in just a few clicks.",
+  "You can request an official certificate for your {{hours}} hours of volunteer work.": "You can request an official certificate for your {{hours}} hours of volunteer work.",
+  "More pages": "More pages",
+  "Previous slide": "Previous slide",
+  "Next slide": "Next slide",
+  "Name is required": "Name is required",
+  "Invite User": "Invite User",
+  "Invite user": "Invite user",
+  "Invite organization": "Invite organization",
+  "Create a nonprofit invitation with organization name and owner email.": "Create a nonprofit invitation with organization name and owner email.",
+  "Invitation created. Share this link with the nonprofit owner:": "Invitation created. Share this link with the nonprofit owner:",
+  "Organization Name": "Organization Name",
+  "Organization name": "Organization name",
+  "Owner Email": "Owner Email",
+  "owner@nonprofit.org": "owner@nonprofit.org",
+  "Create organization invitation": "Create organization invitation",
+  "Organization invitation created successfully": "Organization invitation created successfully",
+  "Failed to create organization invitation": "Failed to create organization invitation",
+  "Organization name is required": "Organization name is required",
+  "Invite a user by email. Email must use a company domain.": "Invite a user by email. Email must use a company domain.",
+  "Invitation created. Share this link with the user:": "Invitation created. Share this link with the user:",
+  "Done": "Done",
+  "Create Invitation": "Create Invitation",
+  "Email Address": "Email Address",
+  "Select a role": "Select a role",
+  "Sign-in Method": "Sign-in Method",
+  "Select sign-in method": "Select sign-in method",
+  "Email is required": "Email is required",
+  "Invalid email format": "Invalid email format",
+  "Invitation created successfully": "Invitation created successfully",
+  "Failed to send invitation": "Failed to send invitation",
+  "Resend invitation": "Resend invitation",
+  "Resending invitation...": "Resending invitation...",
+  "Invitation resent successfully": "Invitation resent successfully",
+  "Invitation updated but email was not sent": "Invitation updated but email was not sent",
+  "Email service is not configured.": "Email service is not configured.",
+  "Failed to resend invitation email": "Failed to resend invitation email",
+  "Email delivery failed.": "Email delivery failed.",
+  "Reset Password": "Reset Password",
+  "Recover Password": "Recover Password",
+  "Set Your Password": "Set Your Password",
+  "Accept Invitation": "Accept Invitation",
+  "Accept Organization Invitation": "Accept Organization Invitation",
+  "Reset password": "Reset password",
+  "Save password": "Save password",
+  "Create nonprofit account": "Create nonprofit account",
+  "Create account": "Create account",
+  "Set a password with at least 8 characters.": "Set a password with at least 8 characters.",
+  "To continue, choose a new password for your account.": "To continue, choose a new password for your account.",
+  "Checking invitation details...": "Checking invitation details...",
+  "Organization: {{name}}": "Organization: {{name}}",
+  "Invitation details unavailable.": "Invitation details unavailable.",
+  "Current password": "Current password",
+  "New password": "New password",
+  "Confirm new password": "Confirm new password",
+  "Saving...": "Saving...",
+  "Back to login": "Back to login",
+  "Unavailable": "Unavailable",
+  "This account is managed by Okta. Password setup is not available.": "This account is managed by Okta. Password setup is not available.",
+  "Invalid password": "Invalid password",
+  "Please confirm the same password.": "Please confirm the same password.",
+  "Invalid link": "Invalid link",
+  "Token is missing from this link.": "Token is missing from this link.",
+  "Invalid invitation": "Invalid invitation",
+  "Could not accept invitation": "Could not accept invitation",
+  "Account created": "Account created",
+  "Your invitation was accepted. You can now sign in.": "Your invitation was accepted. You can now sign in.",
+  "Nonprofit account created": "Nonprofit account created",
+  "Your invitation was accepted. You can now sign in and complete your nonprofit profile.": "Your invitation was accepted. You can now sign in and complete your nonprofit profile.",
+  "Could not reset password": "Could not reset password",
+  "Could not start recovery": "Could not start recovery",
+  "Recovery processed": "Recovery processed",
+  "If eligible, a recovery email has been sent.": "If eligible, a recovery email has been sent.",
+  "Enter your account email to receive password recovery instructions.": "Enter your account email to receive password recovery instructions.",
+  "This account is managed by Okta. Password recovery is unavailable here.": "This account is managed by Okta. Password recovery is unavailable here.",
+  "Recover password email placeholder": "you@company.com",
+  "Sending...": "Sending...",
+  "Send recovery email": "Send recovery email",
+  "Password updated": "Password updated",
+  "You can now sign in with your new password.": "You can now sign in with your new password.",
+  "Could not update password": "Could not update password",
+  "Your password was updated successfully.": "Your password was updated successfully.",
+  "Password must be at least 8 characters": "Password must be at least 8 characters",
+  "Passwords do not match": "Passwords do not match",
+  "Profile saved successfully.": "Profile saved successfully.",
+  "Failed to save profile.": "Failed to save profile.",
+  "Settings saved": "Settings saved",
+  "Settings saved.": "Settings saved.",
+  "Your organization profile has been updated.": "Your organization profile has been updated.",
+  "Your company profile has been updated.": "Your company profile has been updated.",
+  "Failed to save settings.": "Failed to save settings.",
+  "Link copied to clipboard.": "Link copied to clipboard.",
+  "Failed to copy.": "Failed to copy.",
+  "Google sign-in coming soon": "Google sign-in coming soon",
+  "SSO coming soon": "SSO coming soon",
+  "Okta SSO is not configured.": "Okta SSO is not configured.",
+  "Could not start Okta sign-in.": "Could not start Okta sign-in.",
+  "Okta sign-in failed.": "Okta sign-in failed.",
+  "Redirecting…": "Redirecting…",
+  "Sign in with Okta": "Sign in with Okta",
+  "{{provider}} sign-in coming soon": "{{provider}} sign-in coming soon",
+  "Invalid email or password.": "Invalid email or password.",
+  "Something went wrong.": "Something went wrong.",
+  "Feedback sent. Thank you!": "Feedback sent. Thank you!",
+  "Failed to send feedback.": "Failed to send feedback.",
+  "Partner invited.": "Partner invited.",
+  "Failed to invite partner.": "Failed to invite partner.",
+  "Campaign created.": "Campaign created.",
+  "Failed to create campaign.": "Failed to create campaign.",
+  "Donation successful.": "Donation successful.",
+  "Failed to process donation.": "Failed to process donation.",
+  "Matching program updated.": "Matching program updated.",
+  "Reward claimed.": "Reward claimed.",
+  "Guide bookmarked.": "Guide bookmarked.",
+  "Guide removed from bookmarks.": "Guide removed from bookmarks.",
+  "Story published.": "Story published.",
+  "Failed to publish story.": "Failed to publish story.",
+  "Partnership report generated.": "Partnership report generated.",
+  "Invitation sent.": "Invitation sent.",
+  "Administrator added.": "Administrator added.",
+  "Team lead added.": "Team lead added.",
+  "Contact request sent.": "Contact request sent.",
+  "API key saved.": "API key saved.",
+  "Invalid API key.": "Invalid API key.",
+  "Account created. Please check your email.": "Account created. Please check your email.",
+  "Email already in use.": "Email already in use.",
+  "Recommended Missions": "Recommended Missions",
+  "View All": "View All",
+  "Recent Activity": "Recent activity",
+  "Last 30 Days": "Last 30 Days",
+  "Publishing...": "Publishing...",
+  "Publish Mission": "Publish Mission",
+  "taxonomy.cause.animal-welfare": "Animal Welfare",
+  "taxonomy.cause.animals": "Animals",
+  "taxonomy.cause.arts-culture": "Arts & Culture",
+  "taxonomy.cause.biodiversity": "Biodiversity",
+  "taxonomy.cause.children-youth": "Children & Youth",
+  "taxonomy.cause.civic-engagement": "Civic Engagement",
+  "taxonomy.cause.climate-action": "Climate Action",
+  "taxonomy.cause.community": "Community",
+  "taxonomy.cause.community-development": "Community Development",
+  "taxonomy.cause.community-education": "Community Education",
+  "taxonomy.cause.computers-technology": "Computers & Technology",
+  "taxonomy.cause.culture": "Culture",
+  "taxonomy.cause.disability-inclusion": "Disability Inclusion",
+  "taxonomy.cause.disaster-relief": "Disaster Relief",
+  "taxonomy.cause.education": "Education",
+  "taxonomy.cause.education-literacy": "Education & Literacy",
+  "taxonomy.cause.elderly-support": "Elderly Support",
+  "taxonomy.cause.employability": "Employability",
+  "taxonomy.cause.environment": "Environment",
+  "taxonomy.cause.food-security": "Food Security",
+  "taxonomy.cause.health-medicine": "Health & Medicine",
+  "taxonomy.cause.health-wellbeing": "Health & Wellbeing",
+  "taxonomy.cause.health-and-wellness": "Health and Wellness",
+  "taxonomy.cause.healthcare": "Healthcare",
+  "taxonomy.cause.homelessness-housing": "Homelessness & Housing",
+  "taxonomy.cause.human-rights": "Human Rights",
+  "taxonomy.cause.humanitarian-aid": "Humanitarian Aid",
+  "taxonomy.cause.hunger": "Hunger",
+  "taxonomy.cause.international-development": "International Development",
+  "taxonomy.cause.logistics": "Logistics",
+  "taxonomy.cause.media-broadcasting": "Media & Broadcasting",
+  "taxonomy.cause.mobility-transport": "Mobility & Transport",
+  "taxonomy.cause.organizational-development": "Organizational Development",
+  "taxonomy.cause.poverty-basic-needs": "Poverty & Basic Needs",
+  "taxonomy.cause.poverty-alleviation": "Poverty Alleviation",
+  "taxonomy.cause.seniors": "Seniors",
+  "taxonomy.cause.social-inclusion": "Social Inclusion",
+  "taxonomy.cause.sports-recreation": "Sports & Recreation",
+  "taxonomy.cause.technology-and-innovation": "Technology and Innovation",
+  "taxonomy.cause.youth-development": "Youth Development",
+  "taxonomy.skill.cooking": "Cooking",
+  "taxonomy.skill.communication": "Communication",
+  "taxonomy.skill.teaching": "Teaching",
+  "taxonomy.skill.programming": "Programming",
+  "taxonomy.skill.design": "Design",
+  "taxonomy.skill.marketing": "Marketing",
+  "taxonomy.skill.project-management": "Project Management",
+  "taxonomy.skill.data-analysis": "Data Analysis",
+  "taxonomy.skill.graphic-design": "Graphic Design",
+  "taxonomy.skill.web-development": "Web Development",
+  "taxonomy.skill.content-creation": "Content Creation",
+  "taxonomy.skill.social-media": "Social Media",
+  "taxonomy.skill.translation": "Translation",
+  "taxonomy.skill.tutoring": "Tutoring",
+  "taxonomy.skill.mentoring": "Mentoring",
+  "taxonomy.skill.leadership": "Leadership",
+  "taxonomy.skill.research": "Research",
+  "taxonomy.skill.fundraising": "Fundraising",
+  "taxonomy.skill.event-planning": "Event Planning",
+  "taxonomy.skill.first-aid": "First Aid",
+  "taxonomy.skill.gardening": "Gardening",
+  "taxonomy.skill.photography": "Photography",
+  "taxonomy.skill.writing": "Writing",
+  "taxonomy.skill.coaching": "Coaching",
+  "taxonomy.skill.advocacy": "Advocacy",
+  "taxonomy.skill.legal": "Legal",
+  "taxonomy.skill.finance": "Finance",
+  "taxonomy.skill.nursing": "Nursing",
+  "taxonomy.skill.software-development": "Software Development",
+  "taxonomy.skill.data-entry": "Data Entry",
+  "taxonomy.skill.bookkeeping": "Bookkeeping",
+  "taxonomy.skill.organization": "Organization",
+  "taxonomy.skill.teamwork": "Teamwork",
+  "taxonomy.skill.public-speaking": "Public Speaking",
+  "taxonomy.skill.logistics": "Logistics",
+  "taxonomy.skill.field-work": "Field Work",
+  "taxonomy.skill.conservation-techniques": "Conservation Techniques",
+  "taxonomy.skill.environmental-knowledge": "Environmental Knowledge",
+  "taxonomy.skill.recycling": "Recycling",
+  "taxonomy.skill.carpentry": "Carpentry",
+  "taxonomy.skill.electrical-work": "Electrical Work",
+  "taxonomy.skill.plumbing": "Plumbing",
+  "taxonomy.skill.videography": "Videography",
+  "taxonomy.skill.visual-arts": "Visual Arts",
+  "taxonomy.skill.performing-arts": "Performing Arts",
+  "taxonomy.skill.drawing": "Drawing",
+  "taxonomy.skill.web-design": "Web Design",
+  "taxonomy.skill.content-writing": "Content Writing",
+  "taxonomy.skill.social-media-management": "Social Media Management",
+  "taxonomy.skill.grant-writing": "Grant Writing",
+  "taxonomy.skill.strategic-planning": "Strategic Planning",
+  "taxonomy.skill.strategy": "Strategy",
+  "taxonomy.skill.operations": "Operations",
+  "taxonomy.skill.project-coordination": "Project Coordination",
+  "taxonomy.skill.team-coordination": "Team Coordination",
+  "taxonomy.skill.office-management": "Office Management",
+  "taxonomy.skill.regulatory-compliance": "Regulatory Compliance",
+  "taxonomy.skill.financial-planning": "Financial Planning",
+  "taxonomy.skill.food-safety": "Food Safety",
+  "taxonomy.skill.nutrition-planning": "Nutrition Planning",
+  "taxonomy.skill.mental-health-support": "Mental Health Support",
+  "taxonomy.skill.addiction-counseling": "Addiction Counseling",
+  "taxonomy.skill.family-support": "Family Support",
+  "taxonomy.skill.special-education": "Special Education",
+  "taxonomy.skill.youth-mentoring": "Youth Mentoring",
+  "taxonomy.skill.language-instruction": "Language Instruction",
+  "taxonomy.skill.it-support": "IT Support",
+  "taxonomy.skill.legal-advice": "Legal Advice",
+  "taxonomy.skill.legal-consulting": "Legal Consulting",
+  "taxonomy.skill.writing-and-editing": "Writing and Editing",
+  "taxonomy.sdg.no_poverty": "No Poverty",
+  "taxonomy.sdg.zero_hunger": "Zero Hunger",
+  "taxonomy.sdg.good_health_and_well_being": "Good Health and Well-being",
+  "taxonomy.sdg.quality_education": "Quality Education",
+  "taxonomy.sdg.gender_equality": "Gender Equality",
+  "taxonomy.sdg.clean_water_and_sanitation": "Clean Water and Sanitation",
+  "taxonomy.sdg.affordable_and_clean_energy": "Affordable and Clean Energy",
+  "taxonomy.sdg.decent_work_and_economic_growth": "Decent Work and Economic Growth",
+  "taxonomy.sdg.industry_innovation_and_infrastructure": "Industry, Innovation, and Infrastructure",
+  "taxonomy.sdg.reduced_inequality": "Reduced Inequality",
+  "taxonomy.sdg.sustainable_cities_and_communities": "Sustainable Cities and Communities",
+  "taxonomy.sdg.responsible_consumption_and_production": "Responsible Consumption and Production",
+  "taxonomy.sdg.climate_action": "Climate Action",
+  "taxonomy.sdg.life_below_water": "Life Below Water",
+  "taxonomy.sdg.life_on_land": "Life on Land",
+  "taxonomy.sdg.peace_justice_and_strong_institutions": "Peace, Justice, and Strong Institutions",
+  "taxonomy.sdg.partnerships_for_the_goals": "Partnerships for the Goals",
+  "Mission image (optional)": "Mission image (optional)",
+  "Mission image recommended dimensions": "Recommended dimensions: 1200 × 480 px (5:2). The banner is cropped to fit.",
+  "Upload mission image": "Upload mission image",
+  "Upload files": "Upload files",
+  "Mission image preview": "Mission image preview",
+  "JPG or PNG, up to 5MB.": "JPG or PNG, up to 5MB.",
+  "Failed to upload mission image.": "Failed to upload mission image.",
+  "Some files could not be uploaded.": "Some files could not be uploaded.",
+  "Mission was created, but {{count}} document uploads failed.": "Mission was created, but {{count}} document uploads failed.",
+  "Mission title is required": "Mission title is required",
+  "Mission title must be at least 3 characters": "Mission title must be at least 3 characters",
+  "Mission description is required": "Mission description is required",
+  "Mission description must be at least 10 characters": "Mission description must be at least 10 characters",
+  "Hours Required": "Hours Required",
+  "Required hours is mandatory": "Required hours is mandatory",
+  "Required hours must be greater than 0": "Required hours must be greater than 0",
+  "Volunteers required is mandatory": "Volunteers required is mandatory",
+  "Volunteers required must be greater than 0": "Volunteers required must be greater than 0",
+  "per volunteer": "per volunteer",
+  "Select at least one item from {{label}}": "Select at least one item from {{label}}",
+  "{{count}} selected": "{{count}} selected",
+  "Select at least one ODS": "Select at least one ODS",
+  "ODS": "ODS",
+  "Initiative type": "Initiative type",
+  "Recurring": "Recurring",
+  "This initiative is led by {{organization}}.": "This initiative is led by {{organization}}.",
+  "Participants": "Participants",
+  "Participant data will be available soon.": "Participant data will be available soon."
+  ,"Joined": "Joined"
+  ,"Spots left": "Spots left"
+  ,"Required": "Required"
+  ,"Mission Title": "Mission Title"
+  ,"Mission Description": "Mission Description"
+  ,"Volunteers Required": "Volunteers Required"
+  ,"Initiative reach": "Initiative reach"
+  ,"Indicate approximate number of beneficiaries reached": "Indicate approximate number of beneficiaries reached"
+  ,"Review and Publish": "Review and Publish"
+  ,"About this Mission": "About this Mission"
+  ,"Requires prior interview": "Requires prior interview"
+  ,"No prior interview required": "No prior interview required"
+  ,"About the Organization": "About the Organization"
+  ,"About this organization": "About this organization"
+  ,"Institution profile": "Institution profile"
+  ,"Share this mission": "Share this mission"
+  ,"Share on Twitter": "Share on Twitter"
+  ,"Share on LinkedIn": "Share on LinkedIn"
+  ,"Share on Facebook": "Share on Facebook"
+  ,"Copy link": "Copy link"
+  ,"Organization profile": "Organization profile"
+  ,"I Want to Help": "I Want to Help"
+  ,"Spots filled": "Spots filled"
+  ,"Sem vagas/Fechada": "No vacancies/Closed"
+  ,"Details": "Details"
+  ,"Launch Mission": "Launch Mission"
+  ,"View Calendar": "View Calendar"
+  ,"Organization Impact": "Organization Impact"
+  ,"Volunteers Engaged": "Volunteers Engaged"
+  ,"Missions Completed": "Missions Completed"
+  ,"People Benefitted": "People Benefitted"
+  ,"People Benefitted Formula": "Sum of beneficiaries from completed missions"
+  ,"Missions Pending Approval": "Missions Pending Approval"
+  ,"Brisa Group Proposed Initiatives": "Initiatives proposed by Brisa Group"
+  ,"No pending missions to approve.": "No pending missions to approve."
+  ,"Website": "Website"
+  ,"Nonprofit": "Nonprofit"
+  ,"Founded": "Founded"
+  ,"View all pending": "View all pending"
+  ,"Showing first {{count}} pending missions.": "Showing first {{count}} pending missions."
+  ,"View all": "View all"
+  ,"Scheduled Missions": "Scheduled Missions"
+  ,"No upcoming missions.": "No upcoming missions."
+  ,"Upcoming": "Upcoming"
+  ,"View": "View"
+  ,"Download PDF": "Download PDF"
+  ,"Share": "Share"
+  ,"Personal Impact": "Personal Impact"
+  ,"Level": "Level"
+  ,"Impact Resumé": "Impact Resumé"
+  ,"Causes Supported": "Causes Supported"
+  ,"Top Skills": "Top Skills"
+  ,"Organizations Engaged": "Organizations Engaged"
+  ,"Regional Impact": "Regional Impact"
+  ,"Achievements": "Achievements"
+  ,"Team Contribution": "Team Contribution"
+  ,"of company total": "of company total"
+  ,"Application withdrawn successfully!": "Application withdrawn successfully!"
+  ,"Search applications...": "Search applications..."
+  ,"Loading applications...": "Loading applications..."
+  ,"No applications for this mission yet.": "No applications for this mission yet."
+  ,"Applied Date": "Applied Date"
+  ,"Reviewed Date": "Reviewed Date"
+  ,"Unknown volunteer": "Unknown volunteer"
+  ,"Volunteer profile": "Volunteer profile"
+  ,"View profile": "View profile"
+  ,"View details": "View details"
+  ,"Volunteer details": "Volunteer details"
+  ,"Reject application": "Reject application"
+  ,"Rejection reason (optional)": "Rejection reason (optional)"
+  ,"Decision Note": "Decision Note"
+  ,"Reject": "Reject"
+  ,"Approved volunteer hours": "Approved volunteer hours"
+  ,"Missions participated": "Missions participated"
+  ,"Withdraw": "Withdraw"
+  ,"Go to Mission": "Go to Mission"
+  ,"Withdraw Application": "Withdraw Application"
+  ,"Find Other Missions": "Find Other Missions"
+  ,"Accepted": "Accepted"
+  ,"Withdrawn": "Withdrawn"
+  ,"Please provide a rating": "Please provide a rating"
+  ,"Feedback submitted successfully!": "Feedback submitted successfully!"
+  ,"Certificate downloaded successfully!": "Certificate downloaded successfully!"
+  ,"Search past missions...": "Search past missions..."
+  ,"Loading past missions...": "Loading past missions..."
+  ,"No past missions": "No past missions"
+  ,"You have not completed any missions yet": "You have not completed any missions yet"
+  ,"Find Missions": "Find Missions"
+  ,"Completion Date": "Completion Date"
+  ,"Skills Utilized": "Skills Utilized"
+  ,"Provide Feedback": "Provide Feedback"
+  ,"View Certificate": "View Certificate"
+  ,"Feedback Provided": "Feedback Provided"
+  ,"Share your experience volunteering with": "Share your experience volunteering with"
+  ,"Share your thoughts about this volunteer experience...": "Share your thoughts about this volunteer experience..."
+  ,"Volunteer Certificate": "Volunteer Certificate"
+  ,"Certificate of Appreciation": "Certificate of Appreciation"
+  ,"This is to certify that": "This is to certify that"
+  ,"has successfully volunteered": "has successfully volunteered"
+  ,"for": "for"
+  ,"with": "with"
+  ,"Completed on": "Completed on"
+  ,"Share Your Achievement": "Share Your Achievement"
+  ,"Share your volunteer experience with your network": "Share your volunteer experience with your network"
+  ,"Download": "Download"
+  ,"Please enter valid hours": "Please enter valid hours"
+  ,"Hours logged successfully": "Hours logged successfully"
+  ,"Mission marked complete": "Mission marked complete"
+  ,"Sign in to see your missions": "Sign in to see your missions"
+  ,"Your current missions will appear here once you're logged in.": "Your current missions will appear here once you're logged in."
+  ,"Loading missions...": "Loading missions..."
+  ,"Could not load current missions": "Could not load current missions"
+  ,"No current missions": "No current missions"
+  ,"No pending missions": "No pending missions"
+  ,"You have no missions where you're a candidate. Browse missions and apply to get started.": "You have no missions where you're a candidate. Browse missions and apply to get started."
+  ,"You haven't joined any missions yet. Browse available missions to get started.": "You haven't joined any missions yet. Browse available missions to get started."
+  ,"You are not currently participating in any missions": "You are not currently participating in any missions"
+  ,"Hours Log": "Hours Log"
+  ,"Loading hours log...": "Loading hours log..."
+  ,"No hours logged yet": "No hours logged yet"
+  ,"Please enter the number of hours": "Please enter the number of hours"
+  ,"Record the time you spent volunteering for": "Record the time you spent volunteering for"
+  ,"Describe what you did during this time": "Describe what you did during this time"
+  ,"Please note: Submitted hours will be reviewed and confirmed by the nonprofit organization before being officially recorded.": "Please note: Submitted hours will be reviewed and confirmed by the nonprofit organization before being officially recorded."
+  ,"Submit Hours": "Submit Hours"
+  ,"Duration": "Duration"
+  ,"Tasks": "Tasks"
+  ,"hours completed": "hours completed"
+  ,"Complete": "Complete"
+  ,"Mark Complete": "Mark Complete"
+  ,"Progress": "Progress"
+  ,"Log Hours": "Log Hours"
+  ,"Metrics": "Metrics"
+  ,"Missions started over time": "Missions started over time"
+  ,"Monthly mission starts": "Monthly mission starts"
+  ,"Participants enrolled monthly": "Participants enrolled monthly"
+  ,"Participants completed monthly": "Participants completed monthly"
+  ,"missions": "missions"
+  ,"Enrolled": "Enrolled"
+  ,"Unauthorized": "Unauthorized"
+  ,"Finished": "Finished"
+  ,"View details for {{title}}": "View details for {{title}}"
+  ,"Skill match": "Skill match"
+  ,"Shared to {{platform}}!": "Shared to {{platform}}!"
+  ,"Impact": "Impact"
+  ,"hrs": "hrs"
+  ,"Enter project name...": "Enter project name..."
+  ,"Describe project objectives and impact...": "Describe project objectives and impact..."
+  ,"Select format": "Select format"
+  ,"Select category": "Select category"
+  ,"Select district": "Select district"
+  ,"Project name": "Project name"
+  ,"Description": "Description"
+  ,"Format": "Format"
+  ,"Category": "Category"
+  ,"Periodicity": "Periodicity"
+  ,"One-off": "One-off"
+  ,"In-person": "In-person"
+  ,"Virtual": "Virtual"
+  ,"Location details": "Location details"
+  ,"Enter address or specific location...": "Enter address or specific location..."
+  ,"Project objectives": "Project objectives"
+  ,"Describe project objectives...": "Describe project objectives..."
+  ,"Invite participants": "Invite participants"
+  ,"selected": "selected"
+  ,"Select participants...": "Select participants..."
+  ,"Search name...": "Search name..."
+  ,"No volunteers found": "No volunteers found"
+  ,"Selected participants": "Selected participants"
+  ,"Invite institutions": "Invite institutions"
+  ,"Choose a partner institution...": "Choose a partner institution..."
+  ,"Write notes about the project...": "Write notes about the project..."
+  ,"Project details": "Project details"
+  ,"Schedule:": "Schedule:"
+  ,"Team:": "Team:"
+  ,"Location:": "Location:"
+  ,"Format:": "Format:"
+  ,"Periodicity:": "Periodicity:"
+  ,"Causes:": "Causes:"
+  ,"Partner institutions:": "Partner institutions:"
+  ,"None": "None"
+  ,"Comments": "Comments"
+  ,"No participants invited": "No participants invited"
+  ,"Selected Partners": "Selected Partners"
+  ,"Nonprofit Partner": "Nonprofit Partner"
+  ,"View Profile": "View Profile"
+  ,"No Partners Yet": "No Partners Yet"
+  ,"This project has no nonprofit partners. Invite organizations to collaborate.": "This project has no nonprofit partners. Invite organizations to collaborate."
+  ,"Invite Nonprofit Partners": "Invite Nonprofit Partners"
+  ,"Partner institutions": "Partner institutions"
+  ,"collaborators": "collaborators"
+  ,"Local": "Location"
+  ,"Select": "Select"
+  ,"Complete Mission": "Complete Mission"
+  ,"Review and edit final hours for each approved participant before completing this mission.": "Review and edit final hours for each approved participant before completing this mission."
+  ,"Loading...": "Loading..."
+  ,"No approved participants found for this mission.": "No approved participants found for this mission."
+  ,"Approved hours": "Approved hours"
+  ,"Final hours": "Final hours"
+  ,"Total final hours": "Total final hours"
+  ,"Final hours must be a number greater than or equal to zero.": "Final hours must be a number greater than or equal to zero."
+  ,"Confirm and Complete Mission": "Confirm and Complete Mission"
+  ,"Error": "Error"
+  ,"Mission completed": "Mission completed"
+  ,"Not Started": "Not Started"
+  ,"Open": "Open"
+  ,"Full": "Full"
+  ,"Mission In Progress": "Mission In Progress"
+  ,"Mission Completed": "Mission Completed"
+  ,"Cancelled": "Cancelled"
+  ,"Volunteer access required": "Volunteer access required"
+  ,"Start Mission": "Start Mission"
+  ,"Click only when the initiative starts.": "Click only when the initiative starts."
+  ,"Starting...": "Starting..."
+  ,"Mission started": "Mission started"
+  ,"Mission completed successfully.": "Mission completed successfully."
+  ,"Participation ended before completion.": "Participation ended before completion."
+  ,"Mission not approved": "Mission not approved"
+  ,"Mission cancelled": "Mission cancelled"
+  ,"Mission unavailable": "Mission unavailable"
+  ,"Mission deleted": "Mission deleted"
+  ,"Unable to join mission": "Unable to join mission"
+  ,"Joined mission": "Joined mission"
+  ,"Unable to leave mission": "Unable to leave mission"
+  ,"Left mission": "Left mission"
+  ,"Unable to start mission": "Unable to start mission"
+  ,"Delete mission?": "Delete mission?"
+  ,"This action cannot be undone. The mission will be permanently removed.": "This action cannot be undone. The mission will be permanently removed."
+  ,"companyProject": {
+    "organizersTitle": "Organizers",
+    "organizersSubtitle": "Platform users who will organize the project.",
+    "inviteInstitutions": "Invite institutions",
+    "volunteerPartnerHint": "For volunteer projects, select at least one nonprofit partner.",
+    "choosePartnerPlaceholder": "Choose a partner institution…",
+    "selectedPartners": "Selected partners",
+    "missionIncompleteBanner": "You have not created the mission for this project yet. Complete the step to publish it.",
+    "resumeMission": "Resume mission",
+    "createMission": "Create mission",
+    "createMissionAfterProject": "Create mission right after project creation",
+    "linkedMissionTitle": "Linked mission",
+    "viewLinkedMission": "View mission",
+    "linkedMissionNameLabel": "Mission",
+    "linkedMissionScheduleLabel": "Schedule:",
+    "linkedMissionApprovalLabel": "Approval:",
+    "linkedMissionExecutionLabel": "Execution:",
+    "linkedMissionFormatLabel": "Format:",
+    "linkedMissionVolunteersLabel": "Volunteers required:",
+    "linkedMissionLocationLabel": "Location:",
+    "projectStatusLabel": "Project status:",
+    "missionRequiredLabel": "Mission required:",
+    "missionSetupStatusLabel": "Mission setup:",
+    "targetNonprofitLabel": "Target nonprofit:",
+    "locationDetailsLabel": "Location details:",
+    "projectGoalsLabel": "Project goals:",
+    "commentsTitle": "Comments",
+    "legacyNoteLabel": "Previous note",
+    "commentAuthorFallback": "User",
+    "commentsEmpty": "No comments yet for this project.",
+    "commentsComposerPlaceholder": "Write a comment...",
+    "commentSend": "Comment",
+    "commentSending": "Sending...",
+    "commentCreateError": "Could not publish comment.",
+    "editProjectButton": "Edit project",
+    "editProjectTitle": "Edit project",
+    "editProjectDescription": "Update the project details, timeline, and partner organizations.",
+    "editParticipantsButton": "Edit participants",
+    "editParticipantsTitle": "Edit project participants",
+    "editParticipantsDescription": "Select the invited users for this project.",
+    "departmentFallback": "No department",
+    "noParticipantsAvailableToInvite": "No users available to invite.",
+    "savingParticipants": "Saving...",
+    "commentPermissionHint": "Only invited users and company admins can comment on this project.",
+    "yes": "Yes",
+    "no": "No",
+    "participantsSection": "Participants",
+    "noParticipants": "No participants.",
+    "volunteerPartnerRequired": "Select at least one nonprofit partner for volunteering.",
+    "createPageTitle": "Create project",
+    "createPageSubtitle": "Define your company project details.",
+    "missionLinkedToProjectBanner": "This mission is linked to project \"{{title}}\".",
+    "partnerLockedHint": "The partner was set on the project and cannot be changed here.",
+    "loadError": "Could not load projects.",
+    "endedSuccess": "Project marked as completed.",
+    "incompleteMissionsTitle": "Missions to complete",
+    "incompleteMissionsHint": "You created a project but have not created its mission yet.",
+    "incompleteMissionStatus": "Setup incomplete",
+    "listPageTitle": "Corporate projects",
+    "listSectionActiveTitle": "Active projects",
+    "listSectionCompletedTitle": "Completed projects",
+    "badgeInProgress": "In progress",
+    "badgeCompleted": "Completed",
+    "partnerCountOne": "{{count}} partner",
+    "partnerCountOther": "{{count}} partners",
+    "collaboratorCountOne": "{{count}} collaborator",
+    "collaboratorCountOther": "{{count}} collaborators",
+    "endProject": "End project",
+    "changeStatusButton": "Change status",
+    "endProjectConfirmTitle": "End project?",
+    "endProjectConfirmDescription": "This action will mark the project as completed. You can no longer treat it as active.",
+    "ownerLabel": "Owner",
+    "acceptedOverRequiredLabel": "Accepted / Required",
+    "ownerCompanyFallback": "Company",
+    "ownerNonprofitFallback": "Nonprofit",
+    "viewProjectDetails": "View details",
+    "participantFallback": "Participant {{id}}",
+    "nonprofitNameFallback": "Nonprofit",
+    "fillRequiredFields": "Please fill in all required fields.",
+    "requiredField": "This field is required.",
+    "endDateAfterStart": "End date must be after start date.",
+    "sessionExpired": "Session expired. Please sign in again.",
+    "createFailed": "Could not create the project.",
+    "createSuccess": "Project created successfully.",
+    "partnerNonprofitLabel": "Partner nonprofit",
+    "keepMissionOnCompany": "Do not link this mission to a nonprofit (keep it in the company)",
+    "keepMissionOnCompanyHint": "This mission will remain company-owned and no nonprofit will be linked.",
+    "selectNonprofitPlaceholder": "Select nonprofit",
+    "searchNonprofitPlaceholder": "Search nonprofit…",
+    "noNonprofitsFound": "No nonprofits found",
+    "selectNonprofitRequired": "Please select a nonprofit partner.",
+    "missionApprovalStatus": {
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected"
+    },
+    "missionExecutionStatus": {
+      "not_started": "Not started",
+      "in_progress": "In progress",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "missionSetupStatus": {
+      "not_required": "Not required",
+      "incomplete": "Incomplete",
+      "completed": "Completed"
+    },
+    "category": {
+      "voluntariado": "Volunteering",
+      "workshop": "Workshop",
+      "teamBuilding": "Team building",
+      "doacoesFilantropia": "Donations & philanthropy",
+      "parceriaEstrategica": "Strategic partnership",
+      "inclusaoDiversidade": "Inclusion & diversity",
+      "emergenciaRespostaRapida": "Emergency & rapid response"
+    }
+  }
+  ,"projectsEmpty": {
+    "activeMatching": "No active projects matching your criteria.",
+    "completedMatching": "No completed projects matching your criteria."
+  }
+  ,"District": "District"
+  ,"All Districts": "All Districts"
+  ,"Clear Filters": "Clear Filters"
+  ,"District is required": "District is required"
+  ,"Mission documents (max 5)": "Mission documents (max 5)"
+  ,"No missions found matching your criteria.": "No missions found matching your criteria."
+  ,"Maximum reached": "Maximum reached"
+  ,"You can upload up to 5 photos.": "You can upload up to 5 photos."
+  ,"You can upload up to 5 final documents.": "You can upload up to 5 final documents."
+  ,"Final beneficiaries impacted": "Final beneficiaries impacted"
+  ,"Completion photos (max 5)": "Completion photos (max 5)"
+  ,"Final documents (max 5)": "Final documents (max 5)"
+  ,"Final beneficiaries must be a number greater than or equal to zero.": "Final beneficiaries must be a number greater than or equal to zero."
+  ,"No documents uploaded.": "No documents uploaded."
+  ,"Documents": "Documents"
+  ,"Final Documents": "Final Documents"
+  ,"No final documents uploaded.": "No final documents uploaded."
+  ,"Photos": "Photos"
+  ,"No photos uploaded.": "No photos uploaded."
+  ,"Photo Gallery": "Photo Gallery"
+  ,"Previous": "Previous"
+  ,"No photo available.": "No photo available."
+}

@@ -1,0 +1,145 @@
+
+import { Mission } from "@/types/organization";
+
+export const example_missions: Mission[] = [
+  {
+    id: "m1",
+    title: "Sustainable Garden Project",
+    organization: "Green Earth Foundation",
+    description: "Help build and maintain community gardens in urban areas to promote sustainable living and provide fresh produce to local food banks.",
+    hours: 15,
+    volunteers: 12,
+    location: "In-Person",
+    postedDate: "3 days ago",
+    isActive: true,
+    causes: ["Environment", "Community", "Poverty & Basic Needs"],
+    skills: ["Gardening", "Project Management", "Environmental Knowledge"],
+    image: "https://api.dicebear.com/7.x/shapes/svg?seed=GardenProject"
+  },
+  {
+    id: "m2",
+    title: "Digital Literacy Workshop",
+    organization: "Tech for All",
+    description: "Teach basic computer skills to seniors in our community center. Sessions include email setup, internet browsing, and video calling with family members.",
+    hours: 8,
+    volunteers: 5,
+    location: "In-Person",
+    postedDate: "1 week ago",
+    isActive: false,  // Changed to false
+    causes: ["Education", "Employability", "Elderly Support"],
+    skills: ["Teaching", "Technology", "Communication"],
+    image: "https://api.dicebear.com/7.x/shapes/svg?seed=DigitalLiteracy"
+  },
+  {
+    id: "m3",
+    title: "Community Food Drive",
+    organization: "Food for All",
+    description: "Collect and distribute food packages to families in need. Volunteers will help with sorting donations, preparing packages, and distribution logistics.",
+    hours: 6,
+    volunteers: 20,
+    location: "In-Person",
+    postedDate: "5 days ago",
+    isActive: true,
+    causes: ["Poverty & Basic Needs", "Poverty", "Community"],
+    skills: ["Organization", "Logistics", "Communication"],
+    image: "https://api.dicebear.com/7.x/shapes/svg?seed=FoodDrive"
+  },
+  {
+    id: "m4",
+    title: "Virtual Mentoring Program",
+    organization: "Youth Empowerment Initiative",
+    description: "Provide guidance and support to high school students through weekly online sessions. Focus on academic support, career advice, and personal development.",
+    hours: 12,
+    volunteers: 15,
+    location: "Remote",
+    postedDate: "2 weeks ago",
+    isActive: true,
+    causes: ["Education", "Children & Youth"],
+    skills: ["Mentoring", "Communication", "Subject Expertise"],
+    image: "https://api.dicebear.com/7.x/shapes/svg?seed=VirtualMentoring"
+  },
+  {
+    id: "m5",
+    title: "Website Development for Nonprofit",
+    organization: "Digital Volunteers Network",
+    description: "Help design and develop a new website for a local animal shelter. The project requires UI/UX design, content creation, and implementation using modern web technologies.",
+    hours: 25,
+    volunteers: 3,
+    location: "Remote",
+    postedDate: "1 day ago",
+    isActive: false,  // Changed to false
+    causes: ["Employability", "Animal Welfare"],
+    skills: ["Web Development", "Design", "Content Writing"],
+    image: "https://api.dicebear.com/7.x/shapes/svg?seed=WebsiteDev"
+  },
+  {
+    id: "m6",
+    title: "Beach Cleanup Initiative",
+    organization: "Ocean Environment Society",
+    description: "Join our monthly beach cleanup event to remove plastic waste and debris from local beaches. All equipment provided, just bring your enthusiasm!",
+    hours: 4,
+    volunteers: 30,
+    location: "In-Person",
+    postedDate: "3 days ago",
+    isActive: true,
+    causes: ["Environment"],
+    skills: ["Environmental Awareness", "Teamwork"],
+    image: "https://api.dicebear.com/7.x/shapes/svg?seed=BeachCleanup"
+  },
+  {
+    id: "m7",
+    title: "Marketing Strategy Consultant",
+    organization: "Arts for Community",
+    description: "Provide expertise to help develop a marketing strategy for a local arts organization. Looking for volunteers with experience in digital marketing, social media, and campaign planning.",
+    hours: 10,
+    volunteers: 2,
+    location: "Hybrid",
+    postedDate: "6 days ago",
+    isActive: true,
+    causes: ["Culture", "Community"],
+    skills: ["Marketing", "Strategy", "Social Media"],
+    image: "https://api.dicebear.com/7.x/shapes/svg?seed=MarketingStrategy"
+  },
+  {
+    id: "m8",
+    title: "After-School Tutoring",
+    organization: "Education for All",
+    description: "Provide academic support to elementary school students in mathematics and reading. Sessions are held twice a week at the community center.",
+    hours: 20,
+    volunteers: 8,
+    location: "In-Person",
+    postedDate: "1 week ago",
+    isActive: true,
+    causes: ["Education", "Children & Youth"],
+    skills: ["Teaching", "Patience", "Subject Knowledge"],
+    image: "https://api.dicebear.com/7.x/shapes/svg?seed=Tutoring"
+  },
+  {
+    id: "m9",
+    title: "Wildlife Conservation Project",
+    organization: "Nature Protectors Alliance",
+    description: "Assist in monitoring local wildlife populations, habitat restoration, and public education activities. Training provided for all volunteers.",
+    hours: 15,
+    volunteers: 10,
+    location: "In-Person",
+    postedDate: "4 days ago",
+    isActive: false,
+    causes: ["Environment", "Animal Welfare"],
+    skills: ["Environmental Knowledge", "Data Collection", "Education"],
+    image: "https://api.dicebear.com/7.x/shapes/svg?seed=Wildlife"
+  },
+  {
+    id: "m10",
+    title: "Medical Supply Drive Coordinator",
+    organization: "Global Health Initiative",
+    description: "Coordinate the collection and distribution of medical supplies for underserved communities. Role includes organizing collection points, inventory management, and coordination with healthcare facilities.",
+    hours: 18,
+    volunteers: 6,
+    location: "Hybrid",
+    postedDate: "2 weeks ago",
+    isActive: false,
+    causes: ["Health & Wellbeing", "Humanitarian Aid", "Community"],
+    skills: ["Organization", "Logistics", "Communication"],
+    image: "https://api.dicebear.com/7.x/shapes/svg?seed=MedicalDrive"
+  }
+];

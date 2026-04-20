@@ -1,0 +1,197 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@layer base {
+  :root {
+    color-scheme: light;
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 98%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 199 95% 48%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 251 86% 75%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 142 71% 45%;
+    --radius: 0.75rem;
+    --sidebar-width: 16rem;
+    --white: #fff;
+    --black: #000;
+    --transparent: transparent;
+    --blue-300: #93c5fd;
+    --blue-400: #60a5fa;
+    --blue-500: #3b82f6;
+    --indigo-300: #a5b4fc;
+    --violet-200: #ddd6fe;
+    /* Chart series (use with hsl(var(--chart-N))) */
+    --chart-1: 199 95% 48%;
+    --chart-2: 142 71% 45%;
+    --chart-3: 251 86% 65%;
+    --chart-4: 38 92% 50%;
+    --chart-5: 330 81% 60%;
+  }
+
+  .dark {
+    --background: 222 47% 11%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 13%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 13%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 199 95% 48%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4% 16%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 4% 16%;
+    --muted-foreground: 240 5% 65%;
+    --accent: 251 86% 75%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 4% 16%;
+    --input: 240 4% 16%;
+    --ring: 142 71% 45%;
+    --chart-1: 199 95% 55%;
+    --chart-2: 142 71% 50%;
+    --chart-3: 251 86% 70%;
+    --chart-4: 38 92% 55%;
+    --chart-5: 330 81% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground transition-colors duration-300;
+  }
+}
+
+/* Executive dashboard: light mode only */
+[data-theme="light"] {
+  color-scheme: light;
+}
+[data-theme="light"],
+[data-theme="light"] * {
+  --background: 0 0% 100%;
+  --foreground: 240 10% 3.9%;
+  --card: 0 0% 98%;
+  --card-foreground: 240 10% 3.9%;
+  --border: 240 5.9% 90%;
+  --muted: 240 4.8% 95.9%;
+  --muted-foreground: 240 3.8% 46.1%;
+}
+
+.glass-card {
+  @apply bg-black/30 backdrop-blur-lg border border-white/10 rounded-xl;
+}
+
+/* Light mode specific styles */
+:root:not(.dark) .glass-card {
+  @apply bg-white/80 backdrop-blur-lg border border-gray-200 shadow-sm;
+}
+
+.nav-link {
+  @apply flex items-center gap-3 px-4 py-2 text-xs text-gray-700 hover:text-black transition-colors rounded-lg hover:bg-gradient-to-r hover:from-green-400 hover:to-emerald-500 hover:text-black;
+}
+
+:root:not(.dark) .nav-link {
+  @apply text-gray-700 hover:text-black;
+}
+
+.nav-link.active {
+  @apply bg-foreground/10 text-foreground;
+}
+
+/* Add smooth transitions for theme changes */
+* {
+  @apply transition-colors duration-300;
+}
+
+/* Dark mode button styles */
+.theme-button {
+  @apply p-2 rounded-lg transition-colors duration-300;
+}
+
+.dark .theme-button {
+  @apply bg-gray-800 text-white hover:bg-gray-700;
+}
+
+:root:not(.dark) .theme-button {
+  @apply bg-gray-200 text-gray-800 hover:bg-gray-300;
+}
+
+/* Add responsive main content margin */
+.responsive-layout {
+  margin-left: var(--sidebar-width);
+  transition: margin-left 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .responsive-layout {
+    margin-left: 0;
+  }
+}
+
+/* Marquee: vertical, two columns. --marquee-offset-y set in JS (px). */
+@keyframes marquee-vertical-up {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(var(--marquee-offset-y, -50%));
+  }
+}
+@keyframes marquee-vertical-down {
+  from {
+    transform: translateY(var(--marquee-offset-y, -50%));
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.marquee-track-vertical-up {
+  animation: marquee-vertical-up 90s linear infinite;
+}
+/* Third column: same direction but different duration + delay so it doesn't sync with first column */
+.marquee-track-vertical-up-offset {
+  animation: marquee-vertical-up 82s linear infinite;
+  animation-delay: -28s;
+}
+.marquee-track-vertical-down {
+  animation: marquee-vertical-down 90s linear infinite;
+}
+
+/* Elegant scrollbar: thin, rounded, theme-aware. Applies globally to all scrollable elements. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: hsl(var(--muted-foreground) / 0.3) transparent;
+}
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background: hsl(var(--muted-foreground) / 0.3);
+  border-radius: 3px;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--muted-foreground) / 0.5);
+}
+

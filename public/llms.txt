@@ -1,0 +1,56 @@
+# Coompass - ESG Impact Platform
+# This file helps AI models understand our platform and content
+
+# About Coompass
+
+# Core Mission
+We transform corporate social responsibility through skill-based volunteering, ESG reporting, and transparent impact measurement.
+
+# Key Features
+- Corporate ESG Management: Companies track employee volunteering, partnerships, and ESG metrics
+- Nonprofit Volunteer Management: Organizations manage volunteers, projects, and corporate partnerships
+- Volunteer Mission Discovery: Individuals find and join skill-based volunteering opportunities
+- Executive/Stakeholder Analytics: ESG performance insights and reporting
+
+# User Personas
+1. Companies: Corporate partners seeking ESG impact through employee volunteering
+2. Nonprofits: Organizations managing volunteers and seeking corporate partnerships
+3. Volunteers: Individuals offering skills and time for social causes
+5. Executives/Stakeholders: External partners viewing ESG performance across organizations
+
+# Key Metrics
+- 15,000+ active volunteers
+- 2,847 completed projects
+- 89,234 volunteer hours
+- 12 focused cause areas
+- 82% volunteer retention rate
+- 7 active major initiatives
+
+# Technology Stack
+- Frontend: React 18 + TypeScript + Vite
+- UI Framework: shadcn/ui + Tailwind CSS
+- Authentication: Supabase Auth
+- Database: PostgreSQL (Supabase)
+- Deployment: Vercel
+
+# Contact
+- Website: https://coompass.org
+- Email: hello@coompass.org
+- LinkedIn: https://www.linkedin.com/company/coompass
+- Twitter: https://twitter.com/coompassio
+
+# Important Pages
+- Homepage: https://coompass.org/
+- For Companies: https://coompass.org/for-companies
+- For Nonprofits: https://coompass.org/for-nonprofits
+- For Volunteers: https://coompass.org/for-volunteers
+- About Us: https://coompass.org/about-us
+- Help Center: https://coompass.org/help-center
+- Pricing: https://coompass.org/pricing
+- Newsroom: https://coompass.org/newsroom
+- Missions: https://coompass.org/missions
+- Organizations: https://coompass.org/organizations
+
+# Last Updated
+2025-01-XX
+

@@ -1,0 +1,1279 @@
+{
+  "Newsroom": "Notícias",
+  "Dashboard": "Painel",
+  "Search": "Pesquisar",
+  "Search missions...": "Pesquisar missões...",
+  "Work Hour Analysis": "Análise de Horas de Trabalho",
+  "Missions": "Missões",
+  "Mission": "Missão",
+  "Leave Mission": "Sair da Missão",
+  "Schedule": "Agenda",
+  "Events": "Eventos",
+  "Meetings": "Reuniões",
+  "Remote": "Remoto",
+  "Active": "Ativo",
+  "See All": "Ver Todos",
+  "Change language": "Mudar idioma",
+  "Newsfeed": "Feed de Notícias",
+  "Partnerships": "Parcerias",
+  "Calendar": "Calendário",
+  "Wallet": "Carteira",
+  "Leaderboard": "Classificação",
+  "All Organizations": "Todas as Organizações",
+  "All Missions": "Todas as Missões",
+  "Help center": "Central de Ajuda",
+  "Terms & Conditions": "Termos e Condições",
+  "Settings": "Configurações",
+  "Organizations": "Organizações",
+  "Institutions": "Instituições",
+  "In-Person Only": "Presencial Apenas",
+  "Active Missions Only": "Apenas Missões Ativas",
+  "Suitable for me": "Adequadas a mim",
+  "Ask AI": "Perguntar à IA",
+  "Search by keyword...": "Pesquisar por palavra-chave...",
+  "Cause Areas": "Causas",
+  "Skills": "Competências",
+  "Current Score": "Pontuação Atual",
+  "Claim your prize": "Reclamar o seu prémio",
+  "Log out": "Sair",
+  "View More": "Ver Mais",
+  "Donate": "Doar",
+  "Active Missions": "Missões Ativas",
+  "Active missions": "Missões Ativas",
+  "Complete missions": "Missões Feitas",
+  "I want to help!": "Quero ajudar!",
+  "spots available": "vagas disponíveis",
+  "participants": "participantes",
+  "Posted": "Publicado",
+  "Hours": "Horas",
+  "Join date": "Data de Adesão",
+  "Volunteers": "Voluntários",
+  "Organization": "Organização",
+  "mission_description": "Com a aproximação do Natal temos muitas encomendas de cabazes solidários e precisamos de ajuda para fazer cookies, embalar e preparar os cabazes...",
+  "organization_description": "One Community é uma organização sem fins lucrativos composta inteiramente por voluntários que cria planos de código aberto para todos os aspectos da sustentabilidade...",
+  "partnership_description": "Gerir e melhorar a presença online da Coompass, interagindo com o público através das redes sociais e criação de conteúdo...",
+  "Current Partnerships": "Parcerias Atuais",
+  "Available Organizations for Partnership": "Organizações Disponíveis para Parceria",
+  "Adding nonprofits as partners will make them available for your employees to collaborate and do volunteering work with them": "Adicionar organizações sem fins lucrativos como parceiros irá disponibilizá-las para que seus funcionários colaborem e realizem trabalho voluntário com elas",
+  "Privacy Policy": "Política de privacidade",
+  "Ex: Voluntário do Mês": "Ex: Voluntário do Mês",
+  "Ex: €5.000 - €10.000": "Ex: €5.000 - €10.000",
+  "Ex: 50% redução, 1000 horas": "Ex: 50% redução, 1000 horas",
+  "Analytics & Reporting": "Relatórios & Métricas",
+  "Impact Reports": "Relatórios de Impacto",
+  "Employee Engagement": "Envolvimento dos Colaboradores",
+  "Focus Areas": "Áreas de Foco",
+  "View Details": "Ver detalhes",
+  "Export Full Report": "Exportar relatório",
+  "Relatório": "Relatório",
+  "Coming Soon": "Brevemente",
+  "Analytics": "Métricas",
+  "Employees": "Voluntários",
+  "Your Volunteers": "Voluntários",
+  "Active Volunteers": "Voluntários ativos",
+  "No active volunteers": "Sem voluntários ativos",
+  "Pending Missions": "Missões pendentes",
+  "Availability": "Disponibilidade",
+  "Join Date": "Data de candidatura",
+  "Impact Reporting": "Relatório de Impacto",
+  "My Missions": "As Minhas Missões",
+  "Organization Missions": "Missões da Organização",
+  "Our Missions": "As Nossas Missões",
+  "My Activity": "A Minha Atividade",
+  "Opportunities": "Oportunidades",
+  "Only Active Missions": "Missões Ativas",
+  "Apadrinhar": "Apadrinhar",
+  "ESG Dashboard": "Painel ESG",
+  "Projects": "Projetos",
+  "Questions?": "Dúvidas?",
+  "Soon": "Brevemente",
+  "Impact & Performance Overview": "Visão geral de impacto e desempenho",
+  "Group View": "Vista de grupo",
+  "Company View": "Vista por empresa",
+  "Select a company": "Selecionar empresa",
+  "Last 30 days": "Últimos 30 dias",
+  "Last login": "Último Login",
+  "Last 90 days": "Últimos 90 dias",
+  "Last year": "Último ano",
+  "All time": "Todo o período",
+  "Company Performance": "Desempenho por empresa",
+  "Individual ESG contribution across all group companies": "Contribuição ESG de cada empresa do grupo",
+  "Total Volunteer Hours": "Total de horas de voluntariado",
+  "Employee Participation": "Participação dos colaboradores",
+  "NGO Partnerships": "Parcerias com ONG",
+  "from last period": "em relação ao período anterior",
+  "Group-wide": "Todo o grupo",
+  "Company": "Empresa",
+  "ESG Impact": "Impacto ESG",
+  "Real-time metrics across all sustainability initiatives": "Métricas em tempo real das iniciativas de sustentabilidade",
+  "Overall Performance": "Desempenho global",
+  "companies": "empresas",
+  "Group totals": "Totais do grupo",
+  "Avg engagement": "Média de envolvimento",
+  "Engagement Rate": "Taxa de envolvimento",
+  "ESG Focus Areas": "Áreas de foco ESG",
+  "Reports & Downloads": "Relatórios e transferências",
+  "Download detailed ESG reports and data exports": "Transferir relatórios ESG e exportação de dados",
+  "Export Options": "Opções de exportação",
+  "Report Period": "Período do relatório",
+  "Company Filter": "Filtrar por empresa",
+  "All Companies": "Todas as empresas",
+  "Last Month": "Último mês",
+  "Last Quarter": "Último trimestre",
+  "Last Year": "Último ano",
+  "All Time": "Todo o período",
+  "Feedback & Contact": "Feedback e contacto",
+  "Share your thoughts or get in touch with our team": "Partilhe a sua opinião ou contacte a nossa equipa",
+  "Share Your Feedback": "Partilhar feedback",
+  "Contact Coompass": "Contactar Coompass",
+  "Submit Feedback": "Enviar feedback",
+  "Contact Our Team": "Contactar equipa",
+  "ESG Support Team": "Equipa de apoio ESG",
+  "Business Hours": "Horário de atendimento",
+  "Impact Analytics": "Análise de impacto",
+  "Data-driven insights into ESG performance and trends": "Indicadores e tendências de desempenho ESG",
+  "ESG Category Distribution": "Distribuição por categoria ESG",
+  "SDG Alignment": "Alinhamento ODS",
+  "SDG Filters": "ODS",
+  "SDG most used in initiatives": "ODS mais usados nas iniciativas",
+  "Sustainable Development Goals": "Objetivos de Desenvolvimento Sustentável",
+  "Select ODS": "Selecionar ODS",
+  "{{count}} ODS selected": "{{count}} ODS selecionados",
+  "Impact Growth Trend": "Evolução do impacto",
+  "Featured Impact Stories": "Histórias de impacto em destaque",
+  "Highlighting recent mission successes and community impact": "Sucessos recentes e impacto na comunidade",
+  "Environment": "Ambiente",
+  "Education": "Educação",
+  "Health & Wellbeing": "Saúde e Bem-estar",
+  "Poverty & Basic Needs": "Pobreza e Necessidades Básicas",
+  "Social Inclusion": "Inclusão Social",
+  "Community": "Comunidade",
+  "Children & Youth": "Crianças e Jovens",
+  "Elderly Support": "Apoio ao Idoso",
+  "Disability Inclusion": "Inclusão da Deficiência",
+  "Humanitarian Aid": "Ajuda Humanitária",
+  "Animal Welfare": "Bem-estar Animal",
+  "Culture": "Cultura",
+  "Employability": "Empregabilidade",
+  "Human Rights": "Direitos Humanos",
+  "Civic Engagement": "Envolvimento Cívico",
+  "Mobility & Transport": "Mobilidade e Transporte",
+  "Total": "Total",
+  "hours": "horas",
+  "Social": "Social",
+  "Governance": "Governança",
+  "Help us improve the dashboard and ESG reporting experience.": "Ajude-nos a melhorar o painel e os relatórios ESG.",
+  "Need assistance or have questions about ESG initiatives? Our team is here to help.": "Precisa de apoio ou tem dúvidas sobre iniciativas ESG? A nossa equipa está disponível.",
+  "Save": "Guardar",
+  "Save changes": "Guardar alterações",
+  "Cancel": "Cancelar",
+  "Loading": "A carregar",
+  "Submit": "Submeter",
+  "Back": "Voltar",
+  "Next": "Seguinte",
+  "Close": "Fechar",
+  "Edit": "Editar",
+  "Delete": "Eliminar",
+  "Add": "Adicionar",
+  "Remove": "Remover",
+  "Confirm": "Confirmar",
+  "No data available yet.": "Ainda sem dados disponíveis.",
+  "Not available yet": "Ainda não disponível",
+  "Timeframe": "Período",
+  "This Quarter": "Este trimestre",
+  "This Year": "Este ano",
+  "Last 7 days": "Últimos 7 dias",
+  "Executive Dashboard": "Painel Executivo",
+  "Directory": "Diretório",
+  "Applications": "Candidaturas",
+  "Search volunteers...": "Pesquisar voluntários...",
+  "Application accepted.": "Candidatura aceite.",
+  "Application rejected.": "Candidatura rejeitada.",
+  "This feature is under development. Check back later.": "Esta funcionalidade está em desenvolvimento. Volte mais tarde.",
+  "Under construction": "Em construção",
+  "Login to Coompass": "Entrar na Coompass",
+  "Welcome back!": "Bem-vindo de volta!",
+  "You have successfully signed in.": "Iniciou sessão com sucesso.",
+  "Authentication Error": "Erro de autenticação",
+  "Volunteer Rewards Hub": "Centro de Recompensas do Voluntário",
+  "Nonprofit Resource Center": "Centro de Recursos da ONG",
+  "Corporate Wallet": "Carteira Empresarial",
+  "Nonprofit Dashboard": "Painel da ONG",
+  "Volunteer Dashboard": "Painel do Voluntário",
+  "Company Dashboard": "Painel da Empresa",
+  "No session found. Please try again.": "Sessão não encontrada. Tente novamente.",
+  "An unexpected error occurred during authentication.": "Ocorreu um erro inesperado durante a autenticação.",
+  "Volunteer of the Month": "Voluntário do Mês",
+  "Environmental Champion": "Campeão Ambiental",
+  "Community Builder": "Construtor de Comunidade",
+  "1000 Hour Club": "Clube das 1000 Horas",
+  "Recognizes outstanding contribution and dedication": "Reconhece contribuição e dedicação excecionais",
+  "Based on hours contributed and impact made": "Com base nas horas contribuídas e no impacto gerado",
+  "For exceptional work on environmental projects": "Pelo trabalho excecional em projetos ambientais",
+  "Participation in at least 3 environmental initiatives with positive outcomes": "Participação em pelo menos 3 iniciativas ambientais com resultados positivos",
+  "Recognizes volunteers who foster community connections": "Reconhece voluntários que promovem ligações na comunidade",
+  "Demonstrates leadership in community engagement activities": "Demonstra liderança em atividades de envolvimento comunitário",
+  "Milestone recognition for dedicated service": "Reconhecimento de marco por serviço dedicado",
+  "Completion of 1000+ volunteer hours": "Conclusão de 1000+ horas de voluntariado",
+  "Removed employee": "Colaborador removido",
+  "Welcome!": "Bem-vindo!",
+  "Authenticating...": "A autenticar...",
+  "Recognition Programs": "Programas de Reconhecimento",
+  "Overview of all active recognition programs": "Visão geral de todos os programas de reconhecimento ativos",
+  "Program": "Programa",
+  "Frequency": "Frequência",
+  "Total Nominations": "Total de nomeações",
+  "Active Nominations": "Nomeações ativas",
+  "Created": "Criado",
+  "Actions": "Ações",
+  "Recent Awards & Nominations": "Prémios e nomeações recentes",
+  "Latest activity across all recognition programs": "Atividade recente em todos os programas de reconhecimento",
+  "Volunteer": "Voluntário",
+  "Date": "Data",
+  "Status": "Estado",
+  "Monthly": "Mensal",
+  "Quarterly": "Trimestral",
+  "Annual": "Anual",
+  "One-time": "Único",
+  "Milestone": "Marco",
+  "Awarded": "Atribuído",
+  "Nominated": "Nomeado",
+  "Corporate Impact": "Impacto Empresarial",
+  "View Analytics": "Ver métricas",
+  "For detailed analytics": "Para métricas detalhadas",
+  "Total Active Missions": "Total de Missões Ativas",
+  "Total Missions": "Missões totais",
+  "Total Beneficiaries Impacted": "Total de Beneficiários Impactados",
+  "from last month": "em relação ao mês passado",
+  "Inactive": "Inativo",
+  "Impact Score": "Pontuação de impacto",
+  "Participação dos colaboradores": "Participação dos colaboradores",
+  "Registados / Ativos": "Registados / Ativos",
+  "Pontuação de impacto": "Pontuação de impacto",
+  "Este mês / Meta": "Este mês / Meta",
+  "Registados": "Registados",
+  "Ativos": "Ativos",
+  "Meta": "Meta",
+  "No data yet": "Sem dados ainda",
+  "Last updated": "Última atualização",
+  "30 days": "30 dias",
+  "90 days": "90 dias",
+  "1 year": "1 ano",
+  "All time": "Todo o período",
+  "Formula details": "Detalhes da fórmula",
+  "Mission Completion Formula": "Conclusão de missões = missões finalizadas / missões iniciadas no período selecionado.",
+  "Participant Completion Formula": "Conclusão de participantes = participantes concluídos / participantes inscritos totais.",
+  "Active Missions Formula": "Missões ativas = missões aprovadas ainda em curso.",
+  "Total Missions Formula": "Missões totais = total de missões da plataforma excluindo rejeitadas e canceladas.",
+  "Participants Enrolled Formula": "Participantes inscritos = ativos + concluídos + desistentes.",
+  "Volunteer Hours Formula": "Horas de voluntariado = soma das horas finais (final_hours) de participantes em missões concluídas.",
+  "Beneficiaries Impacted Formula": "Beneficiários impactados = soma dos beneficiários de todas as missões concluídas.",
+  "Mobility & Infrastructure": "Mobilidade e Infraestruturas",
+  "Lisbon, PT": "Lisboa, PT",
+  "Founded": "Fundada",
+  "company_brisa_description": "Ligar pessoas e comunidades através de uma mobilidade segura e sustentável. Os nossos programas de voluntariado e RSC apoiam a segurança rodoviária, a ação ambiental e o impacto social em Portugal.",
+  "Recent Activities": "Atividade recente",
+  "Activity Feed": "Feed de atividade",
+  "activity_feed_logged_in": "{{userName}} fez login",
+  "activity_feed_joined_mission": "{{userName}} aderiu a uma nova missão",
+  "activity_feed_joined_mission_prefix": "{{userName}} aderiu a uma nova missão:",
+  "activity_feed_created_account": "{{userName}} criou uma conta",
+  "activity_feed_downloaded_report": "{{userName}} descarregou relatório de impacto",
+  "activity_feed_org_launched": "{{orgName}} lançou uma nova missão",
+  "activity_feed_org_launched_prefix": "{{orgName}} lançou uma nova missão:",
+  "activity_feed_project_created": "{{actorName}} criou um projeto",
+  "activity_feed_project_created_prefix": "{{actorName}} criou um projeto:",
+  "activity_feed_mission_created": "{{actorName}} criou uma missão",
+  "activity_feed_mission_created_prefix": "{{actorName}} criou uma missão:",
+  "activity_feed_mission_created_part_of_project": "como parte do projeto",
+  "activity_feed_mission_started": "{{actorName}} iniciou uma missão",
+  "activity_feed_mission_started_prefix": "{{actorName}} iniciou uma missão:",
+  "activity_feed_mission_completed": "{{actorName}} concluiu uma missão",
+  "activity_feed_mission_completed_prefix": "{{actorName}} concluiu uma missão:",
+  "activity_feed_volunteer_applied_to_mission": "{{actorName}} candidatou-se a uma missão",
+  "activity_feed_volunteer_applied_to_mission_prefix": "{{actorName}} candidatou-se a uma missão:",
+  "activity_feed_project_commented": "{{actorName}} comentou num projeto",
+  "activity_feed_project_commented_prefix": "{{actorName}} comentou no projeto:",
+  "Failed to load activity feed": "Falha ao carregar feed de atividade",
+  "No activity yet": "Ainda sem atividade",
+  "2 hours ago": "Há 2 horas",
+  "Yesterday": "Ontem",
+  "{{count}} days ago": "{{count}} dias atrás",
+  "{{count}} weeks ago": "{{count}} semanas atrás",
+  "Loading more activities...": "A carregar mais atividade...",
+  "No more activities to load": "Não há mais atividade",
+  "activity_completed_mission": "concluiu a missão '{{name}}'",
+  "activity_joined_program": "aderiu ao programa de voluntariado",
+  "activity_partnered_with": "estabeleceu parceria com '{{name}}'",
+  "activity_generated_report": "gerou o Relatório de Impacto Q2",
+  "activity_scheduled_mission": "agendou a missão '{{name}}'",
+  "Missões Agendadas": "Missões Agendadas",
+  "Ver": "Ver",
+  "View All Missions": "Ver todas as missões",
+  "Active (missions tab)": "Ativas",
+  "Past": "Passadas",
+  "No active missions.": "Sem missões ativas.",
+  "active missions count_one": "{{count}} missão ativa",
+  "active missions count_other": "{{count}} missões ativas",
+  "No past missions.": "Sem missões passadas.",
+  "No scheduled missions yet.": "Ainda não há missões agendadas.",
+  "No active missions yet.": "Ainda não há missões ativas.",
+  "No past missions yet.": "Ainda não há missões passadas.",
+  "Community Garden Project": "Projeto Horta Comunitária",
+  "Green Earth Foundation": "Fundação Terra Verde",
+  "Downtown Area": "Zona central",
+  "Coding Workshop for Kids": "Oficina de programação para crianças",
+  "Tech Learning Center": "Centro de Aprendizagem Tech",
+  "Food Bank Volunteering": "Voluntariado no Banco Alimentar",
+  "City Food Bank": "Banco Alimentar da Cidade",
+  "North District": "Zona Norte",
+  "Senior Center Renovation": "Renovação do Centro de Seniores",
+  "Elder Care Association": "Associação de Apoio ao Idoso",
+  "West Side": "Zona Oeste",
+  "Beach Cleanup Initiative": "Iniciativa de Limpeza de Praia",
+  "Ocean Preservation Society": "Sociedade de Preservação do Oceano",
+  "South Beach": "Praia Sul",
+  "Browse and join missions from our partners.": "Navegue e junte-se a missões dos nossos parceiros.",
+  "Volunteer Missions - Find Impact Opportunities": "Missões de Voluntariado - Encontre Oportunidades de Impacto",
+  "Discover volunteer missions and social impact opportunities. Browse by cause, skills, location, and join meaningful projects with companies and nonprofits.": "Descubra missões de voluntariado e oportunidades de impacto social. Navegue por causa, competências e localização e junte-se a projetos com empresas e ONG.",
+  "Create Initiative": "Começar",
+  "Launch Your Initiative": "Lançar a Sua Iniciativa",
+  "Propose a volunteering initiative": "Proponha uma iniciativa de voluntariado",
+  "Active (tabs)": "Ativos",
+  "Completed": "Concluídos",
+  "Completed (mission)": "Concluída",
+  "Project not found": "Projeto não encontrado",
+  "The project you are looking for does not exist or was removed.": "O projeto que procura não existe ou foi removido.",
+  "Back to projects": "Voltar aos projetos",
+  "Creating...": "A criar...",
+  "Create Project": "Criar projeto",
+  "Please fill in all required fields": "Preencha todos os campos obrigatórios",
+  "End date must be after start date": "A data de fim deve ser posterior à data de início",
+  "Make a Donation": "Fazer donativo",
+  "Claim Rewards": "Reclamar recompensas",
+  "Matching Programs": "Programas de matching",
+  "Set Up Matching": "Configurar matching",
+  "Create Fundraising Campaign": "Criar campanha de angariação de fundos",
+  "Support nonprofits and social causes with financial contributions.": "Apoie ONG e causas sociais com contribuições financeiras.",
+  "Match your employees' donations to amplify your company's social impact.": "Faça matching das doações dos colaboradores para amplificar o impacto social da sua empresa.",
+  "Exchange your earned tokens for gift cards and other rewards.": "Troque os seus tokens por cartões-presente e outras recompensas.",
+  "Support causes you care about by donating your earned tokens.": "Apoie causas que lhe importam doando os seus tokens.",
+  "Launch a campaign to raise funds for your nonprofit's initiatives.": "Lance uma campanha para angariar fundos para as iniciativas da sua ONG.",
+  "Generate Report": "Gerar relatório",
+  "Export": "Exportar",
+  "Employee not found": "Colaborador não encontrado",
+  "Mission Not Found": "Missão não encontrada",
+  "Welcome": "Bem-vindo",
+  "User": "Utilizador",
+  "Pro": "Pro",
+  "Nonprofit Organizations - Discover Impact Partners": "Organizações sem fins lucrativos - Descubra parceiros de impacto",
+  "Browse verified nonprofit organizations working on social impact, sustainability, and community development.": "Navegue por ONG verificadas que trabalham em impacto social, sustentabilidade e desenvolvimento comunitário.",
+  "Partnerships - Connect Companies & Nonprofits": "Parcerias - Ligar empresas e ONG",
+  "Newsroom - Latest Impact Stories & Updates": "Notícias - Histórias de impacto e novidades",
+  "Register for Coompass": "Registar na Coompass",
+  "Pricing": "Preços",
+  "Terms and Conditions": "Termos e Condições",
+  "About Us": "Sobre nós",
+  "Help Center": "Central de ajuda",
+  "Find answers and learn how to make the most of Coompass": "Encontre respostas e aprenda a tirar o máximo partido da Coompass",
+  "For Nonprofits": "Para ONG",
+  "For Volunteers": "Para voluntários",
+  "For Companies - Enhance ESG & Employee Engagement": "Para empresas - Reforçar ESG e envolvimento",
+  "Nonprofits": "Associações",
+  "Expand your reach and amplify your impact": "Alargue o seu alcance e amplifique o seu impacto",
+  "Make an impact with your skills and time": "Faça a diferença com as suas competências e tempo",
+  "Companies": "Empresas",
+  "Enhance your ESG strategy and employee engagement": "Reforce a sua estratégia ESG e o envolvimento dos colaboradores",
+  "Connect for Impact - Companies, Nonprofits & Volunteers Unite": "Ligar para impacto - Empresas, ONG e voluntários unidos",
+  "Failed to create project": "Falha ao criar projeto",
+  "The employee you are looking for doesn't exist or has been removed.": "O colaborador que procura não existe ou foi removido.",
+  "Back to Employees": "Voltar aos colaboradores",
+  "Corporate Funds": "Fundos empresariais",
+  "Donations Made": "Donativos realizados",
+  "Active Grants": "Subsídios ativos",
+  "Impact Investments": "Investimentos de impacto",
+  "Total Balance": "Saldo total",
+  "My Digital Coins": "As minhas moedas digitais",
+  "My Donations": "Os meus donativos",
+  "My Balance": "O meu saldo",
+  "Earned Tokens": "Tokens ganhos",
+  "Available Rewards": "Recompensas disponíveis",
+  "Organization Funds": "Fundos da organização",
+  "Received Donations": "Donativos recebidos",
+  "Fundraising Campaigns": "Campanhas de angariação",
+  "About Coompass": "Sobre a Coompass",
+  "Learn about Coompass's mission to connect companies, nonprofits, and volunteers for maximum social impact and ESG initiatives.": "Conheça a missão da Coompass de ligar empresas, ONG e voluntários para máximo impacto social e iniciativas ESG.",
+  "Our mission is to connect companies, nonprofits, and volunteers for maximum social impact": "A nossa missão é ligar empresas, ONG e voluntários para máximo impacto social",
+  "Learn about Coompass's mission, team, values and vision. Discover how we're connecting companies, nonprofits, and volunteers for maximum social impact.": "Conheça a missão, equipa, valores e visão da Coompass. Saiba como ligamos empresas, ONG e voluntários para impacto social.",
+  "Home": "Início",
+  "Stay updated with the latest news, impact stories, and updates from Coompass. Discover how companies, nonprofits, and volunteers are creating meaningful social change.": "Mantenha-se a par das últimas notícias, histórias de impacto e atualizações da Coompass. Descubra como empresas, ONG e voluntários criam mudança social.",
+  "Manage corporate-nonprofit partnerships and discover collaboration opportunities. Connect companies with aligned nonprofits to maximize social impact and ESG outcomes.": "Gerir parcerias empresa-ONG e descobrir oportunidades de colaboração. Ligar empresas a ONG alinhadas para maximizar impacto social e resultados ESG.",
+  "Access guides, tutorials, and FAQs to help you get the most out of the Coompass platform. Find answers to your questions about companies, nonprofits, volunteers, and service providers features.": "Aceda a guias, tutoriais e FAQ para tirar o máximo partido da Coompass. Encontre respostas sobre empresas, ONG, voluntários e funcionalidades para prestadores.",
+  "Employees can browse volunteering missions, join initiatives, track participation, and build an Impact CV—all in one place.": "Os colaboradores podem explorar missões de voluntariado, aderir a iniciativas, acompanhar a participação e construir um CV de Impacto—tudo num só lugar.",
+  "Register or sign in": "Registar ou entrar",
+  "See mission examples": "Ver exemplos de missões",
+  "Role-based access": "Acesso por perfil",
+  "Impact tracking": "Acompanhamento de impacto",
+  "Learn more": "Saber mais",
+  "Build your Impact CV": "Construa o seu CV de Impacto",
+  "Volunteer hours recognized": "Horas de voluntariado reconhecidas",
+  "Volunteer hours over time": "Horas/Voluntariado",
+  "Monthly volunteer hours": "Mensal",
+  "Impact by cause area": "Horas/Causa",
+  "Active volunteers monthly": "Nº Voluntários Mensais",
+  "Number of missions monthly": "Nº. Missões Mensais",
+  "Employee participation by company": "Participação por Empresa",
+  "Active employees in volunteer missions / registered employees": "Voluntários Activos/Registos",
+  "Flexible participation": "Participação flexível",
+  "Recognition & awards": "Reconhecimento e prémios",
+  "Develop your skills": "Desenvolva as suas competências",
+  "Make a difference": "Faça a diferença",
+  "Join a community": "Junte-se à comunidade",
+  "ESG impact visibility": "Visibilidade do impacto ESG",
+  "Corporate volunteering": "Voluntariado empresarial",
+  "One platform for all": "Uma plataforma para todos",
+  "Track your impact": "Acompanhe o seu impacto",
+  "landingBrisa.onboarding.title": "Junte-se ao Impact Hub em 4 passos",
+  "landingBrisa.onboarding.subtitle": "Torne-se voluntário e parceiro das ONG da BRISA com impacto real.",
+  "landingBrisa.onboarding.step1Title": "Entrar",
+  "landingBrisa.onboarding.step1Desc": "Use a sua conta BRISA (Okta). Um clique.",
+  "landingBrisa.onboarding.step2Title": "Explorar missões",
+  "landingBrisa.onboarding.step2Desc": "Missões das ONG parceiras da BRISA.",
+  "landingBrisa.onboarding.step3Title": "Participar e acompanhar",
+  "landingBrisa.onboarding.step3Desc": "Aderir a iniciativas, registar horas, construir o CV de Impacto.",
+  "landingBrisa.onboarding.step4Title": "Torne-se parceiro",
+  "landingBrisa.onboarding.step4Desc": "Voluntariado regular e crescimento com as nossas ONG.",
+  "landingBrisa.onboarding.ctaCaption": "Comece a fazer a diferença com as ONG parceiras da BRISA.",
+  "onboarding.profileNoticeTitle": "Complete o seu perfil",
+  "onboarding.profileNotice": "Olá {{name}}, por favor complete o seu perfil antes de continuar,",
+  "onboarding.genericName": "aí",
+  "landingBrisa.auth.chooseAccount": "Escolha como pretende entrar",
+  "landingBrisa.auth.oktaTitle": "Voluntário",
+  "landingBrisa.auth.oktaDesc": "Entre com a sua conta profissional BRISA (Okta SSO).",
+  "landingBrisa.auth.signInWithOkta": "Entrar com Okta",
+  "landingBrisa.auth.emailTitle": "Instituições Parceiras",
+  "landingBrisa.auth.emailDesc": "Iniciar sessão com e-mail institucional ou profissional",
+  "landingBrisa.auth.signInWithEmail": "Entrar com email",
+  "landingBrisa.auth.comingSoon": "Em breve",
+  "landingBrisa.auth.comingSoonDesc": "A autenticação e integração SSO estão em desenvolvimento.",
+  "landingBrisa.poweredBy": "Powered by",
+  "Enter address": "Indicar morada",
+  "Address": "Morada",
+  "Additional requirements": "Indicações adicionais",
+  "Your volunteer profile has been updated.": "O seu perfil de voluntário foi atualizado.",
+  "Your name": "O seu nome",
+  "Profile Picture": "Foto de perfil",
+  "Choose File": "Escolher ficheiro",
+  "Dashboard Banner": "Banner do dashboard",
+  "Organization Logo": "Logo da Organização",
+  "Organization Description": "Descrição da Organização",
+  "Location": "Localização",
+  "Contact Information": "Informação de Contacto",
+  "Contact Email": "Email de Contacto",
+  "Contact Phone": "Telefone de Contacto",
+  "Organization Type": "Tipo de Organização",
+  "Year Founded": "Ano de Fundação",
+  "Point of Contact (Email)": "Ponto de contacto (email)",
+  "Point of contact": "Ponto de contacto",
+  "Pending": "Pendente",
+  "pending": "Pendente",
+  "active": "Ativo",
+  "invited": "Convidado",
+  "accepted": "Aceite",
+  "expired": "Expirado",
+  "disabled": "Desativado",
+  "All statuses": "Todos os estados",
+  "Nonprofit invites tab": "Convites ONG",
+  "Nonprofit invites heading": "Convites Associações",
+  "Nonprofit invites description": "Convide associações para a Coompass e acompanhe os convites pendentes.",
+  "Nonprofit invites empty hint": "Crie um convite para enviar a ligação de onboarding ao contacto da associação.",
+  "inviteCount": "{{count}} convites",
+  "userCount": "{{count}} utilizadores",
+  "applicationsCount": "{{count}} candidaturas",
+  "Company admin users description": "Gira membros da empresa, voluntários e convites pendentes.",
+  "Company employees applications description": "Candidaturas a missões dos voluntários da sua organização.",
+  "Company employees leaderboard description": "As classificações e reconhecimentos dos voluntários aparecerão aqui.",
+  "No applications to show": "Ainda não há candidaturas.",
+  "Application date": "Data da candidatura",
+  "Volunteer Department": "Departamento",
+  "Name": "Nome",
+  "Refresh tab": "Atualizar",
+  "No matching invites": "Nenhum convite corresponde aos filtros",
+  "No matching invites hint": "Ajuste a pesquisa ou o filtro de estado.",
+  "Invite nonprofit": "Convidar associação",
+  "Search by organization or email...": "Pesquisar por associação ou email...",
+  "No nonprofit invites found": "Nenhum convite de associação encontrado",
+  "Invite expires at": "Expira em",
+  "Accepted at": "Aceite em",
+  "Acceptance URL": "URL de aceitação",
+  "Resend invite": "Reenviar convite",
+  "Resending...": "A reenviar...",
+  "Delete invite": "Eliminar convite",
+  "Invite removed": "Convite eliminado",
+  "Invite and pending nonprofit data removed": "Convite e dados pendentes da associação eliminados",
+  "This removes the invite and deletes any pending nonprofit placeholder data created for it.": "Isto remove o convite e elimina quaisquer dados pendentes de associação criados para ele.",
+  "Deleting...": "A eliminar...",
+  "Could not delete invite": "Não foi possível eliminar o convite",
+  "Invite not found.": "Convite não encontrado.",
+  "Accepted invites cannot be deleted.": "Não é possível eliminar convites já aceites.",
+  "All roles": "Todas as funções",
+  "Administrator": "Administrador",
+  "approved": "Aprovado",
+  "rejected": "Rejeitado",
+  "withdrawn": "Retirada",
+  "View all pending": "Ver todos pendentes",
+  "Pending Mission Approvals": "Missões Pendentes de Aprovação",
+  "Additional requirements...": "Requisitos adicionais...",
+  "Search skills...": "Pesquisar competências...",
+  "Search cause areas...": "Pesquisar áreas de causa...",
+  "Search SDGs...": "Pesquisar ODS...",
+  "Edit preferences": "Editar preferências",
+  "No results found.": "Nenhum resultado encontrado.",
+  "No recent activity": "Sem atividade recente",
+  "Email placeholder": "email@exemplo.com",
+  "Company email placeholder": "contacto@empresa.com",
+  "Phone placeholder": "+351 912 345 678",
+  "Website placeholder": "https://www.empresa.com",
+  "Your suggestions, questions, or feedback...": "As suas sugestões, questões ou feedback...",
+  "Hours placeholder": "0,0",
+  "Campaign name placeholder": "Ex: Programa de Verão para Jovens",
+  "Amount placeholder": "0,00",
+  "Select a category": "Selecionar categoria",
+  "Describe your campaign and how the funds will be used...": "Descreva a campanha e como os fundos serão utilizados...",
+  "Select an organization": "Selecionar organização",
+  "Custom Amount": "Valor personalizado",
+  "Search options...": "Pesquisar opções...",
+  "Select your industry...": "Selecionar setor...",
+  "Select sustainability goals...": "Selecionar objetivos de sustentabilidade...",
+  "Select ESG priorities...": "Selecionar prioridades ESG...",
+  "Select organization type...": "Selecionar tipo de organização...",
+  "Select SDGs you work on...": "Selecionar ODS em que trabalha...",
+  "Select your skills...": "Selecionar competências...",
+  "Select SDGs you care about...": "Selecionar ODS que lhe interessam...",
+  "Select a country": "Selecionar país",
+  "Enter your email": "Indique o seu email",
+  "Select skills": "Selecionar competências",
+  "Select causes": "Selecionar causas",
+  "Select causes your organization works on...": "Selecionar causas em que a sua organização trabalha...",
+  "Enter mission title": "Indicar título da missão",
+  "Describe the mission...": "Descrever a missão...",
+  "Enter required hours": "Indicar horas necessárias",
+  "Enter number of volunteers needed": "Indicar número de voluntários necessários",
+  "Search FAQs...": "Pesquisar FAQ...",
+  "API key placeholder": "sk-...",
+  "Full Name": "Nome completo",
+  "Email": "Email",
+  "Department": "Departamento",
+  "Enter your department": "Indique o seu departamento",
+  "Department is required": "O departamento é obrigatório",
+  "Add your department": "Adicione o seu departamento",
+  "Organization Email": "Email da Organização",
+  "Password": "Palavra-passe",
+  "Work email address": "Email profissional",
+  "Use an organization email to easily collaborate with teammates": "Use um email da organização para colaborar facilmente com a equipa",
+  "Forgot password?": "Esqueceu-se da palavra-passe?",
+  "Continue": "Continuar",
+  "Create Mission": "Criar Missão",
+  "Create a New Mission": "Criar nova missão",
+  "Mission Details": "Detalhes da missão",
+  "Volunteering Missions and Experience": "Missões e Experiência de Voluntariado",
+  "Nonprofits I've volunteered for": "ONG em que voluntariei",
+  "My Profile": "O Meu Perfil",
+  "Volunteer Hours": "Horas de voluntariado",
+  "Associations Helped": "Associações que ajudou",
+  "Retry": "Tentar novamente",
+  "Completed Missions": "Missões concluídas",
+  "SDGs": "ODS",
+  "Latest Activity": "Atividade recente",
+  "Mission Summary": "Resumo da missão",
+  "Point of contact:": "Ponto de contacto:",
+  "From": "De",
+  "Causes": "Causas",
+  "Required Skills": "Competências necessárias",
+  "Start Date": "Data de início",
+  "End Date": "Data de fim",
+  "Virtual Mission": "Missão virtual",
+  "Active Organizations": "Organizações ativas",
+  "to": "a",
+  "View All Organizations": "Ver todas as organizações",
+  "With Active Missions": "Missões Ativas",
+  "Interests & Skills Summary": "Resumo de interesses e competências",
+  "Placeholder contact email": "contacto@exemplo.com",
+  "Error loading profile": "Erro ao carregar perfil",
+  "Error loading interests": "Erro ao carregar preferências",
+  "Toggle theme": "Alternar tema",
+  "Logged in as": "Sessão iniciada como",
+  "No nonprofits yet. Start volunteering to see organizations here!": "Ainda sem ONG. Comece a voluntariar para ver organizações aqui!",
+  "No missions yet. Start volunteering to see your experience here!": "Ainda sem missões. Comece a voluntariar para ver a sua experiência aqui!",
+  "No user found": "Utilizador não encontrado",
+  "Need more help?": "Precisa de mais ajuda?",
+  "Chat conversation": "Conversa de chat",
+  "Choose the Company you work for": "Escolha a empresa para a qual trabalha",
+  "Select company and role": "Selecionar empresa e função",
+  "Choose the company you work for": "Escolha a empresa para a qual trabalha",
+  "Choose your role": "Escolha a sua função",
+  "Collaborators on missions": "Colaboradores em missões",
+  "Volunteer hours provided": "Horas de voluntariado prestadas",
+  "Initiatives supported": "Iniciativas apoiadas",
+  "Activate matching program": "Ativar programa de matching",
+  "Make this a monthly donation": "Fazer donativo mensal",
+  "Drive positive change in communities worldwide.": "Promova mudança positiva nas comunidades em todo o mundo.",
+  "Exchange your digital coins for gift cards in just a few clicks.": "Troque as suas moedas digitais por cartões-presente em apenas alguns cliques.",
+  "You can request an official certificate for your {{hours}} hours of volunteer work.": "Pode solicitar um certificado oficial pelas suas {{hours}} horas de voluntariado.",
+  "More pages": "Mais páginas",
+  "Previous slide": "Slide anterior",
+  "Next slide": "Slide seguinte",
+  "Name is required": "O nome é obrigatório",
+  "Invite User": "Convidar Utilizador",
+  "Invite user": "Convidar utilizador",
+  "Invite organization": "Convidar organização",
+  "Create a nonprofit invitation with organization name and owner email.": "Crie um convite para organização sem fins lucrativos com nome da organização e email do responsável.",
+  "Invitation created. Share this link with the nonprofit owner:": "Convite criado. Partilhe este link com o responsável da organização:",
+  "Organization Name": "Nome da organização",
+  "Organization name": "Nome da organização",
+  "Owner Email": "Email do responsável",
+  "owner@nonprofit.org": "responsavel@organizacao.org",
+  "Create organization invitation": "Criar convite para organização",
+  "Organization invitation created successfully": "Convite da organização criado com sucesso",
+  "Failed to create organization invitation": "Falha ao criar convite da organização",
+  "Organization name is required": "O nome da organização é obrigatório",
+  "Invite a user by email. Email must use a company domain.": "Convide um utilizador por email. O email deve usar um domínio da empresa.",
+  "Invitation created. Share this link with the user:": "Convite criado. Partilhe este link com o utilizador:",
+  "Done": "Concluído",
+  "Create Invitation": "Criar Convite",
+  "Email Address": "Endereço de Email",
+  "Select a role": "Selecionar função",
+  "Sign-in Method": "Método de início de sessão",
+  "Select sign-in method": "Selecionar método de início de sessão",
+  "Email is required": "O email é obrigatório",
+  "Invalid email format": "Formato de email inválido",
+  "Invitation created successfully": "Convite criado com sucesso",
+  "Failed to send invitation": "Falha ao enviar convite",
+  "Resend invitation": "Reenviar convite",
+  "Resending invitation...": "A reenviar convite...",
+  "Invitation resent successfully": "Convite reenviado com sucesso",
+  "Invitation updated but email was not sent": "Convite atualizado, mas o email não foi enviado",
+  "Email service is not configured.": "O serviço de email não está configurado.",
+  "Failed to resend invitation email": "Falha ao reenviar email de convite",
+  "Email delivery failed.": "Falha no envio do email.",
+  "Reset Password": "Redefinir palavra-passe",
+  "Recover Password": "Recuperar palavra-passe",
+  "Set Your Password": "Defina a sua palavra-passe",
+  "Accept Invitation": "Aceitar convite",
+  "Accept Organization Invitation": "Aceitar convite da organização",
+  "Reset password": "Redefinir palavra-passe",
+  "Save password": "Guardar palavra-passe",
+  "Create nonprofit account": "Criar conta de organização",
+  "Create account": "Criar conta",
+  "Set a password with at least 8 characters.": "Defina uma palavra-passe com pelo menos 8 caracteres.",
+  "To continue, choose a new password for your account.": "Para continuar, escolha uma nova palavra-passe para a sua conta.",
+  "Checking invitation details...": "A verificar detalhes do convite...",
+  "Organization: {{name}}": "Organização: {{name}}",
+  "Invitation details unavailable.": "Detalhes do convite indisponíveis.",
+  "Current password": "Palavra-passe atual",
+  "New password": "Nova palavra-passe",
+  "Confirm new password": "Confirmar nova palavra-passe",
+  "Saving...": "A guardar...",
+  "Back to login": "Voltar ao login",
+  "Unavailable": "Indisponível",
+  "This account is managed by Okta. Password setup is not available.": "Esta conta é gerida pelo Okta. A definição de palavra-passe não está disponível.",
+  "Invalid password": "Palavra-passe inválida",
+  "Please confirm the same password.": "Confirme a mesma palavra-passe.",
+  "Invalid link": "Link inválido",
+  "Token is missing from this link.": "Falta o token neste link.",
+  "Invalid invitation": "Convite inválido",
+  "Could not accept invitation": "Não foi possível aceitar o convite",
+  "Account created": "Conta criada",
+  "Your invitation was accepted. You can now sign in.": "O seu convite foi aceite. Já pode iniciar sessão.",
+  "Nonprofit account created": "Conta da organização criada",
+  "Your invitation was accepted. You can now sign in and complete your nonprofit profile.": "O seu convite foi aceite. Já pode iniciar sessão e concluir o perfil da organização.",
+  "Could not reset password": "Não foi possível redefinir a palavra-passe",
+  "Could not start recovery": "Não foi possível iniciar a recuperação",
+  "Recovery processed": "Recuperação processada",
+  "If eligible, a recovery email has been sent.": "Se aplicável, foi enviado um email de recuperação.",
+  "Enter your account email to receive password recovery instructions.": "Introduza o email da sua conta para receber instruções de recuperação da palavra-passe.",
+  "This account is managed by Okta. Password recovery is unavailable here.": "Esta conta é gerida pelo Okta. A recuperação de palavra-passe não está disponível aqui.",
+  "Recover password email placeholder": "email@empresa.com",
+  "Sending...": "A enviar...",
+  "Send recovery email": "Enviar email de recuperação",
+  "Password updated": "Palavra-passe atualizada",
+  "You can now sign in with your new password.": "Já pode iniciar sessão com a nova palavra-passe.",
+  "Could not update password": "Não foi possível atualizar a palavra-passe",
+  "Your password was updated successfully.": "A sua palavra-passe foi atualizada com sucesso.",
+  "Password must be at least 8 characters": "A palavra-passe deve ter pelo menos 8 caracteres",
+  "Passwords do not match": "As palavras-passe não coincidem",
+  "Profile saved successfully.": "Perfil guardado com sucesso.",
+  "Failed to save profile.": "Falha ao guardar perfil.",
+  "Settings saved": "Definições guardadas",
+  "Settings saved.": "Definições guardadas.",
+  "Your organization profile has been updated.": "O perfil da sua organização foi atualizado.",
+  "Your company profile has been updated.": "O perfil da sua empresa foi atualizado.",
+  "Failed to save settings.": "Falha ao guardar definições.",
+  "Link copied to clipboard.": "Link copiado para a área de transferência.",
+  "Failed to copy.": "Falha ao copiar.",
+  "Google sign-in coming soon": "Entrada com Google em breve",
+  "SSO coming soon": "SSO em breve",
+  "Okta SSO is not configured.": "Okta SSO não está configurado.",
+  "Could not start Okta sign-in.": "Não foi possível iniciar a sessão Okta.",
+  "Okta sign-in failed.": "Entrada com Okta falhou.",
+  "Redirecting…": "A redirecionar…",
+  "Sign in with Okta": "Entrar com Okta",
+  "{{provider}} sign-in coming soon": "Entrada com {{provider}} em breve",
+  "Invalid email or password.": "Email ou palavra-passe inválidos.",
+  "Something went wrong.": "Ocorreu um erro.",
+  "Feedback sent. Thank you!": "Feedback enviado. Obrigado!",
+  "Failed to send feedback.": "Falha ao enviar feedback.",
+  "Partner invited.": "Parceiro convidado.",
+  "Failed to invite partner.": "Falha ao convidar parceiro.",
+  "Campaign created.": "Campanha criada.",
+  "Failed to create campaign.": "Falha ao criar campanha.",
+  "Donation successful.": "Donativo realizado com sucesso.",
+  "Failed to process donation.": "Falha ao processar donativo.",
+  "Matching program updated.": "Programa de matching atualizado.",
+  "Reward claimed.": "Recompensa reclamada.",
+  "Guide bookmarked.": "Guia adicionado aos favoritos.",
+  "Guide removed from bookmarks.": "Guia removido dos favoritos.",
+  "Story published.": "História publicada.",
+  "Failed to publish story.": "Falha ao publicar história.",
+  "Partnership report generated.": "Relatório de parceria gerado.",
+  "Invitation sent.": "Convite enviado.",
+  "Administrator added.": "Administrador adicionado.",
+  "Team lead added.": "Líder de equipa adicionado.",
+  "Contact request sent.": "Pedido de contacto enviado.",
+  "API key saved.": "Chave API guardada.",
+  "Invalid API key.": "Chave API inválida.",
+  "Account created. Please check your email.": "Conta criada. Verifique o seu email.",
+  "Email already in use.": "Email já em utilização.",
+  "Recommended Missions": "Missões recomendadas",
+  "View All": "Ver todas",
+  "Recent Activity": "Atividade Recente",
+  "Last 30 Days": "Últimos 30 dias",
+  "Publishing...": "A publicar...",
+  "Publish Mission": "Publicar Missão",
+  "taxonomy.cause.animal-welfare": "Bem-estar Animal",
+  "taxonomy.cause.animals": "Animais",
+  "taxonomy.cause.arts-culture": "Artes e Cultura",
+  "taxonomy.cause.biodiversity": "Biodiversidade",
+  "taxonomy.cause.children-youth": "Crianças e Jovens",
+  "taxonomy.cause.civic-engagement": "Participação Cívica",
+  "taxonomy.cause.climate-action": "Ação Climática",
+  "taxonomy.cause.community": "Comunidade",
+  "taxonomy.cause.community-development": "Desenvolvimento Comunitário",
+  "taxonomy.cause.community-education": "Educação comunitária",
+  "taxonomy.cause.computers-technology": "Computadores e Tecnologia",
+  "taxonomy.cause.culture": "Cultura",
+  "taxonomy.cause.disability-inclusion": "Inclusão de Pessoas com Deficiência",
+  "taxonomy.cause.disaster-relief": "Ajuda em Catástrofes",
+  "taxonomy.cause.education": "Educação",
+  "taxonomy.cause.education-literacy": "Educação e Literacia",
+  "taxonomy.cause.elderly-support": "Apoio a Idosos",
+  "taxonomy.cause.employability": "Empregabilidade",
+  "taxonomy.cause.environment": "Ambiente",
+  "taxonomy.cause.food-security": "Segurança Alimentar",
+  "taxonomy.cause.health-medicine": "Saúde e Medicina",
+  "taxonomy.cause.health-wellbeing": "Saúde e Bem-estar",
+  "taxonomy.cause.health-and-wellness": "Saúde e Bem-estar",
+  "taxonomy.cause.healthcare": "Cuidados de Saúde",
+  "taxonomy.cause.homelessness-housing": "Sem-abrigo e Habitação",
+  "taxonomy.cause.human-rights": "Direitos Humanos",
+  "taxonomy.cause.humanitarian-aid": "Ajuda Humanitária",
+  "taxonomy.cause.hunger": "Fome",
+  "taxonomy.cause.international-development": "Desenvolvimento Internacional",
+  "taxonomy.cause.logistics": "Logística",
+  "taxonomy.cause.media-broadcasting": "Media e Radiodifusão",
+  "taxonomy.cause.mobility-transport": "Mobilidade e Transportes",
+  "taxonomy.cause.organizational-development": "Desenvolvimento Organizacional",
+  "taxonomy.cause.poverty-basic-needs": "Pobreza e Necessidades Básicas",
+  "taxonomy.cause.poverty-alleviation": "Redução da Pobreza",
+  "taxonomy.cause.seniors": "Idosos",
+  "taxonomy.cause.social-inclusion": "Inclusão Social",
+  "taxonomy.cause.sports-recreation": "Desporto e Lazer",
+  "taxonomy.cause.technology-and-innovation": "Tecnologia e Inovação",
+  "taxonomy.cause.youth-development": "Desenvolvimento Juvenil",
+  "taxonomy.skill.cooking": "Culinária",
+  "taxonomy.skill.communication": "Comunicação",
+  "taxonomy.skill.teaching": "Ensino",
+  "taxonomy.skill.programming": "Programação",
+  "taxonomy.skill.design": "Design",
+  "taxonomy.skill.marketing": "Marketing",
+  "taxonomy.skill.project-management": "Gestão de Projetos",
+  "taxonomy.skill.data-analysis": "Análise de Dados",
+  "taxonomy.skill.graphic-design": "Design Gráfico",
+  "taxonomy.skill.web-development": "Desenvolvimento Web",
+  "taxonomy.skill.content-creation": "Criação de Conteúdo",
+  "taxonomy.skill.social-media": "Redes Sociais",
+  "taxonomy.skill.translation": "Tradução",
+  "taxonomy.skill.tutoring": "Explicações",
+  "taxonomy.skill.mentoring": "Mentoria",
+  "taxonomy.skill.leadership": "Liderança",
+  "taxonomy.skill.research": "Investigação",
+  "taxonomy.skill.fundraising": "Angariação de Fundos",
+  "taxonomy.skill.event-planning": "Planeamento de Eventos",
+  "taxonomy.skill.first-aid": "Primeiros Socorros",
+  "taxonomy.skill.gardening": "Jardinagem",
+  "taxonomy.skill.photography": "Fotografia",
+  "taxonomy.skill.writing": "Escrita",
+  "taxonomy.skill.coaching": "Coaching",
+  "taxonomy.skill.advocacy": "Advocacia",
+  "taxonomy.skill.legal": "Jurídico",
+  "taxonomy.skill.finance": "Finanças",
+  "taxonomy.skill.nursing": "Enfermagem",
+  "taxonomy.skill.software-development": "Desenvolvimento de Software",
+  "taxonomy.skill.data-entry": "Introdução de Dados",
+  "taxonomy.skill.bookkeeping": "Contabilidade",
+  "taxonomy.skill.organization": "Organização",
+  "taxonomy.skill.teamwork": "Trabalho em Equipa",
+  "taxonomy.skill.public-speaking": "Oratória",
+  "taxonomy.skill.logistics": "Logística",
+  "taxonomy.skill.field-work": "Trabalho de Campo",
+  "taxonomy.skill.conservation-techniques": "Técnicas de Conservação",
+  "taxonomy.skill.environmental-knowledge": "Conhecimento Ambiental",
+  "taxonomy.skill.recycling": "Reciclagem",
+  "taxonomy.skill.carpentry": "Carpintaria",
+  "taxonomy.skill.electrical-work": "Trabalhos Elétricos",
+  "taxonomy.skill.plumbing": "Canalização",
+  "taxonomy.skill.videography": "Videografia",
+  "taxonomy.skill.visual-arts": "Artes Visuais",
+  "taxonomy.skill.performing-arts": "Artes Performativas",
+  "taxonomy.skill.drawing": "Desenho",
+  "taxonomy.skill.web-design": "Design Web",
+  "taxonomy.skill.content-writing": "Redação",
+  "taxonomy.skill.social-media-management": "Gestão de Redes Sociais",
+  "taxonomy.skill.grant-writing": "Redação de Subsídios",
+  "taxonomy.skill.strategic-planning": "Planeamento Estratégico",
+  "taxonomy.skill.strategy": "Estratégia",
+  "taxonomy.skill.operations": "Operações",
+  "taxonomy.skill.project-coordination": "Coordenação de Projetos",
+  "taxonomy.skill.team-coordination": "Coordenação de Equipa",
+  "taxonomy.skill.office-management": "Gestão de Escritório",
+  "taxonomy.skill.regulatory-compliance": "Conformidade Regulamentar",
+  "taxonomy.skill.financial-planning": "Planeamento Financeiro",
+  "taxonomy.skill.food-safety": "Segurança Alimentar",
+  "taxonomy.skill.nutrition-planning": "Planeamento Nutricional",
+  "taxonomy.skill.mental-health-support": "Apoio à Saúde Mental",
+  "taxonomy.skill.addiction-counseling": "Aconselhamento em Dependências",
+  "taxonomy.skill.family-support": "Apoio Familiar",
+  "taxonomy.skill.special-education": "Educação Especial",
+  "taxonomy.skill.youth-mentoring": "Mentoria de Jovens",
+  "taxonomy.skill.language-instruction": "Ensino de Línguas",
+  "taxonomy.skill.it-support": "Suporte Informático",
+  "taxonomy.skill.legal-advice": "Aconselhamento Jurídico",
+  "taxonomy.skill.legal-consulting": "Consultoria Jurídica",
+  "taxonomy.skill.writing-and-editing": "Escrita e Edição",
+  "taxonomy.sdg.no_poverty": "Erradicar a Pobreza",
+  "taxonomy.sdg.zero_hunger": "Erradicar a Fome",
+  "taxonomy.sdg.good_health_and_well_being": "Saúde de Qualidade",
+  "taxonomy.sdg.quality_education": "Educação de Qualidade",
+  "taxonomy.sdg.gender_equality": "Igualdade de Género",
+  "taxonomy.sdg.clean_water_and_sanitation": "Água Potável e Saneamento",
+  "taxonomy.sdg.affordable_and_clean_energy": "Energias Renováveis e Acessíveis",
+  "taxonomy.sdg.decent_work_and_economic_growth": "Trabalho Digno e Crescimento Económico",
+  "taxonomy.sdg.industry_innovation_and_infrastructure": "Indústria, Inovação e Infraestruturas",
+  "taxonomy.sdg.reduced_inequality": "Reduzir as Desigualdades",
+  "taxonomy.sdg.sustainable_cities_and_communities": "Cidades e Comunidades Sustentáveis",
+  "taxonomy.sdg.responsible_consumption_and_production": "Produção e Consumo Sustentáveis",
+  "taxonomy.sdg.climate_action": "Ação Climática",
+  "taxonomy.sdg.life_below_water": "Proteger a Vida Marinha",
+  "taxonomy.sdg.life_on_land": "Proteger a Vida Terrestre",
+  "taxonomy.sdg.peace_justice_and_strong_institutions": "Paz, Justiça e Instituições Eficazes",
+  "taxonomy.sdg.partnerships_for_the_goals": "Parcerias para os Objetivos",
+  "Mission image (optional)": "Imagem da missão (opcional)",
+  "Mission image recommended dimensions": "Dimensões recomendadas: 1200 × 480 px (5:2). O banner é cortado para caber.",
+  "Upload mission image": "Carregar imagem da missão",
+  "Upload files": "Carregar ficheiros",
+  "Mission image preview": "Pré-visualização da imagem da missão",
+  "JPG or PNG, up to 5MB.": "JPG ou PNG, até 5MB.",
+  "Failed to upload mission image.": "Falha ao carregar imagem da missão.",
+  "Some files could not be uploaded.": "Não foi possível carregar alguns ficheiros.",
+  "Mission was created, but {{count}} document uploads failed.": "A missão foi criada, mas {{count}} carregamentos de documentos falharam.",
+  "Mission title is required": "O título da missão é obrigatório",
+  "Mission title must be at least 3 characters": "O título da missão deve ter pelo menos 3 caracteres",
+  "Mission description is required": "A descrição da missão é obrigatória",
+  "Mission description must be at least 10 characters": "A descrição da missão deve ter pelo menos 10 caracteres",
+  "Hours Required": "Horas necessárias",
+  "Required hours is mandatory": "As horas necessárias são obrigatórias",
+  "Required hours must be greater than 0": "As horas necessárias devem ser superiores a 0",
+  "Volunteers required is mandatory": "O número de voluntários é obrigatório",
+  "Volunteers required must be greater than 0": "O número de voluntários deve ser superior a 0",
+  "per volunteer": "por voluntário",
+  "Select at least one item from {{label}}": "Selecione pelo menos um item de {{label}}",
+  "{{count}} selected": "{{count}} selecionados",
+  "Select at least one ODS": "Selecione pelo menos um ODS",
+  "ODS": "ODS",
+  "Initiative type": "Tipo de iniciativa",
+  "Recurring": "Recorrente",
+  "This initiative is led by {{organization}}.": "Esta iniciativa é liderada por {{organization}}.",
+  "Participants": "Participantes",
+  "Participant data will be available soon.": "Os dados dos participantes estarão disponíveis em breve."
+  ,"Joined": "Inscritos"
+  ,"Spots left": "Vagas restantes"
+  ,"Required": "Necessários"
+  ,"Mission Title": "Título da missão"
+  ,"Mission Description": "Descrição da missão"
+  ,"Volunteers Required": "Voluntários necessários"
+  ,"Initiative reach": "Alcance da iniciativa"
+  ,"Indicate approximate number of beneficiaries reached": "Indique nº de beneficiários alcançados aprox."
+  ,"Review and Publish": "Rever e publicar"
+  ,"About this Mission": "Sobre esta missão"
+  ,"Requires prior interview": "Requer entrevista prévia"
+  ,"No prior interview required": "Não requer entrevista prévia"
+  ,"About the Organization": "Sobre a organização"
+  ,"About this organization": "Sobre a instituição"
+  ,"Institution profile": "Perfil da instituição"
+  ,"Share this mission": "Partilhar esta missão"
+  ,"Share on Twitter": "Partilhar no Twitter"
+  ,"Share on LinkedIn": "Partilhar no LinkedIn"
+  ,"Share on Facebook": "Partilhar no Facebook"
+  ,"Copy link": "Copiar ligação"
+  ,"Organization profile": "Perfil da organização"
+  ,"I Want to Help": "Quero ajudar!"
+  ,"Spots filled": "Vagas preenchidas"
+  ,"Sem vagas/Fechada": "Sem vagas/Fechada"
+  ,"Details": "Detalhes"
+  ,"Launch Mission": "Lançar missão"
+  ,"View Calendar": "Ver calendário"
+  ,"Organization Impact": "Impacto da organização"
+  ,"Volunteers Engaged": "Voluntários envolvidos"
+  ,"Missions Completed": "Missões concluídas"
+  ,"People Benefitted": "Pessoas beneficiadas"
+  ,"People Benefitted Formula": "Soma de beneficiários das missões concluídas"
+  ,"Missions Pending Approval": "Missões pendentes de aprovação"
+  ,"Brisa Group Proposed Initiatives": "Iniciativas propostas pelo Grupo Brisa"
+  ,"No pending missions to approve.": "Sem missões pendentes para aprovar."
+  ,"Website": "Website"
+  ,"Nonprofit": "Organização sem fins lucrativos"
+  ,"Founded": "Fundada"
+  ,"View all pending": "Ver todas as pendentes"
+  ,"Showing first {{count}} pending missions.": "A mostrar as primeiras {{count}} missões pendentes."
+  ,"View all": "Ver todas"
+  ,"Scheduled Missions": "Missões agendadas"
+  ,"No upcoming missions.": "Sem missões agendadas."
+  ,"Upcoming": "Agendada"
+  ,"View": "Ver"
+  ,"Download PDF": "Transferir PDF"
+  ,"Share": "Partilhar"
+  ,"Personal Impact": "Impacto Pessoal"
+  ,"Level": "Nível"
+  ,"Impact Resumé": "Resumo de Impacto"
+  ,"Causes Supported": "Causas Apoiadas"
+  ,"Top Skills": "Principais Competências"
+  ,"Organizations Engaged": "Organizações envolvidas"
+  ,"Regional Impact": "Impacto regional"
+  ,"Achievements": "Conquistas"
+  ,"Team Contribution": "Contribuição da Equipa"
+  ,"of company total": "do total da empresa"
+  ,"Application withdrawn successfully!": "Candidatura retirada com sucesso!"
+  ,"Search applications...": "Pesquisar candidaturas..."
+  ,"Loading applications...": "A carregar candidaturas..."
+  ,"No applications for this mission yet.": "Ainda não existem candidaturas para esta missão."
+  ,"Applied Date": "Data de candidatura"
+  ,"Reviewed Date": "Data de revisão"
+  ,"Unknown volunteer": "Voluntário desconhecido"
+  ,"Volunteer profile": "Perfil do voluntário"
+  ,"View profile": "Ver perfil"
+  ,"View details": "Ver detalhes"
+  ,"Volunteer details": "Detalhes do voluntário"
+  ,"Reject application": "Rejeitar candidatura"
+  ,"Rejection reason (optional)": "Motivo da rejeição (opcional)"
+  ,"Decision Note": "Nota da decisão"
+  ,"Reject": "Rejeitar"
+  ,"Approved volunteer hours": "Horas de voluntariado aprovadas"
+  ,"Missions participated": "Missões em que participou"
+  ,"Withdraw": "Retirar"
+  ,"Go to Mission": "Ir para missão"
+  ,"Withdraw Application": "Retirar candidatura"
+  ,"Find Other Missions": "Encontrar outras missões"
+  ,"Accepted": "Aceite"
+  ,"Withdrawn": "Retirada"
+  ,"Please provide a rating": "Por favor, indique uma avaliação"
+  ,"Feedback submitted successfully!": "Feedback enviado com sucesso!"
+  ,"Certificate downloaded successfully!": "Certificado transferido com sucesso!"
+  ,"Search past missions...": "Pesquisar missões passadas..."
+  ,"Loading past missions...": "A carregar missões passadas..."
+  ,"No past missions": "Sem missões passadas"
+  ,"You have not completed any missions yet": "Ainda não concluiu nenhuma missão"
+  ,"Find Missions": "Encontrar missões"
+  ,"Completion Date": "Data de conclusão"
+  ,"Skills Utilized": "Competências utilizadas"
+  ,"Provide Feedback": "Dar feedback"
+  ,"View Certificate": "Ver certificado"
+  ,"Feedback Provided": "Feedback fornecido"
+  ,"Share your experience volunteering with": "Partilhe a sua experiência de voluntariado com"
+  ,"Share your thoughts about this volunteer experience...": "Partilhe a sua opinião sobre esta experiência de voluntariado..."
+  ,"Volunteer Certificate": "Certificado de Voluntário"
+  ,"Certificate of Appreciation": "Certificado de Reconhecimento"
+  ,"This is to certify that": "Certifica-se que"
+  ,"has successfully volunteered": "voluntariou com sucesso"
+  ,"for": "para"
+  ,"with": "com"
+  ,"Completed on": "Concluído em"
+  ,"Share Your Achievement": "Partilhe a sua conquista"
+  ,"Share your volunteer experience with your network": "Partilhe a sua experiência de voluntariado com a sua rede"
+  ,"Download": "Transferir"
+  ,"Please enter valid hours": "Por favor, indique horas válidas"
+  ,"Hours logged successfully": "Horas registadas com sucesso"
+  ,"Mission marked complete": "Missão marcada como concluída"
+  ,"Sign in to see your missions": "Inicie sessão para ver as suas missões"
+  ,"Your current missions will appear here once you're logged in.": "As suas missões atuais aparecerão aqui assim que iniciar sessão."
+  ,"Loading missions...": "A carregar missões..."
+  ,"Could not load current missions": "Não foi possível carregar as missões atuais"
+  ,"No current missions": "Sem missões atuais"
+  ,"No pending missions": "Sem missões pendentes"
+  ,"You have no missions where you're a candidate. Browse missions and apply to get started.": "Não tem missões em que seja candidato. Explore as missões e candidate-se para começar."
+  ,"You haven't joined any missions yet. Browse available missions to get started.": "Ainda não aderiu a nenhuma missão. Explore as missões disponíveis para começar."
+  ,"You are not currently participating in any missions": "Atualmente não está a participar em nenhuma missão"
+  ,"Hours Log": "Registo de horas"
+  ,"Loading hours log...": "A carregar registo de horas..."
+  ,"No hours logged yet": "Ainda sem horas registadas"
+  ,"Please enter the number of hours": "Por favor, indique o número de horas"
+  ,"Record the time you spent volunteering for": "Registe o tempo que dedicou ao voluntariado em"
+  ,"Describe what you did during this time": "Descreva o que fez durante este tempo"
+  ,"Please note: Submitted hours will be reviewed and confirmed by the nonprofit organization before being officially recorded.": "Nota: As horas submetidas serão revistas e confirmadas pela organização antes de serem oficialmente registadas."
+  ,"Submit Hours": "Submeter horas"
+  ,"Duration": "Duração"
+  ,"Tasks": "Tarefas"
+  ,"hours completed": "horas concluídas"
+  ,"Complete": "Concluir"
+  ,"Mark Complete": "Marcar como concluída"
+  ,"Progress": "Progresso"
+  ,"Log Hours": "Registar horas"
+  ,"Metrics": "Métricas"
+  ,"Missions started over time": "Missões iniciadas ao longo do tempo"
+  ,"Monthly mission starts": "Inícios de missões mensais"
+  ,"Participants enrolled monthly": "Participantes inscritos por mês"
+  ,"Participants completed monthly": "Participantes concluídos por mês"
+  ,"missions": "missões"
+  ,"Enrolled": "Inscritos"
+  ,"Unauthorized": "Não autorizado"
+  ,"Finished": "Concluída"
+  ,"View details for {{title}}": "Ver detalhes de {{title}}"
+  ,"Skill match": "Correspondência de competências"
+  ,"Shared to {{platform}}!": "Partilhado no {{platform}}!"
+  ,"Impact": "Impacto"
+  ,"hrs": "h"
+  ,"Enter project name...": "Introduz o nome do projeto..."
+  ,"Describe project objectives and impact...": "Descreve os objetivos e o impacto do projeto..."
+  ,"Select format": "Selecionar formato"
+  ,"Select category": "Selecionar categoria"
+  ,"Select district": "Selecionar distrito"
+  ,"Project name": "Nome do Projeto"
+  ,"Description": "Descrição"
+  ,"Format": "Formato"
+  ,"Category": "Categoria"
+  ,"Periodicity": "Periodicidade"
+  ,"One-off": "Pontual"
+  ,"In-person": "Presencial"
+  ,"Virtual": "Virtual"
+  ,"Location details": "Detalhes do local"
+  ,"Enter address or specific location...": "Introduz o endereço ou local específico..."
+  ,"Project objectives": "Objetivos do Projeto"
+  ,"Describe project objectives...": "Descreve os objetivos do projeto..."
+  ,"Invite participants": "Convidar Participantes"
+  ,"selected": "selecionado(s)"
+  ,"Select participants...": "Selecionar participantes..."
+  ,"Search name...": "Procurar nome..."
+  ,"No volunteers found": "Nenhum voluntário encontrado"
+  ,"Selected participants": "Participantes selecionados"
+  ,"Invite institutions": "Convidar Instituições"
+  ,"Choose a partner institution...": "Escolhe uma instituição parceira..."
+  ,"Write notes about the project...": "Escreve notas sobre o projeto..."
+  ,"Project details": "Detalhe do Projeto"
+  ,"Schedule:": "Cronograma:"
+  ,"Team:": "Equipa:"
+  ,"Location:": "Local:"
+  ,"Format:": "Formato:"
+  ,"Periodicity:": "Periodicidade:"
+  ,"Causes:": "Causas:"
+  ,"Partner institutions:": "Instituições Parceiras:"
+  ,"None": "Nenhuma"
+  ,"Comments": "Comentários"
+  ,"No participants invited": "Nenhum participante convidado"
+  ,"Selected Partners": "Parceiros selecionados"
+  ,"Nonprofit Partner": "Parceiro ONG"
+  ,"View Profile": "Ver perfil"
+  ,"No Partners Yet": "Ainda sem parceiros"
+  ,"This project has no nonprofit partners. Invite organizations to collaborate.": "Este projeto não tem parceiros. Convide organizações para colaborar."
+  ,"Invite Nonprofit Partners": "Convidar parceiros"
+  ,"Partner institutions": "Instituições parceiras"
+  ,"collaborators": "colaboradores"
+  ,"Local": "Local"
+  ,"Select": "Selecionar"
+  ,"Complete Mission": "Concluir Missão"
+  ,"Review and edit final hours for each approved participant before completing this mission.": "Reveja e edite as horas finais de cada participante aprovado antes de concluir esta missão."
+  ,"Loading...": "A carregar..."
+  ,"No approved participants found for this mission.": "Nenhum participante aprovado encontrado para esta missão."
+  ,"Approved hours": "Horas aprovadas"
+  ,"Final hours": "Horas finais"
+  ,"Total final hours": "Total de horas finais"
+  ,"Final hours must be a number greater than or equal to zero.": "As horas finais devem ser um número maior ou igual a zero."
+  ,"Confirm and Complete Mission": "Confirmar e Concluir Missão"
+  ,"Error": "Erro"
+  ,"Mission completed": "Missão concluída"
+  ,"Not Started": "Não iniciada"
+  ,"Open": "Aberto"
+  ,"Full": "Completo"
+  ,"Mission In Progress": "Missão em curso"
+  ,"Mission Completed": "Missão concluída"
+  ,"Cancelled": "Cancelada"
+  ,"Volunteer access required": "Acesso exclusivo a voluntários"
+  ,"Start Mission": "Iniciar Missão"
+  ,"Click only when the initiative starts.": "Clique apenas quando a iniciativa começar."
+  ,"Starting...": "A iniciar..."
+  ,"Mission started": "Missão iniciada"
+  ,"Mission completed successfully.": "Missão concluída com sucesso."
+  ,"Participation ended before completion.": "Participação terminou antes da conclusão."
+  ,"Mission not approved": "Missão não aprovada"
+  ,"Mission cancelled": "Missão cancelada"
+  ,"Mission unavailable": "Missão indisponível"
+  ,"Mission deleted": "Missão eliminada"
+  ,"Unable to join mission": "Não foi possível aderir à missão"
+  ,"Joined mission": "Aderiu à missão"
+  ,"Unable to leave mission": "Não foi possível sair da missão"
+  ,"Left mission": "Saiu da missão"
+  ,"Unable to start mission": "Não foi possível iniciar a missão"
+  ,"Delete mission?": "Eliminar missão?"
+  ,"This action cannot be undone. The mission will be permanently removed.": "Esta ação não pode ser anulada. A missão será removida permanentemente."
+  ,"companyProject": {
+    "organizersTitle": "Organizadores",
+    "organizersSubtitle": "Utilizadores da plataforma que estarão na organização do projecto",
+    "inviteInstitutions": "Convidar instituições",
+    "volunteerPartnerHint": "Para projetos de voluntariado, indica pelo menos uma ONG parceira.",
+    "choosePartnerPlaceholder": "Escolhe uma instituição parceira…",
+    "selectedPartners": "Parceiros selecionados",
+    "missionIncompleteBanner": "Ainda não criou uma missão associada a este projeto.",
+    "resumeMission": "Continuar missão",
+    "createMission": "Criar missão",
+    "createMissionAfterProject": "Criar missão logo após a criação do projeto",
+    "linkedMissionTitle": "Missão associada",
+    "viewLinkedMission": "Ver missão",
+    "linkedMissionNameLabel": "Missão:",
+    "linkedMissionScheduleLabel": "Agenda:",
+    "linkedMissionApprovalLabel": "Aprovação:",
+    "linkedMissionExecutionLabel": "Execução:",
+    "linkedMissionFormatLabel": "Formato:",
+    "linkedMissionVolunteersLabel": "Voluntários necessários:",
+    "linkedMissionLocationLabel": "Local:",
+    "projectStatusLabel": "Estado do projeto:",
+    "missionRequiredLabel": "Missão obrigatória:",
+    "missionSetupStatusLabel": "Estado de configuração da missão:",
+    "targetNonprofitLabel": "ONG alvo:",
+    "locationDetailsLabel": "Detalhes do local:",
+    "projectGoalsLabel": "Objetivos do projeto:",
+    "commentsTitle": "Comentários",
+    "legacyNoteLabel": "Nota anterior",
+    "commentAuthorFallback": "Utilizador",
+    "commentsEmpty": "Ainda não existem comentários neste projeto.",
+    "commentsComposerPlaceholder": "Escreve um comentário...",
+    "commentSend": "Comentar",
+    "commentSending": "A enviar...",
+    "commentCreateError": "Não foi possível publicar o comentário.",
+    "editProjectButton": "Editar projeto",
+    "editProjectTitle": "Editar projeto",
+    "editProjectDescription": "Atualiza os detalhes do projeto, cronograma e organizações parceiras.",
+    "editParticipantsButton": "Editar participantes",
+    "editParticipantsTitle": "Editar participantes do projeto",
+    "editParticipantsDescription": "Seleciona os utilizadores convidados para este projeto.",
+    "departmentFallback": "Sem departamento",
+    "noParticipantsAvailableToInvite": "Não existem utilizadores disponíveis para convite.",
+    "savingParticipants": "A guardar...",
+    "commentPermissionHint": "Apenas utilizadores convidados e admins da empresa podem comentar neste projeto.",
+    "yes": "Sim",
+    "no": "Não",
+    "participantsSection": "Participantes",
+    "noParticipants": "Sem participantes.",
+    "volunteerPartnerRequired": "Seleciona pelo menos uma ONG parceira para voluntariado.",
+    "createPageTitle": "Criar projeto",
+    "createPageSubtitle": "Define os detalhes do projeto da empresa.",
+    "missionLinkedToProjectBanner": "Esta missão está ligada ao projeto «{{title}}».",
+    "partnerLockedHint": "O parceiro foi definido no projeto e não pode ser alterado aqui.",
+    "loadError": "Não foi possível carregar os projetos.",
+    "endedSuccess": "Projeto marcado como concluído.",
+    "incompleteMissionsTitle": "Missões por concluir",
+    "incompleteMissionsHint": "Criou um projeto mas ainda não criou a missão correspondente.",
+    "incompleteMissionStatus": "Configuração incompleta",
+    "listPageTitle": "Projetos empresariais",
+    "listSectionActiveTitle": "Projetos Ativos",
+    "listSectionCompletedTitle": "Projetos Concluídos",
+    "badgeInProgress": "Em curso",
+    "badgeCompleted": "Concluído",
+    "partnerCountOne": "{{count}} parceiro",
+    "partnerCountOther": "{{count}} parceiros",
+    "collaboratorCountOne": "{{count}} colaborador",
+    "collaboratorCountOther": "{{count}} colaboradores",
+    "endProject": "Terminar",
+    "changeStatusButton": "Mudar estado",
+    "endProjectConfirmTitle": "Terminar projeto?",
+    "endProjectConfirmDescription": "Esta ação vai marcar o projeto como concluído. Deixará de ser tratado como ativo.",
+    "ownerLabel": "Responsável",
+    "acceptedOverRequiredLabel": "Aceites / Necessários",
+    "ownerCompanyFallback": "Empresa",
+    "ownerNonprofitFallback": "ONG",
+    "viewProjectDetails": "Ver detalhes",
+    "participantFallback": "Participante {{id}}",
+    "nonprofitNameFallback": "ONG",
+    "fillRequiredFields": "Preenche todos os campos obrigatórios.",
+    "requiredField": "Campo obrigatório.",
+    "endDateAfterStart": "A data de fim deve ser posterior à data de início.",
+    "sessionExpired": "Sessão expirada. Inicia sessão novamente.",
+    "createFailed": "Não foi possível criar o projeto.",
+    "createSuccess": "Projeto criado com sucesso.",
+    "partnerNonprofitLabel": "ONG parceira",
+    "keepMissionOnCompany": "Não associar esta missão a uma ONG (manter na empresa)",
+    "keepMissionOnCompanyHint": "Esta missão ficará na empresa e não será associada a nenhuma ONG.",
+    "selectNonprofitPlaceholder": "Selecionar ONG",
+    "searchNonprofitPlaceholder": "Procurar ONG…",
+    "noNonprofitsFound": "Nenhuma ONG encontrada",
+    "selectNonprofitRequired": "Seleciona uma ONG parceira.",
+    "missionApprovalStatus": {
+      "pending": "Pendente",
+      "approved": "Aprovada",
+      "rejected": "Rejeitada"
+    },
+    "missionExecutionStatus": {
+      "not_started": "Não iniciada",
+      "in_progress": "Em curso",
+      "completed": "Concluída",
+      "cancelled": "Cancelada"
+    },
+    "missionSetupStatus": {
+      "not_required": "Não obrigatória",
+      "incomplete": "Incompleta",
+      "completed": "Concluída"
+    },
+    "category": {
+      "voluntariado": "Voluntariado",
+      "workshop": "Workshop",
+      "teamBuilding": "Team building",
+      "doacoesFilantropia": "Doações e filantropia",
+      "parceriaEstrategica": "Parceria estratégica",
+      "inclusaoDiversidade": "Inclusão e diversidade",
+      "emergenciaRespostaRapida": "Emergência e Resposta Rápida"
+    }
+  }
+  ,"projectsEmpty": {
+    "activeMatching": "Sem projetos ativos que correspondam aos critérios.",
+    "completedMatching": "Sem projetos concluídos que correspondam aos critérios."
+  }
+  ,"District": "Distrito"
+  ,"All Districts": "Todos os distritos"
+  ,"Clear Filters": "Limpar filtros"
+  ,"District is required": "O distrito é obrigatório"
+  ,"Mission documents (max 5)": "Documentos da missão (máx. 5)"
+  ,"No missions found matching your criteria.": "Não foram encontradas missões para os critérios selecionados."
+  ,"Maximum reached": "Limite atingido"
+  ,"You can upload up to 5 photos.": "Pode carregar até 5 fotos."
+  ,"You can upload up to 5 final documents.": "Pode carregar até 5 documentos finais."
+  ,"Final beneficiaries impacted": "Beneficiários finais impactados"
+  ,"Completion photos (max 5)": "Fotos de conclusão (máx. 5)"
+  ,"Final documents (max 5)": "Documentos finais (máx. 5)"
+  ,"Final beneficiaries must be a number greater than or equal to zero.": "Os beneficiários finais devem ser um número maior ou igual a zero."
+  ,"No documents uploaded.": "Sem documentos carregados."
+  ,"Documents": "Documentos"
+  ,"Final Documents": "Documentos finais"
+  ,"No final documents uploaded.": "Sem documentos finais carregados."
+  ,"Photos": "Fotos"
+  ,"No photos uploaded.": "Sem fotos carregadas."
+  ,"Photo Gallery": "Galeria de fotos"
+  ,"Previous": "Anterior"
+  ,"No photo available.": "Sem foto disponível."
+}
