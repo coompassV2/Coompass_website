@@ -1,0 +1,64 @@
+
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Disallow admin areas and private pages
+Disallow: /admin/
+Disallow: /api/
+Disallow: /company/
+Disallow: /nonprofit/
+Disallow: /volunteer/
+Disallow: /executive/
+Disallow: /login
+Disallow: /register
+Disallow: /demo
+Disallow: /auth/
+
+# LLM Crawlers (ChatGPT, Claude, Gemini, etc.)
+User-agent: GPTBot
+Allow: /
+Disallow: /company/
+Disallow: /nonprofit/
+Disallow: /volunteer/
+Disallow: /executive/
+Disallow: /login
+Disallow: /register
+Disallow: /demo
+Disallow: /auth/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /company/
+Disallow: /nonprofit/
+Disallow: /volunteer/
+Disallow: /executive/
+Disallow: /login
+Disallow: /register
+Disallow: /demo
+Disallow: /auth/
+
+User-agent: anthropic-ai
+Allow: /
+Disallow: /company/
+Disallow: /nonprofit/
+Disallow: /volunteer/
+Disallow: /executive/
+Disallow: /login
+Disallow: /register
+Disallow: /demo
+Disallow: /auth/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /company/
+Disallow: /nonprofit/
+Disallow: /volunteer/
+Disallow: /executive/
+Disallow: /login
+Disallow: /register
+Disallow: /demo
+Disallow: /auth/
+
+# Sitemaps
+Sitemap: https://coompass.org/sitemap.xml
