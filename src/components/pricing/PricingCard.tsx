@@ -36,7 +36,7 @@ export function PricingCard({
       popular && "ring-2 ring-purple-600"
     )}>
       {popular && (
-        <div className="absolute top-0 right-6 -translate-y-3 bg-purple-600 text-white px-3 py-0.5 text-xs font-semibold rounded-full">
+        <div className="absolute top-0 right-6 -translate-y-3 inline-flex rounded-full border border-[#161616]/15 bg-[#161616]/[0.03] px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-[#161616]/75">
           MOST POPULAR
         </div>
       )}

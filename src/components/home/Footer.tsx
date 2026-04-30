@@ -24,9 +24,6 @@ export function Footer() {
                 className="h-8"
               />
             </div>
-            <p className="text-gray-600 text-sm mb-4">
-              Connecting companies, nonprofits, and people in an all-in-one platform to create meaningful change through AI-powered sustainability initiatives, seamless volunteer engagement, and real-time impact reporting.
-            </p>
             <div className="flex space-x-4">
               <a href="https://x.com/coompassio" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-400">
                 <img src="https://img.icons8.com/?size=100&id=de4vjQ6J061l&format=png&color=000000" alt="X (Twitter)" className="h-5 w-5" />
@@ -136,7 +133,7 @@ export function Footer() {
         </div>
 
         {/* Partnerships Section between footer links and copyright */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 border-t border-gray-200 mt-10 pt-10 mb-10">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-10 pt-10 mb-10">
           <div className="flex items-center justify-center lg:justify-start">
             <h3 className="text-sm mr-3 text-gray-500 font-normal">Taking action for the</h3>
             <a href="https://sdgs.un.org/goals" target="_blank" rel="noopener noreferrer">

@@ -1,5 +1,4 @@
 
-import { Footer } from "@/components/home/Footer";
 import { Header } from "@/components/home/Header";
 import { Card, CardContent } from "@/components/ui/card";
 import { TermsHeader } from "@/components/terms/TermsHeader";
@@ -73,8 +72,6 @@ export default function TermsConditions() {
           </Card>
         </div>
       </main>
-
-      <Footer />
     </div>
   );
 }

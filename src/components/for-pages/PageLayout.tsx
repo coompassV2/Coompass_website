@@ -1,6 +1,5 @@
 
 import { Header } from "@/components/home/Header";
-import { Footer } from "@/components/home/Footer";
 import { AuroraText } from "@/components/ui/aurora-text";
 import { SEOManager } from "@/components/shared/SEOManager";
 import { ReactNode } from "react";
@@ -50,8 +49,6 @@ export function PageLayout({
           {children}
         </main>
       </div>
-
-      <Footer />
     </div>
   );
 }

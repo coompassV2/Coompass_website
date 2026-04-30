@@ -39,7 +39,7 @@ export function BentoGridSection({ title, items }: BentoGridSectionProps) {
               {item.description}
             </p>
             <div className="mt-auto">
-              <span className={`text-xs ${item.textColorClass} font-semibold ${item.bgColorClass.replace('from-', 'bg-').replace(' to-' + item.bgColorClass.split(' to-')[1], '')} py-1 px-2 rounded-full`}>
+              <span className="inline-flex rounded-full border border-[#161616]/15 bg-[#161616]/[0.03] px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-[#161616]/75">
                 {item.badge}
               </span>
             </div>

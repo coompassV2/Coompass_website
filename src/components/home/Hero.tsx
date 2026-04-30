@@ -81,14 +81,6 @@ export function Hero() {
         animate="visible"
       >
         <div className="max-w-4xl w-full">
-          {/* Tagline */}
-          <motion.div 
-            className="text-white/60 text-sm font-light tracking-wide mb-6"
-            variants={textVariants}
-          >
-            When social problems become overwhelming, teams with a clear purpose stay strong.
-          </motion.div>
-          
           {/* Headline */}
           <motion.h1 
             className="text-5xl md:text-6xl lg:text-7xl font-light leading-none mb-8"
@@ -100,25 +92,34 @@ export function Hero() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
             >
-              Engage Corporate Volunteers.
-            </motion.span>
-            <motion.span 
-              className="block text-white/90"
-              initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 1, delay: 0.8, ease: "easeOut" }}
-            >
-              Master ESG Impact.
+              Run Your Entire Impact in One Single Place.
             </motion.span>
           </motion.h1>
           
           {/* Paragraph */}
           <motion.p 
-            className="lg:max-w-3xl text-white/70 font-light leading-relaxed"
+            className="lg:max-w-3xl text-white font-normal text-lg leading-relaxed"
             variants={textVariants}
           >
-            The all-in-one platform that creates meaningful connections between organizations and volunteers, driving sustainable change through skill-based collaboration and measurable social impact.
+            Centralise your initiatives, data and reporting so your team can manage, measure and scale impact with full control.
           </motion.p>
+          <motion.div
+            className="mt-6 flex flex-wrap gap-3"
+            variants={textVariants}
+          >
+            <a
+              href="/login"
+              className="inline-flex items-center justify-center rounded-full border border-white/70 bg-black/25 px-6 py-3 text-sm font-medium text-white backdrop-blur-sm transition hover:bg-black/40"
+            >
+              Open App
+            </a>
+            <a
+              href="/contact"
+              className="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-medium text-black transition hover:bg-white/90"
+            >
+              Custom Solution
+            </a>
+          </motion.div>
         </div>
       </motion.div>
     </div>

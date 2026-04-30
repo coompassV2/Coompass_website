@@ -69,7 +69,7 @@ export function TestimonialsSection() {
             >
               <div className="mb-4 flex items-center">
                 <Quote className="h-8 w-8 text-purple-400/30" />
-                <span className="ml-2 text-xs uppercase font-semibold text-purple-600 bg-purple-50 px-3 py-1 rounded-full">
+                <span className="ml-2 inline-flex rounded-full border border-[#161616]/15 bg-[#161616]/[0.03] px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-[#161616]/75">
                   {testimonial.persona === "volunteer" && "Volunteer"}
                   {testimonial.persona === "company" && "Company"}
                   {testimonial.persona === "nonprofit" && "Nonprofit"}

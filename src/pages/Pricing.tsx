@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Header } from "@/components/home/Header";
-import { Footer } from "@/components/home/Footer";
 import { PricingSection } from "@/components/pricing/PricingSection";
 import { TestimonialsSection } from "@/components/pricing/TestimonialsSection";
 import { CompareFeatures } from "@/components/pricing/CompareFeatures";
@@ -48,8 +47,6 @@ export default function Pricing() {
         <div className="container mx-auto px-4 py-16">
           <CallToActionSection />
         </div>
-        
-        <Footer />
       </div>
     </div>
   );

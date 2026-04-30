@@ -1,14 +1,12 @@
-import { Header } from "@/components/home/Header";
 import { Hero } from "@/components/home/Hero";
-import { FeaturesOverview } from "@/components/home/FeaturesOverview";
-import { TrustedCompanies } from "@/components/home/TrustedCompanies";
-import { Footer } from "@/components/home/Footer";
-import { ESGKPISection } from "@/components/home/ESGKPISection";
-import { CallToActionSection } from "@/components/about/CallToActionSection";
+import { ImpactOperationsSection } from "@/components/home/ImpactOperationsSection";
+import { Header } from "@/components/home/Header";
+import { WhatWeDoSection } from "@/components/home/WhatWeDoSection";
+import { ImpactStatsSection } from "@/components/home/ImpactStatsSection";
+import { WhyChooseCoompassSection } from "@/components/home/WhyChooseCoompassSection";
+import { HomeCtaSection } from "@/components/home/HomeCtaSection";
+import { HomepageFaqSection } from "@/components/home/HomepageFaqSection";
 import { SEOManager } from "@/components/shared/SEOManager";
-import { ImpactOutcomesSection } from "@/components/home/ImpactOutcomesSection";
-import { ImpactAndESGSection } from "@/components/home/ImpactAndESGSection";
-import { ValuePropositionCards } from "@/components/home/ValuePropositionCards";
 
 export default function Homepage() {
   const organizationStructuredData = {
@@ -52,41 +50,26 @@ export default function Homepage() {
         keywords="ESG platform, corporate volunteering, social impact, sustainability initiatives, nonprofit partnerships, CSR platform, employee engagement, volunteering, corporate social responsibility, ESG reporting, sustainable development goals, business ESG solutions"
         structuredData={organizationStructuredData}
       />
+
+      <Header />
       
-      {/* Header is fixed and will stay visible when scrolling */}
-      <div className="relative z-50">
-        <Header />
-      </div>
-      
-      {/* Hero section with A/B testing taking full viewport height */}
+      {/* Hero section */}
       <div className="relative z-10 h-screen">
         <Hero />
       </div>
-      
-      {/* Rest of the content with regular background */}
-      <div className="relative z-10 bg-white">
-        {/* TrustedCompanies section */}
-        <div className="py-6 bg-white">
-          <TrustedCompanies />
-        </div>
 
-        {/* ImpactAndESGSection - unified real data section */}
-        <ImpactAndESGSection />
+      <ImpactOperationsSection />
 
-        {/* Value Proposition Cards Section - moved here */}
-        <ValuePropositionCards />
+      <WhatWeDoSection />
 
-        {/* FeaturesOverview */}
-        <FeaturesOverview />
-        
-        {/* Call to Action Section */}
-        <div className="container mx-auto px-4 py-16">
-          <CallToActionSection />
-        </div>
-        
-        {/* Footer */}
-        <Footer />
-      </div>
+      <ImpactStatsSection />
+
+      <WhyChooseCoompassSection />
+
+      <HomepageFaqSection />
+
+      <HomeCtaSection />
+
     </div>
   );
 }

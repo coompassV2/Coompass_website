@@ -1,13 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { ChevronDown } from "lucide-react";
 import { useState, useEffect } from "react";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
 
 interface HeaderProps {
   variant?: "dark" | "light";
@@ -65,30 +58,14 @@ export function Header({ variant = "dark" }: HeaderProps) {
       
       {/* Center: Navigation Links */}
       <nav className="flex items-center gap-6">
-        <DropdownMenu>
-          <DropdownMenuTrigger className={`flex items-center gap-1 ${navLink}`}>
-            Product
-            <ChevronDown className="h-4 w-4" />
-          </DropdownMenuTrigger>
-          <DropdownMenuContent className="bg-white/95">
-            <DropdownMenuItem className="hover:bg-green-100 hover:text-green-700" onClick={() => handleNavigation('/for-companies')}>For companies</DropdownMenuItem>
-            <DropdownMenuItem className="hover:bg-green-100 hover:text-green-700" onClick={() => handleNavigation('/for-nonprofits')}>For nonprofits</DropdownMenuItem>
-            <DropdownMenuItem className="hover:bg-green-100 hover:text-green-700" onClick={() => handleNavigation('/for-volunteers')}>For volunteers</DropdownMenuItem>
-          </DropdownMenuContent>
-        </DropdownMenu>
-        <a href="/pricing" className={navLink} onClick={(e) => { e.preventDefault(); handleNavigation('/pricing'); }}>Pricing</a>
+        <a href="/services" className={navLink} onClick={(e) => { e.preventDefault(); handleNavigation('/services'); }}>Services</a>
         <a href="/about-us" className={navLink} onClick={(e) => { e.preventDefault(); handleNavigation('/about-us'); }}>About Us</a>
+        <a href="/pricing" className={navLink} onClick={(e) => { e.preventDefault(); handleNavigation('/pricing'); }}>Pricing</a>
         <a href="https://coompass.medium.com/" target="_blank" rel="noopener noreferrer" className={navLink}>Blog</a>
       </nav>
 
       {/* Right: CTAs */}
       <div className="flex items-center gap-4">
-        <button
-          className={ctaBtn}
-          onClick={() => handleNavigation('/')}
-        >
-          Open app
-        </button>
         <button
           className={ctaBtn}
           onClick={() => handleNavigation('/register')}

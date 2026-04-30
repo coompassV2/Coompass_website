@@ -1,5 +1,4 @@
 
-import { Footer } from "@/components/home/Footer";
 import { Header } from "@/components/home/Header";
 import { Card, CardContent } from "@/components/ui/card";
 import { SEOManager } from "@/components/shared/SEOManager";
@@ -122,8 +121,6 @@ export default function PrivacyPolicy() {
           </Card>
         </div>
       </main>
-
-      <Footer />
     </div>
   );
 }

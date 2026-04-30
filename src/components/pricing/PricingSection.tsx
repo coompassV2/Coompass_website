@@ -290,7 +290,7 @@ export function PricingSection({ selectedPersona, onPersonaChange }: PricingSect
             onClick={() => setBillingPeriod("annual")}
           >
             Annual
-            <span className="ml-2 bg-purple-600 text-white text-xs rounded-full px-2 py-0.5">
+            <span className="ml-2 inline-flex rounded-full border border-[#161616]/15 bg-[#161616]/[0.03] px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-[#161616]/75">
               Save 20%
             </span>
           </button>

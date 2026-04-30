@@ -2,7 +2,6 @@
 import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { Header } from "@/components/home/Header";
-import { Footer } from "@/components/home/Footer";
 import { Card } from "@/components/ui/card";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { getCurrentPersona } from "@/components/app-sidebar/SidebarMenuConfig";
@@ -105,8 +104,6 @@ export default function GuideDetails() {
           </Card>
         </div>
       </main>
-      
-      <Footer />
     </div>
   );
 }
