@@ -2,6 +2,24 @@ import { Header } from "@/components/home/Header";
 import { HomeCtaSection } from "@/components/home/HomeCtaSection";
 import { SEOManager } from "@/components/shared/SEOManager";
 import { StructuredData } from "@/components/shared/StructuredData";
+import { motion } from "framer-motion";
+
+const fadeInUp = {
+  hidden: { opacity: 0, y: 28 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.7, ease: "easeOut" },
+  },
+};
+
+const fadeIn = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: { duration: 0.7, ease: "easeOut" },
+  },
+};
 
 export default function AboutUs() {
   const aboutHeroImageSrc = "/about-hero.png";
@@ -53,10 +71,16 @@ export default function AboutUs() {
         <Header />
 
         <main className="relative z-10">
-          <section className="bg-[linear-gradient(115deg,#0b1a3a_0%,#123268_48%,#9bd9b3_100%)]">
+          <motion.section
+            className="bg-[linear-gradient(115deg,#0b1a3a_0%,#123268_48%,#9bd9b3_100%)]"
+            variants={fadeIn}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.2 }}
+          >
             <div className="mx-auto w-full max-w-7xl px-8 pb-20 pt-40 lg:px-12 lg:pb-24 lg:pt-48">
               <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-[minmax(0,1fr)_420px]">
-                <div>
+                <motion.div variants={fadeInUp}>
                   <p className="mb-5 text-sm font-light tracking-[0.14em] text-white/75">About Coompass</p>
                   <h1 className="max-w-4xl text-5xl font-light leading-[0.95] tracking-[-0.02em] text-white md:text-6xl lg:text-[72px]">
                     Building the infrastructure for corporate impact
@@ -70,20 +94,29 @@ export default function AboutUs() {
                   >
                     Get a free consultation
                   </a>
-                </div>
-                <div className="mx-auto w-full max-w-[360px] overflow-hidden rounded-3xl border border-white/25 shadow-[0_28px_50px_-30px_rgba(0,0,0,0.7)] sm:max-w-[420px] lg:mx-0 lg:max-w-[420px]">
+                </motion.div>
+                <motion.div
+                  className="mx-auto w-full max-w-[360px] overflow-hidden rounded-3xl border border-white/25 shadow-[0_28px_50px_-30px_rgba(0,0,0,0.7)] sm:max-w-[420px] lg:mx-0 lg:max-w-[420px]"
+                  variants={fadeInUp}
+                >
                   <img
                     src={aboutHeroImageSrc}
                     alt="Professional working at laptop"
                     className="h-[320px] w-full object-cover sm:h-[420px] lg:h-[520px]"
                     loading="lazy"
                   />
-                </div>
+                </motion.div>
               </div>
             </div>
-          </section>
+          </motion.section>
 
-          <section className="bg-[#e8f6ea]">
+          <motion.section
+            className="bg-[#e8f6ea]"
+            variants={fadeInUp}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.25 }}
+          >
             <div className="mx-auto w-full max-w-7xl px-8 py-20 lg:px-12 lg:py-24">
               <div className="mx-auto max-w-3xl text-center">
                 <p className="text-sm font-light tracking-[0.08em] text-[#185b45]">Our Vision</p>
@@ -95,12 +128,18 @@ export default function AboutUs() {
                 </p>
               </div>
             </div>
-          </section>
+          </motion.section>
 
-          <section className="border-t border-gray-100 bg-white">
+          <motion.section
+            className="border-t border-gray-100 bg-white"
+            variants={fadeInUp}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.2 }}
+          >
             <div className="mx-auto w-full max-w-7xl px-8 py-20 lg:px-12 lg:py-24">
-              <div className="grid grid-cols-1 gap-10 lg:grid-cols-[minmax(0,1fr)_430px] lg:items-center">
-                <div>
+              <div className="grid grid-cols-1 gap-10 lg:grid-cols-2 lg:items-center">
+                <motion.div variants={fadeInUp} className="min-w-0">
                   <h2 className="text-3xl font-light tracking-[-0.02em] text-[#111827] md:text-[40px]">Why we built Coompass</h2>
                   <div className="mt-8 space-y-6 text-base font-light leading-relaxed text-gray-700 md:text-lg">
                     <p>
@@ -119,31 +158,43 @@ export default function AboutUs() {
                       That is why we built Coompass.
                     </p>
                   </div>
-                </div>
-                <div className="mx-auto w-full max-w-[430px] overflow-hidden rounded-2xl border border-gray-200 shadow-[0_22px_45px_-28px_rgba(15,23,42,0.45)] lg:mx-0">
+                </motion.div>
+                <motion.div
+                  className="mx-auto w-full min-w-0 overflow-hidden rounded-2xl border border-gray-200 bg-gray-50 shadow-[0_22px_45px_-28px_rgba(15,23,42,0.45)] lg:mx-0"
+                  variants={fadeInUp}
+                >
                   <img
                     src={aboutFoundersImageSrc}
-                    alt="Coompass founders"
-                    className="h-[300px] w-full object-cover sm:h-[360px] lg:h-[420px]"
+                    alt="Notebook sketch of the Coompass social impact overview dashboard"
+                    className="h-auto w-full object-contain"
                     loading="lazy"
                   />
-                </div>
+                </motion.div>
               </div>
             </div>
-          </section>
+          </motion.section>
 
-          <section className="border-t border-gray-100 bg-[#f5f5f5]">
+          <motion.section
+            className="border-t border-gray-100 bg-[#f5f5f5]"
+            variants={fadeInUp}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.2 }}
+          >
             <div className="mx-auto w-full max-w-7xl px-8 py-20 lg:px-12 lg:py-24">
               <div className="grid grid-cols-1 gap-10 lg:grid-cols-[420px_minmax(0,1fr)] lg:items-center">
-                <div className="order-2 mx-auto w-full max-w-[420px] overflow-hidden rounded-2xl border border-gray-200 shadow-[0_22px_45px_-28px_rgba(15,23,42,0.45)] lg:order-1 lg:mx-0">
+                <motion.div
+                  className="order-2 mx-auto w-full max-w-[420px] overflow-hidden rounded-2xl border border-gray-200 shadow-[0_22px_45px_-28px_rgba(15,23,42,0.45)] lg:order-1 lg:mx-0"
+                  variants={fadeInUp}
+                >
                   <img
                     src={aboutVisionImageSrc}
                     alt="Road through forest"
                     className="h-[280px] w-full object-cover sm:h-[320px] lg:h-[360px]"
                     loading="lazy"
                   />
-                </div>
-                <div className="order-1 lg:order-2 lg:text-right">
+                </motion.div>
+                <motion.div className="order-1 lg:order-2 lg:text-right" variants={fadeInUp}>
                   <h2 className="text-3xl font-light tracking-[-0.02em] text-[#111827] md:text-[40px]">Where we are going</h2>
                   <div className="mt-8 space-y-6 text-base font-light leading-relaxed text-gray-700 md:text-lg">
                     <p>
@@ -153,10 +204,10 @@ export default function AboutUs() {
                       Coompass aims to become the standard infrastructure that organisations use to manage and scale their impact globally.
                     </p>
                   </div>
-                </div>
+                </motion.div>
               </div>
             </div>
-          </section>
+          </motion.section>
 
           <HomeCtaSection
             title="Let’s build your impact infrastructure"

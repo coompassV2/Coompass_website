@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export function ImpactOperationsSection() {
   return (
     <section className="relative overflow-hidden bg-[#161616]">
-      <div className="absolute inset-0 bg-[linear-gradient(92deg,#1f1f1f_0%,#2b2b2b_45%,#9bd9b3_100%)]" />
+      <div className="absolute inset-0 bg-[linear-gradient(92deg,#1f1f1f_0%,#3b3b3b_45%,#b5b5b5_100%)]" />
 
       <div className="relative z-10 mx-auto grid min-h-[640px] w-full max-w-[1320px] gap-16 px-8 py-20 lg:grid-cols-[minmax(0,1fr)_500px] lg:items-center lg:px-12">
         <motion.div
@@ -22,7 +22,7 @@ export function ImpactOperationsSection() {
               <img src="/logos/group-70-icon.png" alt="Coompass logo" className="h-10 w-10" loading="lazy" />
             </div>
             <h3 className="text-[20px] font-semibold leading-none text-white">From intention to execution</h3>
-            <p className="mb-[4px] mt-[4px] pb-[1px] pt-[1px] text-xl font-light leading-[22px] text-white/75 md:text-2xl lg:text-[14px]">
+            <p className="mb-[12px] mt-[12px] pb-0 pt-0 text-xl font-light leading-[20px] text-white/75 md:text-2xl lg:text-[14px]">
               Compass gives companies the structure, visibility and control to turn impact programs into measurable action.
             </p>
           </div>
