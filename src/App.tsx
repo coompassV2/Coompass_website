@@ -35,6 +35,7 @@ import Leaderboard from "@/pages/Leaderboard";
 import Calendar from "@/pages/Calendar";
 import Wallet from "@/pages/Wallet";
 import Pricing from "@/pages/Pricing";
+import Services from "@/pages/Services";
 import CompanyWallet from "./pages/CompanyWallet";
 import NonprofitWallet from "./pages/NonprofitWallet";
 import VolunteerWallet from "./pages/VolunteerWallet";
@@ -104,6 +105,7 @@ function App() {
             <Route path="/for-volunteers" element={<ForVolunteers />} />
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/pricing" element={<Pricing />} />
+            <Route path="/services" element={<Services />} />
             <Route path="/help-center" element={<HelpCenter />} />
             <Route path="/help-center/guide/:guideId" element={<GuideDetails />} />
             <Route path="/auth/callback" element={<AuthCallback />} />

@@ -9,7 +9,7 @@ export function HomeCtaSection({
   title = "Here when you're ready to begin",
   description = "Reach out for a quick conversation with someone from our team.",
   buttonText = "Talk to the team",
-  buttonHref = "/contact",
+  buttonHref = "https://calendly.com/hello-coompass/sessao-coompass",
 }: HomeCtaSectionProps) {
   return (
     <section className="bg-white">

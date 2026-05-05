@@ -92,7 +92,7 @@ export function Hero() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
             >
-              Run Your Entire Impact in One Single Place.
+              Your Company’s Social Impact, Finally Connected. Fully Structured.
             </motion.span>
           </motion.h1>
           
@@ -101,7 +101,7 @@ export function Hero() {
             className="lg:max-w-3xl text-white font-normal text-lg leading-relaxed"
             variants={textVariants}
           >
-            Centralise your initiatives, data and reporting so your team can manage, measure and scale impact with full control.
+            Connect your company with the social economy, mobilize your people, track every initiative, and report your impact with the same rigor you apply to financial performance.
           </motion.p>
           <motion.div
             className="mt-6 flex flex-wrap gap-3"

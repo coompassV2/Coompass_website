@@ -60,8 +60,12 @@ function FeatureCard({ feature }: FeatureCardProps) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.2 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className="flex h-full flex-col overflow-hidden rounded-[18px] border border-black/10 bg-white"
+      className="relative flex h-full flex-col overflow-hidden rounded-[18px] border border-black/10 bg-white shadow-[0_24px_44px_-30px_rgba(15,23,42,0.35)]"
     >
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 opacity-45 [background-image:linear-gradient(to_right,rgba(148,163,184,0.14)_1px,transparent_1px),linear-gradient(to_bottom,rgba(148,163,184,0.14)_1px,transparent_1px)] [background-size:24px_24px] [mask-image:radial-gradient(ellipse_at_center,rgba(0,0,0,0.95)_44%,rgba(0,0,0,0)_100%)]"
+      />
       <div className="px-6 pb-5 pt-6 md:px-7 md:pt-7">
         <div className="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-full border border-[#0f5f4d]/25 bg-[#9bd9b3]/35">
           <Icon className="h-5 w-5 text-[#0f5f4d]" strokeWidth={1.5} />

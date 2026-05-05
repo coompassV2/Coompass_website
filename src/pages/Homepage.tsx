@@ -58,13 +58,13 @@ export default function Homepage() {
         <Hero />
       </div>
 
-      <ImpactOperationsSection />
-
       <WhatWeDoSection />
 
       <ImpactStatsSection />
 
       <WhyChooseCoompassSection />
+
+      <ImpactOperationsSection />
 
       <HomepageFaqSection />
 

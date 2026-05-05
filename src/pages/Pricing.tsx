@@ -28,9 +28,11 @@ type PricingSegment = {
 
 const ctaRoutes: Record<CtaLabel, string> = {
   "Get Started": "/register",
-  Subscribe: "/checkout",
-  Request: "/contact",
+  Subscribe: "https://buy.stripe.com/00w4gzaYs9Q60Jmc4s1Nu04",
+  Request: "https://calendly.com/hello-coompass/sessao-coompass",
 };
+
+const nonprofitSubscribeUrl = "https://buy.stripe.com/cNiaEX7Mg6DU3Vyc4s1Nu05";
 
 const pricingSegments: PricingSegment[] = [
   {
@@ -141,6 +143,12 @@ export default function Pricing() {
   };
   const selectedPlans =
     pricingSegments.find((segment) => segment.title === selectedSegment)?.plans ?? [];
+  const getPlanCtaRoute = (plan: PricingPlan): string => {
+    if (plan.cta === "Subscribe" && selectedSegment === "Nonprofits") {
+      return nonprofitSubscribeUrl;
+    }
+    return ctaRoutes[plan.cta];
+  };
 
   return (
     <div className="min-h-screen bg-white">
@@ -286,7 +294,7 @@ export default function Pricing() {
                                 : "bg-cyan-400 text-slate-900 hover:bg-cyan-300"
                           )}
                         >
-                          <Link to={ctaRoutes[plan.cta]}>{plan.cta}</Link>
+                          <Link to={getPlanCtaRoute(plan)}>{plan.cta}</Link>
                         </Button>
                       </Card>
                     </motion.div>

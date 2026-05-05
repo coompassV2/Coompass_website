@@ -83,13 +83,13 @@ export default function AboutUs() {
                 <motion.div variants={fadeInUp}>
                   <p className="mb-5 text-sm font-light tracking-[0.14em] text-white/75">About Coompass</p>
                   <h1 className="max-w-4xl text-5xl font-light leading-[0.95] tracking-[-0.02em] text-white md:text-6xl lg:text-[72px]">
-                    Building the infrastructure for corporate impact
+                    We´re building the missing infrastructure for corporate impact.
                   </h1>
                   <p className="mt-8 max-w-3xl text-lg font-light leading-relaxed text-white/85 md:text-xl">
                     Coompass was created to help teams move from intention to execution, with the tools, structure and visibility needed to run impact operations at scale.
                   </p>
                   <a
-                    href="/contact"
+                    href="https://calendly.com/hello-coompass/sessao-coompass"
                     className="mt-8 inline-flex items-center justify-center rounded-full border border-white/65 bg-white/10 px-6 py-3 text-sm font-medium text-white backdrop-blur-sm transition hover:bg-white/20"
                   >
                     Get a free consultation
@@ -143,19 +143,19 @@ export default function AboutUs() {
                   <h2 className="text-3xl font-light tracking-[-0.02em] text-[#111827] md:text-[40px]">Why we built Coompass</h2>
                   <div className="mt-8 space-y-6 text-base font-light leading-relaxed text-gray-700 md:text-lg">
                     <p>
-                      We believe real change starts with people.
+                      Coompass started from a simple frustration: too many good ideas for social impact never become real action.
                     </p>
                     <p>
-                      It starts with someone who wants to help, a team that wants to do more, a company that wants to use its resources in a better way. But good intentions are not always enough. To create lasting impact, people need structure, direction and the right tools to act together.
+                      Companies want to help, employees want to contribute, and nonprofits need support. But between intention and impact, there is often too much friction and slow decision making progress.
                     </p>
                     <p>
-                      Companies play a powerful role in society. They can bring people together, support communities, open doors for nonprofits and turn everyday work into something with a deeper purpose.
+                      We built Coompass to make that connection easier.
                     </p>
                     <p>
-                      People and communities come first. We designed this tool to make social impact accessible, transparent, and empowering.
+                      A platform where companies can manage their entire sustainability and social impact chain in one place. From employee engagement and nonprofit partnerships to impact tracking and reporting, Coompass makes it easier for organisations to connect with the social economy and turn plans into action.
                     </p>
                     <p>
-                      That is why we built Coompass.
+                      For us, social responsibility should not feel like an isolated campaign or a yearly report. It should be something practical, human, and part of the way organisations work.
                     </p>
                   </div>
                 </motion.div>
@@ -194,7 +194,7 @@ export default function AboutUs() {
                     loading="lazy"
                   />
                 </motion.div>
-                <motion.div className="order-1 lg:order-2 lg:text-right" variants={fadeInUp}>
+                <motion.div className="order-1 lg:order-2 lg:text-left" variants={fadeInUp}>
                   <h2 className="text-3xl font-light tracking-[-0.02em] text-[#111827] md:text-[40px]">Where we are going</h2>
                   <div className="mt-8 space-y-6 text-base font-light leading-relaxed text-gray-700 md:text-lg">
                     <p>
@@ -213,7 +213,7 @@ export default function AboutUs() {
             title="Let’s build your impact infrastructure"
             description="Speak with our team about structuring and scaling your company’s impact operations."
             buttonText="Talk to the team"
-            buttonHref="/contact"
+            buttonHref="https://calendly.com/hello-coompass/sessao-coompass"
           />
         </main>
       </div>

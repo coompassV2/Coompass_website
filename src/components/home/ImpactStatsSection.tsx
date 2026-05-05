@@ -40,7 +40,7 @@ export function ImpactStatsSection() {
           {STATS.map((stat, index) => (
             <article
               key={stat.title}
-              className={`min-h-[260px] rounded-2xl p-6 md:p-7 ${
+              className={`min-h-[260px] rounded-2xl p-6 shadow-[0_24px_44px_-30px_rgba(15,23,42,0.35)] md:p-7 ${
                 index === 0 ? "relative overflow-hidden bg-[#1a1a1a]" : "bg-[#efefef]"
               }`}
             >
