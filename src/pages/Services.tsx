@@ -246,7 +246,7 @@ export default function Services() {
                   </div>
                 </Card>
 
-                <Card className="relative overflow-hidden rounded-2xl border border-transparent bg-[linear-gradient(130deg,#8d7cf6_0%,#4f46e5_52%,#3b82f6_100%)] p-5 text-white shadow-[0_24px_48px_-28px_rgba(79,70,229,0.75)]">
+                <Card className="relative overflow-hidden rounded-2xl border border-transparent bg-[linear-gradient(130deg,rgba(141,124,246,1)_0%,rgba(79,70,229,1)_68%,rgba(59,130,246,1)_100%)] p-5 text-white shadow-[0_24px_48px_-28px_rgba(79,70,229,0.75)]">
                   <div className="pointer-events-none absolute -bottom-6 -right-6 z-0 w-[62%] overflow-hidden rounded-xl border border-white/20 bg-white/10 opacity-35 shadow-[0_16px_30px_-22px_rgba(2,6,23,0.85)]">
                     <img
                       src="/covers/services-dashboard-preview.png"

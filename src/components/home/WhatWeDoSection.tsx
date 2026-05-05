@@ -96,7 +96,7 @@ export function WhatWeDoSection() {
   return (
     <section className="bg-white">
       <div className="mx-auto w-full max-w-7xl px-8 py-20 lg:px-12 lg:py-24">
-        <div className="mb-10 max-w-[700px] md:mb-12">
+        <div className="mx-auto mb-10 max-w-[700px] text-center md:mb-12">
           <p className="mb-3 text-sm font-light text-black/60">Our Work</p>
           <h2 className="text-4xl font-light leading-tight text-black md:text-5xl">What we do?</h2>
           <p className="mt-4 text-sm font-light leading-relaxed text-black/70 md:text-base">

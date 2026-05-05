@@ -63,36 +63,11 @@ export function Footer() {
                 </span>
               </li>
               <li>
-                <a href="https://coompass.notion.site/e08be489d94c45acbf0fa6eabc3067c7?v=1eea2173815c4944a21d93e4301d8e04" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 transition duration-300">Roadmap</a>
-              </li>
-            </ul>
-          </div>
-          
-          <div>
-            <h3 className="text-lg font-semibold mb-4 text-gray-800">Solutions</h3>
-            <ul className="space-y-2">
-              <li>
                 <span 
-                  onClick={() => handleNavigation('/for-companies')}
+                  onClick={() => handleNavigation('/services')}
                   className="text-gray-600 hover:text-gray-900 transition duration-300 cursor-pointer"
                 >
-                  For Companies
-                </span>
-              </li>
-              <li>
-                <span 
-                  onClick={() => handleNavigation('/for-nonprofits')}
-                  className="text-gray-600 hover:text-gray-900 transition duration-300 cursor-pointer"
-                >
-                  For Nonprofits
-                </span>
-              </li>
-              <li>
-                <span 
-                  onClick={() => handleNavigation('/for-volunteers')}
-                  className="text-gray-600 hover:text-gray-900 transition duration-300 cursor-pointer"
-                >
-                  For Volunteers
+                  Services
                 </span>
               </li>
             </ul>
