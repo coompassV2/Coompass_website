@@ -36,6 +36,11 @@ import Calendar from "@/pages/Calendar";
 import Wallet from "@/pages/Wallet";
 import Pricing from "@/pages/Pricing";
 import Services from "@/pages/Services";
+import CompaniesPersona from "@/pages/personas/CompaniesPersona";
+import NonprofitsPersona from "@/pages/personas/NonprofitsPersona";
+import MunicipalitiesPersona from "@/pages/personas/MunicipalitiesPersona";
+import UniversitiesSchoolsPersona from "@/pages/personas/UniversitiesSchoolsPersona";
+import InvestorsStakeholdersPersona from "@/pages/personas/InvestorsStakeholdersPersona";
 import CompanyWallet from "./pages/CompanyWallet";
 import NonprofitWallet from "./pages/NonprofitWallet";
 import VolunteerWallet from "./pages/VolunteerWallet";
@@ -106,6 +111,12 @@ function App() {
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/pricing" element={<Pricing />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/personas" element={<Navigate to="/personas/companies" replace />} />
+            <Route path="/personas/companies" element={<CompaniesPersona />} />
+            <Route path="/personas/nonprofits" element={<NonprofitsPersona />} />
+            <Route path="/personas/universities-schools" element={<UniversitiesSchoolsPersona />} />
+            <Route path="/personas/municipalities" element={<MunicipalitiesPersona />} />
+            <Route path="/personas/investors-stakeholders" element={<InvestorsStakeholdersPersona />} />
             <Route path="/help-center" element={<HelpCenter />} />
             <Route path="/help-center/guide/:guideId" element={<GuideDetails />} />
             <Route path="/auth/callback" element={<AuthCallback />} />

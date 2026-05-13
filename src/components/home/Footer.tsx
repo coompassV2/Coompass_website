@@ -1,5 +1,4 @@
-
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export function Footer() {
   const navigate = useNavigate();
@@ -68,6 +67,52 @@ export function Footer() {
                   className="text-gray-600 hover:text-gray-900 transition duration-300 cursor-pointer"
                 >
                   Services
+                </span>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold mb-4 text-gray-800">Solutions</h3>
+            <ul className="space-y-2">
+              <li>
+                <span
+                  onClick={() => handleNavigation('/personas/companies')}
+                  className="text-gray-600 hover:text-gray-900 transition duration-300 cursor-pointer"
+                >
+                  Companies
+                </span>
+              </li>
+              <li>
+                <span
+                  onClick={() => handleNavigation('/personas/nonprofits')}
+                  className="text-gray-600 hover:text-gray-900 transition duration-300 cursor-pointer"
+                >
+                  Nonprofit Organizations
+                </span>
+              </li>
+              <li>
+                <span
+                  onClick={() => handleNavigation('/personas/universities-schools')}
+                  className="text-gray-600 hover:text-gray-900 transition duration-300 cursor-pointer"
+                >
+                  University and Schools
+                </span>
+              </li>
+              <li>
+                <span
+                  onClick={() => handleNavigation('/personas/municipalities')}
+                  className="text-gray-600 hover:text-gray-900 transition duration-300 cursor-pointer"
+                >
+                  Municipalities and Institutions
+                </span>
+              </li>
+              <li>
+                <span
+                  onClick={() => handleNavigation('/personas/investors-stakeholders')}
+                  className="text-gray-600 hover:text-gray-900 transition duration-300 cursor-pointer"
+                >
+                  Investors and Stakeholders
                 </span>
               </li>
             </ul>

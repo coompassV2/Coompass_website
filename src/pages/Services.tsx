@@ -1,9 +1,7 @@
-import { Link } from "react-router-dom";
 import { type ComponentType } from "react";
 import { motion } from "framer-motion";
 import {
   Activity,
-  ArrowRight,
   BarChart3,
   Bell,
   Building2,
@@ -429,12 +427,6 @@ export default function Services() {
                 <a href={talkToUsUrl} target="_blank" rel="noopener noreferrer">
                   Schedule a meeting
                 </a>
-              </Button>
-              <Button asChild size="lg" variant="outline" className="rounded-full border-white/50 bg-white/10 px-8 text-white hover:bg-white/20">
-                <Link to="/pricing" className="inline-flex items-center gap-2">
-                  See the platform
-                  <ArrowRight className="h-4 w-4" />
-                </Link>
               </Button>
             </div>
           </div>
