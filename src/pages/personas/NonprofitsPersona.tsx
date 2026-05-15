@@ -7,7 +7,6 @@ export default function NonprofitsPersona() {
       seoTitle="Coompass for Nonprofits"
       seoDescription="Coordinate volunteers, partners and programs with better operational visibility and less friction."
       canonicalUrl="/personas/nonprofits"
-      eyebrow="Nonprofit Organizations"
       heroTitle="Coordinate your programs and impact from one single place."
       heroDescription="Coompass helps nonprofits organize field activity, partner collaboration and volunteer operations with traceable and reliable data."
       whyTitle="Why nonprofits use Coompass"

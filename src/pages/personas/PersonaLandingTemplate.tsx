@@ -1,9 +1,10 @@
-import { useId } from "react";
+import { useId, type ReactNode } from "react";
 import { CheckCircle2, type LucideIcon } from "lucide-react";
 import { Header } from "@/components/home/Header";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { SEOManager } from "@/components/shared/SEOManager";
+import { cn } from "@/lib/utils";
 
 function FeatureHandUnderline({ className }: { className?: string }) {
   const gradientId = `feature-title-ul-${useId().replace(/:/g, "")}`;
@@ -49,6 +50,8 @@ type PlatformFeatureCard = {
   /** Optional screenshot; when set, replaces the icon area (e.g. product UI mock) */
   previewImageSrc?: string;
   previewImageAlt?: string;
+  /** Merged after defaults; use to override border/background (e.g. accent card). */
+  cardClassName?: string;
 };
 
 type ProcessStep = {
@@ -60,7 +63,7 @@ type PersonaLandingTemplateProps = {
   seoTitle: string;
   seoDescription: string;
   canonicalUrl: string;
-  eyebrow: string;
+  eyebrow?: string;
   heroTitle: string;
   heroDescription: string;
   whyTitle?: string;
@@ -69,6 +72,15 @@ type PersonaLandingTemplateProps = {
   featureSubtitle?: string;
   centerFeatureHeading?: boolean;
   features: PersonaFeature[];
+  /** Optional row after feature cards: left-aligned title + body, image on the right (large screens). */
+  afterFeaturesAsideTitle?: string;
+  afterFeaturesAsideBody?: string;
+  afterFeaturesAsideImageSrc?: string;
+  afterFeaturesAsideImageAlt?: string;
+  /** Rendered above the aside heading (e.g. university certification banner). */
+  afterFeaturesAsideBanner?: ReactNode;
+  /** Inserted immediately after the “after features” aside block (e.g. research carousel). */
+  afterFeaturesAsideSection?: ReactNode;
   resultsSectionTitle?: string;
   resultsImageSrc?: string;
   resultsImageAlt?: string;
@@ -88,6 +100,8 @@ type PersonaLandingTemplateProps = {
   platformSectionTitle?: string;
   platformSectionSubtitle?: string;
   platformFeatures?: PlatformFeatureCard[];
+  /** Rendered after the dark platform grid section (e.g. companies “How it works”). */
+  afterPlatformSection?: ReactNode;
 };
 
 const calendlyUrl = "https://calendly.com/hello-coompass/sessao-coompass";
@@ -109,6 +123,12 @@ export default function PersonaLandingTemplate({
   featureSubtitle,
   centerFeatureHeading = false,
   features,
+  afterFeaturesAsideTitle,
+  afterFeaturesAsideBody,
+  afterFeaturesAsideImageSrc,
+  afterFeaturesAsideImageAlt,
+  afterFeaturesAsideBanner,
+  afterFeaturesAsideSection,
   resultsSectionTitle,
   resultsImageSrc,
   resultsImageAlt = "Results section image",
@@ -126,6 +146,7 @@ export default function PersonaLandingTemplate({
   platformSectionTitle,
   platformSectionSubtitle,
   platformFeatures,
+  afterPlatformSection,
 }: PersonaLandingTemplateProps) {
   const heroGridClassName = hideWhyCard
     ? "grid grid-cols-1 items-center gap-10"
@@ -167,8 +188,15 @@ export default function PersonaLandingTemplate({
           <div className="mx-auto w-full max-w-7xl px-8 pb-20 pt-40 lg:px-12 lg:pb-24 lg:pt-48">
             <div className={`${heroGridClassName} relative z-10`}>
             <div>
-              <p className="text-sm font-light tracking-[0.12em] text-white/80">{eyebrow}</p>
-              <h1 className="mt-4 whitespace-pre-line text-4xl font-light leading-tight tracking-[-0.02em] text-white md:text-5xl">
+              {eyebrow ? (
+                <p className="text-sm font-light tracking-[0.12em] text-white/80">{eyebrow}</p>
+              ) : null}
+              <h1
+                className={cn(
+                  "whitespace-pre-line text-4xl font-light leading-tight tracking-[-0.02em] text-white md:text-5xl",
+                  eyebrow ? "mt-4" : "",
+                )}
+              >
                 {heroTitle}
               </h1>
               <p className="mt-6 max-w-2xl text-base font-light leading-relaxed text-slate-100 md:text-lg">
@@ -238,6 +266,39 @@ export default function PersonaLandingTemplate({
           </div>
         </section>
 
+        {afterFeaturesAsideTitle && afterFeaturesAsideBody && afterFeaturesAsideImageSrc && (
+          <section className="bg-white py-16 lg:py-20">
+            <div className="mx-auto grid max-w-7xl grid-cols-1 items-start gap-10 px-8 lg:grid-cols-[1fr_minmax(0,1.35fr)] lg:gap-12 lg:px-12">
+              <div className="flex max-w-xl flex-col gap-6 text-left lg:gap-7">
+                {afterFeaturesAsideBanner}
+                <h2 className="text-3xl font-light leading-tight tracking-[-0.02em] text-[#111827] md:text-4xl">
+                  {afterFeaturesAsideTitle}
+                </h2>
+                <p className="text-base font-light leading-relaxed text-slate-600 md:text-lg">
+                  {afterFeaturesAsideBody}
+                </p>
+              </div>
+              <div className="flex min-h-0 w-full max-w-[800px] justify-center bg-white lg:ml-auto lg:justify-end">
+                <div className="relative inline-block max-w-full">
+                  <img
+                    src={afterFeaturesAsideImageSrc}
+                    alt={afterFeaturesAsideImageAlt ?? ""}
+                    className="relative z-0 h-auto w-[min(100%,600px)] max-h-[min(108vh,840px)] max-w-full object-contain object-right mix-blend-multiply sm:w-[600px]"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                  <div
+                    aria-hidden
+                    className="pointer-events-none absolute inset-y-0 left-0 z-10 w-[clamp(2.5rem,28%,11rem)] bg-gradient-to-r from-white via-white/85 to-transparent"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+        )}
+
+        {afterFeaturesAsideSection}
+
         {platformSectionTitle && platformFeatures && platformFeatures.length > 0 && (
           <section className="bg-[linear-gradient(165deg,#0b3555_0%,#07263f_38%,#051a2c_72%,#082f4a_100%)] py-20 lg:py-28">
             <div className="mx-auto w-full max-w-7xl px-8 lg:px-12">
@@ -255,10 +316,13 @@ export default function PersonaLandingTemplate({
                   return (
                     <div
                       key={item.title}
-                      className="flex flex-col rounded-2xl border border-white/[0.08] bg-[#0a0f16] p-5 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.04)]"
+                      className={cn(
+                        "flex flex-col rounded-2xl border border-white/[0.08] bg-[#0a0f16] p-5 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.04)]",
+                        item.cardClassName,
+                      )}
                     >
                       {(item.previewImageSrc || PlatformIcon) && (
-                        <div className="relative mb-5 flex h-44 w-full shrink-0 items-center justify-center overflow-hidden rounded-xl border border-white/[0.07] bg-black">
+                        <div className="relative mb-5 flex h-44 w-full shrink-0 items-center justify-center overflow-hidden rounded-xl border border-slate-400/45 bg-black">
                           {item.previewImageSrc ? (
                             <img
                               src={item.previewImageSrc}
@@ -290,6 +354,8 @@ export default function PersonaLandingTemplate({
             </div>
           </section>
         )}
+
+        {afterPlatformSection}
 
         {resultsSectionTitle && resultsImageSrc && (
           <section className="bg-white pb-16 lg:pb-20">

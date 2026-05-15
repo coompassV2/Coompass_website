@@ -1,3 +1,4 @@
+import { CompaniesPersonaHowItWorks } from "@/components/for-pages/companies/CompaniesPersonaHowItWorks";
 import PersonaLandingTemplate from "@/pages/personas/PersonaLandingTemplate";
 
 export default function CompaniesPersona() {
@@ -6,7 +7,6 @@ export default function CompaniesPersona() {
       seoTitle="Coompass for Companies"
       seoDescription="Empower employee volunteering and manage corporate social impact programs with clear reporting and automation."
       canonicalUrl="/personas/companies"
-      eyebrow="EMPLOYEE VOLUNTEERING PLATFORM"
       heroTitle="Complete CSR solutions for your team."
       heroDescription="Coompass offers companies the platform to better run social initiatives with less manual work, stronger employee engagement and clear ESG evidence."
       heroBackgroundImageSrc="/covers/companies-csr-hero.png"
@@ -30,8 +30,8 @@ export default function CompaniesPersona() {
           description: "Track volunteer activity and engagement trends with practical dashboards for decision-making.",
         },
       ]}
-      platformSectionTitle="Comprehensive Platform for Corporate Impact"
-      platformSectionSubtitle="One connected flow for volunteering, partnerships, and reporting—built so teams spend less time on admin and more time on outcomes."
+      platformSectionTitle="The Infrastructure for Corporate Impact"
+      platformSectionSubtitle="One connected flow for volunteering, partnerships, and reporting, so teams spend less time on admin and more time on outcomes."
       platformFeatures={[
         {
           title: "Employee Engagement Hub",
@@ -40,6 +40,7 @@ export default function CompaniesPersona() {
           tag: "75% higher employee satisfaction",
           previewImageSrc: "/covers/platform-card-employee-engagement.png",
           previewImageAlt: "Employee engagement icon",
+          cardClassName: "bg-black",
         },
         {
           title: "ESG Metrics",
@@ -75,18 +76,19 @@ export default function CompaniesPersona() {
         },
         {
           title: "Impact Verification",
-          description: "Blockchain-based verification ensures transparency and trust in your CSR reporting.",
+          description:
+            "Measure and report social impact with transparent data, verified activities, and easy-to-share reports.",
           tag: "Tamper-proof records",
           previewImageSrc: "/covers/platform-card-impact-verification.png",
           previewImageAlt: "Impact verification icon",
         },
         {
-          title: "Event Management",
+          title: "Program Management",
           description:
-            "Organize company-wide volunteering days and team-building activities with our intuitive scheduling tools.",
+            "Organize company-wide volunteering days and team-building activities with our intuitive scheduling and project management tools.",
           tag: "Integrated calendar",
           previewImageSrc: "/covers/platform-card-events.png",
-          previewImageAlt: "Event management icon",
+          previewImageAlt: "Program management icon",
         },
         {
           title: "Analytics Dashboard",
@@ -97,6 +99,7 @@ export default function CompaniesPersona() {
           previewImageAlt: "Analytics dashboard icon",
         },
       ]}
+      afterPlatformSection={<CompaniesPersonaHowItWorks />}
       ctaTitle="See Coompass in action for your company"
       ctaDescription="Book a walkthrough focused on your CSR priorities, employee engagement goals and reporting requirements."
     />
