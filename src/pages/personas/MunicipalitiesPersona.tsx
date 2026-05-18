@@ -1,3 +1,5 @@
+import { MunicipalitiesCsrEuropeContextSection } from "@/components/personas/MunicipalitiesCsrEuropeContextSection";
+import { MunicipalitiesTerritorialImpactSection } from "@/components/personas/MunicipalitiesTerritorialImpactSection";
 import PersonaLandingTemplate from "@/pages/personas/PersonaLandingTemplate";
 
 export default function MunicipalitiesPersona() {
@@ -7,29 +9,20 @@ export default function MunicipalitiesPersona() {
       seoDescription="Coordinate local social impact initiatives across territories, partners and public programs."
       canonicalUrl="/personas/municipalities"
       eyebrow="MUNICIPAL IMPACT PLATFORM"
-      heroTitle={"Manage local social impact programs\nwith structure and transparency"}
-      heroDescription="Coompass helps municipalities coordinate community initiatives, activate partners and monitor progress across neighborhoods."
+      heroTitle={"Bridge the gap between public resources\nand community needs"}
+      heroDescription="Coordinate local stakeholders, activate social programs, and track impact across the territory with real-time data."
       heroBackgroundImageSrc="/covers/municipalities-hero.png"
-      heroBackgroundSize="80% auto"
+      heroBackgroundSize="auto 100%"
       heroBackgroundPosition="right center"
       heroBackgroundFadeLeft
       hideWhyCard
-      featureTitle="Built for municipal coordination"
-      features={[
-        {
-          title: "Territory monitoring",
-          description: "Track what is happening by district, program and partner with standardized indicators.",
-        },
-        {
-          title: "Cross-sector collaboration",
-          description: "Coordinate municipal teams, nonprofits and companies through shared execution visibility.",
-        },
-        {
-          title: "Public reporting",
-          description: "Generate consistent progress views that support governance and community communication.",
-        },
-      ]}
-      ctaTitle="See Coompass for municipal programs"
+      featuresSection={
+        <>
+          <MunicipalitiesTerritorialImpactSection />
+          <MunicipalitiesCsrEuropeContextSection />
+        </>
+      }
+      ctaTitle="Directly target local community needs"
       ctaDescription="Book a walkthrough focused on your local priorities, operational needs and transparency goals."
     />
   );

@@ -1,4 +1,5 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { Reveal, RevealItem, RevealStagger } from "@/components/motion";
 
 const faqItems = [
   {
@@ -30,28 +31,34 @@ const faqItems = [
 
 export function HomepageFaqSection() {
   return (
-    <section className="bg-white">
-      <div className="mx-auto w-full max-w-[1320px] px-8 py-20 lg:px-12">
-        <span className="inline-flex rounded-full border border-[#161616]/15 bg-[#161616]/[0.03] px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-[#161616]/75">
-          FAQ
-        </span>
-        <h2 className="mt-4 text-3xl font-light leading-[1.12] tracking-[-0.02em] text-[#161616] md:text-[38px] lg:text-[40px]">
-          Frequently asked questions
-        </h2>
+    <Reveal as="section" className="bg-white">
+      <div className="mx-auto w-full max-w-[1320px] px-4 py-16 sm:px-6 sm:py-20 lg:px-12">
+        <Reveal>
+          <span className="inline-flex rounded-full border border-[#161616]/15 bg-[#161616]/[0.03] px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-[#161616]/75">
+            FAQ
+          </span>
+          <h2 className="mt-4 text-3xl font-light leading-[1.12] tracking-[-0.02em] text-[#161616] md:text-[38px] lg:text-[40px]">
+            Frequently asked questions
+          </h2>
+        </Reveal>
 
-        <Accordion type="single" collapsible className="mt-10 w-full">
-          {faqItems.map((item, index) => (
-            <AccordionItem key={item.question} value={`faq-${index}`} className="border-black/10">
-              <AccordionTrigger className="py-6 text-left text-[19px] font-medium leading-[1.35] text-[#161616] hover:no-underline md:text-[21px]">
-                {item.question}
-              </AccordionTrigger>
-              <AccordionContent className="pb-6">
-                <p className="max-w-[920px] text-[16px] font-normal leading-[1.7] text-[#161616]/75">{item.answer}</p>
-              </AccordionContent>
-            </AccordionItem>
-          ))}
-        </Accordion>
+        <RevealStagger className="mt-10 w-full" stagger={0.08}>
+          <Accordion type="single" collapsible className="w-full">
+            {faqItems.map((item, index) => (
+              <RevealItem key={item.question}>
+                <AccordionItem value={`faq-${index}`} className="border-black/10">
+                  <AccordionTrigger className="py-6 text-left text-[19px] font-medium leading-[1.35] text-[#161616] hover:no-underline md:text-[21px]">
+                    {item.question}
+                  </AccordionTrigger>
+                  <AccordionContent className="pb-6">
+                    <p className="max-w-[920px] text-[16px] font-normal leading-[1.7] text-[#161616]/75">{item.answer}</p>
+                  </AccordionContent>
+                </AccordionItem>
+              </RevealItem>
+            ))}
+          </Accordion>
+        </RevealStagger>
       </div>
-    </section>
+    </Reveal>
   );
 }

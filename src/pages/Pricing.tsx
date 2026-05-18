@@ -163,7 +163,7 @@ export default function Pricing() {
 
       <main>
         <section className="relative overflow-hidden bg-[linear-gradient(115deg,#0b1a3a_0%,#123268_48%,#9bd9b3_100%)] pb-14 pt-28">
-          <div className="mx-auto w-full max-w-7xl px-6 sm:px-8 lg:px-12">
+          <div className="mx-auto w-full max-w-7xl px-6 sm:px-4 sm:px-6 lg:px-12">
             <section className="mx-auto max-w-4xl text-center">
               <h1 className="text-4xl font-light leading-[1.02] tracking-[-0.02em] text-white md:text-5xl lg:text-6xl">
                 Simple Plans. No Complexity.

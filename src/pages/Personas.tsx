@@ -79,7 +79,7 @@ export default function Personas() {
         </section>
 
         <section className="bg-white py-16 lg:py-20">
-          <div className="mx-auto w-full max-w-6xl px-8 lg:px-12">
+          <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-12">
             <div className="grid gap-5 md:grid-cols-2">
               {personaSections.map((persona) => {
                 const Icon = persona.icon;

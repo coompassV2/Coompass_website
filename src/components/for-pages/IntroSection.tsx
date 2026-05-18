@@ -1,3 +1,4 @@
+import { Reveal } from "@/components/motion";
 
 interface IntroSectionProps {
   title: string;
@@ -6,11 +7,9 @@ interface IntroSectionProps {
 
 export function IntroSection({ title, description }: IntroSectionProps) {
   return (
-    <section className="mb-8">
-      <h2 className="text-xl font-semibold mb-2">{title}</h2>
-      <p className="text-gray-600 mb-4 leading-relaxed text-sm">
-        {description}
-      </p>
-    </section>
+    <Reveal as="section" className="mb-8">
+      <h2 className="mb-2 text-xl font-semibold">{title}</h2>
+      <p className="mb-4 text-sm leading-relaxed text-gray-600">{description}</p>
+    </Reveal>
   );
 }

@@ -1,7 +1,9 @@
 import { type ComponentType } from "react";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import {
   Activity,
+  ArrowUpRight,
   BarChart3,
   Bell,
   Building2,
@@ -21,6 +23,7 @@ import { Header } from "@/components/home/Header";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
+import { Reveal, RevealItem, RevealStagger } from "@/components/motion";
 import { SEOManager } from "@/components/shared/SEOManager";
 
 type OrgItem = {
@@ -29,6 +32,7 @@ type OrgItem = {
   icon: ComponentType<{ className?: string }>;
   image: string;
   imageAlt: string;
+  href: string;
 };
 
 const talkToUsUrl = "https://calendly.com/hello-coompass/sessao-coompass";
@@ -41,6 +45,7 @@ const organizationItems: OrgItem[] = [
     icon: Building2,
     image: "/covers/services-org-companies.png",
     imageAlt: "Corporate social impact coordination session",
+    href: "/personas/companies",
   },
   {
     title: "Nonprofits and Social Organizations",
@@ -49,6 +54,7 @@ const organizationItems: OrgItem[] = [
     icon: Users,
     image: "/covers/services-org-nonprofits.png",
     imageAlt: "Nonprofit community volunteering operations",
+    href: "/personas/nonprofits",
   },
   {
     title: "Municipalities and Institutions",
@@ -57,6 +63,7 @@ const organizationItems: OrgItem[] = [
     icon: Landmark,
     image: "/covers/services-org-municipalities.png",
     imageAlt: "Institution-led local community program support",
+    href: "/personas/municipalities",
   },
   {
     title: "Investors and Stakeholders",
@@ -65,6 +72,7 @@ const organizationItems: OrgItem[] = [
     icon: Factory,
     image: "/covers/services-org-stakeholders.png",
     imageAlt: "Impact monitoring and sustainability outcomes",
+    href: "/personas/investors-stakeholders",
   },
 ];
 
@@ -111,16 +119,22 @@ export default function Services() {
       <main>
         <section className="relative overflow-hidden bg-[linear-gradient(115deg,#0b1a3a_0%,#123268_48%,#9bd9b3_100%)] pb-20 pt-32 lg:pt-36">
           <div className="pointer-events-none absolute inset-0 opacity-20 [background:radial-gradient(circle_at_80%_20%,rgba(255,255,255,0.35),transparent_40%),radial-gradient(circle_at_10%_80%,rgba(255,255,255,0.2),transparent_35%)]" />
-          <div className="relative mx-auto w-full max-w-7xl px-8 lg:px-12">
-            <div className="mx-auto max-w-3xl text-center">
-              <p className="mb-4 text-sm font-light tracking-[0.12em] text-white/80">Services</p>
-              <h1 className="text-4xl font-light leading-[1.02] tracking-[-0.02em] text-white md:text-6xl">
-                Everything You Need to Manage Social Good Confidently
-              </h1>
-              <p className="mx-auto mt-6 max-w-2xl text-base font-light leading-relaxed text-slate-100 md:text-lg">
-                Built to help you manage your CSR programs confidently, with clarity, security, and real-time control.
-              </p>
-            </div>
+          <div className="relative mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-12">
+            <RevealStagger className="mx-auto max-w-3xl text-center" immediate>
+              <RevealItem>
+                <p className="mb-4 text-sm font-light tracking-[0.12em] text-white/80">Services</p>
+              </RevealItem>
+              <RevealItem>
+                <h1 className="text-3xl font-light leading-[1.02] tracking-[-0.02em] text-white sm:text-4xl md:text-5xl lg:text-6xl">
+                  Everything You Need to Manage Social Good Confidently
+                </h1>
+              </RevealItem>
+              <RevealItem>
+                <p className="mx-auto mt-6 max-w-2xl text-base font-light leading-relaxed text-slate-100 md:text-lg">
+                  Built to help you manage your CSR programs confidently, with clarity, security, and real-time control.
+                </p>
+              </RevealItem>
+            </RevealStagger>
             <div className="relative mx-auto mt-14 w-full max-w-6xl md:mt-16">
               <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-10 bg-gradient-to-r from-[#0d2148] to-transparent md:w-16" />
               <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-10 bg-gradient-to-l from-[#3f7f97] to-transparent md:w-16" />
@@ -151,36 +165,47 @@ export default function Services() {
           </div>
         </section>
 
-        <section className="bg-white py-20 lg:py-24">
-          <div className="mx-auto w-full max-w-7xl px-8 lg:px-12">
+        <Reveal as="section" className="bg-white py-20 lg:py-24">
+          <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-12">
+            <Reveal>
             <h2 className="text-center text-3xl font-light leading-tight tracking-[-0.02em] text-[#111827] md:text-4xl">Built for the full impact chain</h2>
-            <div className="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
+            </Reveal>
+            <RevealStagger className="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
               {organizationItems.map((item) => {
                 const Icon = item.icon;
                 return (
+                  <RevealItem key={item.title}>
                   <Card
                     key={item.title}
-                    className="overflow-hidden rounded-2xl border border-black/10 bg-white shadow-[0_22px_45px_-32px_rgba(15,23,42,0.38)]"
+                    className="flex flex-col overflow-hidden rounded-2xl border border-black/10 bg-white shadow-[0_22px_45px_-32px_rgba(15,23,42,0.38)]"
                   >
                     <div className="h-36 w-full overflow-hidden border-b border-black/10">
                       <img src={item.image} alt={item.imageAlt} className="h-full w-full object-cover" loading="lazy" />
                     </div>
-                    <div className="p-6">
+                    <div className="flex flex-1 flex-col p-6">
                       <div className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#eaf8ef]">
                         <Icon className="h-5 w-5 text-[#0f5f4d]" />
                       </div>
                       <h3 className="mt-4 text-xl font-medium text-[#174c43]">{item.title}</h3>
-                      <p className="mt-2 text-sm font-light leading-relaxed text-[#174c43]/85">{item.description}</p>
+                      <p className="mt-2 flex-1 text-sm font-light leading-relaxed text-[#174c43]/85">{item.description}</p>
+                      <Link
+                        to={item.href}
+                        className="mt-5 inline-flex items-center gap-1.5 text-sm font-medium text-[#0f5f4d] transition-colors hover:text-[#174c43]"
+                      >
+                        Read more
+                        <ArrowUpRight className="h-4 w-4 shrink-0" aria-hidden />
+                      </Link>
                     </div>
                   </Card>
+                  </RevealItem>
                 );
               })}
-            </div>
+            </RevealStagger>
           </div>
-        </section>
+        </Reveal>
 
-        <section className="bg-[#f3f4f6] py-20 lg:py-24">
-          <div className="mx-auto w-full max-w-7xl px-8 lg:px-12">
+        <Reveal as="section" className="bg-[#f3f4f6] py-20 lg:py-24">
+          <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-12">
             <div className="mx-auto max-w-4xl text-center">
               <h2 className="text-4xl font-light leading-tight tracking-[-0.02em] text-[#111827] md:text-5xl">
                 Your impact, managed with clarity
@@ -198,7 +223,7 @@ export default function Services() {
                 />
                 <div className="grid gap-5 lg:grid-cols-[1.35fr_2fr]">
                   <div className="relative z-10">
-                    <h3 className="text-4xl font-light leading-[1.04] tracking-[-0.02em] text-[#1f2937]">Clear impact movements</h3>
+                    <h3 className="text-2xl font-light leading-[1.04] tracking-[-0.02em] sm:text-3xl lg:text-4xl text-[#1f2937]">Clear impact movements</h3>
                     <p className="mt-4 max-w-sm text-sm font-light leading-relaxed text-gray-600">
                       Every initiative is easy to track, categorized clearly, and updated in real time.
                     </p>
@@ -236,7 +261,7 @@ export default function Services() {
                       />
                     </div>
                     <div>
-                      <h3 className="text-4xl font-light leading-[1.04] tracking-[-0.02em] text-[#1f2937]">Support always within reach</h3>
+                      <h3 className="text-2xl font-light leading-[1.04] tracking-[-0.02em] sm:text-3xl lg:text-4xl text-[#1f2937]">Support always within reach</h3>
                       <p className="mt-4 text-sm font-light leading-relaxed text-gray-600">
                         Our team supports each partner throughout the entire process, from setup and implementation to ongoing improvement. We adapt the platform, workflows, and support model to your specific needs, ensuring close guidance, personalized assistance, and continuous follow-up as your impact programs evolve.
                       </p>
@@ -255,7 +280,7 @@ export default function Services() {
                     />
                   </div>
                   <div className="relative z-10 max-w-sm">
-                    <h3 className="text-4xl font-light leading-[1.04] tracking-[-0.02em]">Automated workflows</h3>
+                    <h3 className="text-2xl font-light leading-[1.04] tracking-[-0.02em] sm:text-3xl lg:text-4xl">Automated workflows</h3>
                     <p className="mt-4 text-sm font-light leading-relaxed text-blue-100">
                       Reduce manual steps across registrations, approvals, communications, tracking, and reporting.
                     </p>
@@ -284,7 +309,7 @@ export default function Services() {
                 />
                 <div className="grid gap-5 lg:grid-cols-[1.35fr_2fr]">
                   <div className="relative z-10">
-                    <h3 className="text-4xl font-light leading-[1.04] tracking-[-0.02em] text-[#1f2937]">Stay informed without chasing updates</h3>
+                    <h3 className="text-2xl font-light leading-[1.04] tracking-[-0.02em] sm:text-3xl lg:text-4xl text-[#1f2937]">Stay informed without chasing updates</h3>
                     <p className="mt-4 max-w-sm text-sm font-light leading-relaxed text-gray-600">
                       Get real-time visibility into important impact activity, from volunteer engagement to reporting milestones.
                     </p>
@@ -312,7 +337,7 @@ export default function Services() {
 
               <div className="grid gap-5 lg:grid-cols-2">
                 <Card className="relative overflow-hidden rounded-2xl border border-transparent bg-[linear-gradient(130deg,#5f7cf8_0%,#3b82f6_45%,#0f5f4d_100%)] p-5 text-white shadow-[0_24px_48px_-28px_rgba(37,99,235,0.7)]">
-                  <h3 className="relative z-10 max-w-sm text-4xl font-light leading-[1.04] tracking-[-0.02em]">Reporting built into every action</h3>
+                  <h3 className="relative z-10 max-w-sm text-2xl font-light leading-[1.04] tracking-[-0.02em] sm:text-3xl lg:text-4xl">Reporting built into every action</h3>
                   <p className="relative z-10 mt-4 max-w-md text-sm font-light leading-relaxed text-blue-100">
                     Every mission, donation, partnership, and volunteering hour becomes structured data ready for dashboards, ESG reporting, and leadership updates.
                   </p>
@@ -352,11 +377,11 @@ export default function Services() {
                     aria-hidden="true"
                     className="pointer-events-none absolute inset-0 opacity-50 [background-image:linear-gradient(to_right,rgba(148,163,184,0.14)_1px,transparent_1px),linear-gradient(to_bottom,rgba(148,163,184,0.14)_1px,transparent_1px)] [background-size:24px_24px] [mask-image:radial-gradient(ellipse_at_center,rgba(0,0,0,0.95)_42%,rgba(0,0,0,0)_100%)]"
                   />
-                  <h3 className="relative z-10 max-w-sm text-4xl font-light leading-[1.04] tracking-[-0.02em] text-[#1f2937]">Works with the tools and teams you already use</h3>
+                  <h3 className="relative z-10 max-w-sm text-2xl font-light leading-[1.04] tracking-[-0.02em] sm:text-3xl lg:text-4xl text-[#1f2937]">Works with the tools and teams you already use</h3>
                   <p className="relative z-10 mt-4 max-w-md text-sm font-light leading-relaxed text-gray-600">
                     Connect your impact operations with your internal workflows, partners, reporting needs, and stakeholder visibility.
                   </p>
-                  <div className="relative z-10 mt-5 grid grid-cols-3 gap-3 sm:grid-cols-5">
+                  <div className="relative z-10 mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-5">
                     {[
                       { icon: Workflow, label: "Flows" },
                       { icon: Users2, label: "Teams" },
@@ -379,9 +404,9 @@ export default function Services() {
               </div>
             </div>
           </div>
-        </section>
+        </Reveal>
 
-        <section className="bg-[linear-gradient(180deg,#f5fbf7_0%,#ffffff_100%)] py-20 lg:py-24">
+        <Reveal as="section" className="bg-[linear-gradient(180deg,#f5fbf7_0%,#ffffff_100%)] py-20 lg:py-24">
           <div className="mx-auto grid w-full max-w-7xl gap-10 px-8 lg:grid-cols-[minmax(0,1fr)_380px] lg:items-center lg:px-12">
             <div>
               <h2 className="text-4xl font-light leading-tight tracking-[-0.02em] text-[#111827] md:text-5xl">Why it matters</h2>
@@ -412,9 +437,9 @@ export default function Services() {
               </div>
             </Card>
           </div>
-        </section>
+        </Reveal>
 
-        <section className="bg-[#0b1a3a] py-20 lg:py-24">
+        <Reveal as="section" className="bg-[#0b1a3a] py-20 lg:py-24">
           <div className="mx-auto w-full max-w-5xl px-8 text-center lg:px-12">
             <h2 className="text-4xl font-light leading-tight tracking-[-0.02em] text-white md:text-5xl">
               Ready to manage social impact with more structure and less friction?
@@ -430,7 +455,7 @@ export default function Services() {
               </Button>
             </div>
           </div>
-        </section>
+        </Reveal>
       </main>
     </div>
   );

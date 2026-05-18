@@ -42,7 +42,7 @@ export default function Homepage() {
   };
 
   return (
-    <div className="min-h-screen relative">
+    <div className="relative min-h-screen overflow-x-hidden">
       <SEOManager 
         title="Connect for Impact - Companies, Nonprofits & Volunteers Unite"
         description="All-in-one platform connecting companies, nonprofits, and volunteers for ESG initiatives and social impact. Transform your corporate social responsibility with skill-based volunteering."
@@ -54,7 +54,7 @@ export default function Homepage() {
       <Header />
       
       {/* Hero section */}
-      <div className="relative z-10 h-screen">
+      <div className="relative z-10 min-h-[100dvh]">
         <Hero />
       </div>
 

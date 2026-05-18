@@ -7,13 +7,12 @@ const heroVideos = {
   A: "https://videos.pexels.com/video-files/7056594/7056594-uhd_2732_1318_30fps.mp4",
   B: "https://videos.pexels.com/video-files/7517692/7517692-uhd_2560_1440_25fps.mp4",
   C: "https://videos.pexels.com/video-files/4770929/4770929-uhd_2560_1440_24fps.mp4",
-  D: "https://videos.pexels.com/video-files/6568509/6568509-uhd_2732_1440_25fps.mp4",
-  E: "https://videos.pexels.com/video-files/6893741/6893741-uhd_3840_2160_25fps.mp4"
+  E: "https://videos.pexels.com/video-files/6893741/6893741-uhd_3840_2160_25fps.mp4",
 };
 
 export function Hero() {
   // Generate random video selection on every component render
-  const variants = ['A', 'B', 'C', 'D', 'E'];
+  const variants = ['A', 'B', 'C', 'E'];
   const randomVariant = variants[Math.floor(Math.random() * variants.length)];
   const selectedVideo = heroVideos[randomVariant as keyof typeof heroVideos];
 
@@ -59,7 +58,7 @@ export function Hero() {
   };
 
   return (
-    <div className="relative w-full min-h-screen flex flex-col overflow-hidden">
+    <div className="relative flex min-h-full w-full flex-col overflow-hidden">
       {/* Video Background with overlay */}
       <div className="absolute inset-0 z-0">
         <video 
@@ -75,7 +74,7 @@ export function Hero() {
       
       {/* Main Content Area - left-aligned, vertically centered */}
       <motion.div 
-        className="relative z-20 flex flex-1 items-end justify-start pb-8 px-8 lg:pb-12 lg:px-12 mt-24"
+        className="relative z-20 mt-20 flex flex-1 items-end justify-start px-4 pb-8 sm:mt-24 sm:px-6 lg:pb-12 lg:px-12"
         variants={containerVariants}
         initial="hidden"
         animate="visible"
@@ -83,7 +82,7 @@ export function Hero() {
         <div className="max-w-4xl w-full">
           {/* Headline */}
           <motion.h1 
-            className="text-5xl md:text-6xl lg:text-7xl font-light leading-none mb-8"
+            className="mb-6 text-3xl font-light leading-tight sm:mb-8 sm:text-4xl md:text-5xl md:leading-none lg:text-6xl xl:text-7xl"
             variants={headlineVariants}
           >
             <motion.span 
@@ -92,7 +91,7 @@ export function Hero() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
             >
-              Your Company’s Social Impact, Finally Connected. Fully Structured.
+              Your Company’s Impact, Finally Connected. Fully Structured.
             </motion.span>
           </motion.h1>
           

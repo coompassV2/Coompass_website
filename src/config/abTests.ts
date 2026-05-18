@@ -12,7 +12,7 @@ export const valuePropositionTest: ABTestConfig = {
 
 export const heroVideoTest: ABTestConfig = {
   testName: 'heroVideo',
-  variants: ['A', 'B', 'C', 'D', 'E'],
+  variants: ['A', 'B', 'C', 'E'],
 };
 
 // This map allows easy lookup of a test config by its name.

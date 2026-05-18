@@ -1,4 +1,5 @@
 import { CompaniesPersonaHowItWorks } from "@/components/for-pages/companies/CompaniesPersonaHowItWorks";
+import { CompaniesCsrResourcesSection } from "@/components/personas/CompaniesCsrResourcesSection";
 import PersonaLandingTemplate from "@/pages/personas/PersonaLandingTemplate";
 
 export default function CompaniesPersona() {
@@ -20,18 +21,26 @@ export default function CompaniesPersona() {
         {
           title: "Program automation",
           description: "Reduce administrative overhead with structured workflows, reminders and standardized records.",
+          iconSrc: "/covers/companies-feature-program-automation.png",
+          iconAlt: "Program automation icon",
         },
         {
           title: "Employee experience",
           description: "Give teams an easy way to discover opportunities and register participation in one place.",
+          iconSrc: "/covers/companies-feature-employee-experience.png",
+          iconAlt: "Employee experience icon",
         },
         {
           title: "Impact visibility",
           description: "Track volunteer activity and engagement trends with practical dashboards for decision-making.",
+          iconSrc: "/covers/companies-feature-impact-visibility.png",
+          iconAlt: "Impact visibility icon",
         },
       ]}
       platformSectionTitle="The Infrastructure for Corporate Impact"
       platformSectionSubtitle="One connected flow for volunteering, partnerships, and reporting, so teams spend less time on admin and more time on outcomes."
+      platformHubLogoSrc="/covers/coompass-platform-hub-logo.png"
+      platformHubLogoAlt="Coompass compass logo"
       platformFeatures={[
         {
           title: "Employee Engagement Hub",
@@ -40,7 +49,6 @@ export default function CompaniesPersona() {
           tag: "75% higher employee satisfaction",
           previewImageSrc: "/covers/platform-card-employee-engagement.png",
           previewImageAlt: "Employee engagement icon",
-          cardClassName: "bg-black",
         },
         {
           title: "ESG Metrics",
@@ -99,7 +107,12 @@ export default function CompaniesPersona() {
           previewImageAlt: "Analytics dashboard icon",
         },
       ]}
-      afterPlatformSection={<CompaniesPersonaHowItWorks />}
+      afterPlatformSection={
+        <>
+          <CompaniesPersonaHowItWorks />
+          <CompaniesCsrResourcesSection />
+        </>
+      }
       ctaTitle="See Coompass in action for your company"
       ctaDescription="Book a walkthrough focused on your CSR priorities, employee engagement goals and reporting requirements."
     />

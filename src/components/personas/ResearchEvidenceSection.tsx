@@ -136,7 +136,7 @@ export function ResearchEvidenceSection() {
         aria-hidden
         className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_80%_60%_at_50%_-10%,rgba(56,189,248,0.12),transparent_55%)]"
       />
-      <div className="relative mx-auto max-w-7xl px-8 lg:px-12">
+      <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-12">
         <div className="mx-auto max-w-3xl text-center">
           <h2
             id="research-evidence-heading"

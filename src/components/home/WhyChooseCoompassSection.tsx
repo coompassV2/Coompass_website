@@ -49,9 +49,9 @@ export function WhyChooseCoompassSection() {
       ref={sectionRef}
       className="bg-[linear-gradient(115deg,#0b1a3a_0%,#123268_48%,#9bd9b3_100%)]"
     >
-      <div className="mx-auto w-full max-w-7xl px-8 py-20 lg:px-12 lg:py-24">
+      <div className="mx-auto w-full max-w-7xl px-4 py-16 sm:px-6 sm:py-20 lg:px-12 lg:py-24">
         <div className="mb-10 max-w-[700px] md:mb-12">
-          <h2 className="text-4xl font-light leading-tight text-white md:text-5xl">
+          <h2 className="text-3xl font-light leading-tight text-white sm:text-4xl md:text-5xl">
             Why choose Coompass
           </h2>
           <p className="mt-4 text-base font-light leading-relaxed text-white/85 md:text-lg">
@@ -79,9 +79,9 @@ export function WhyChooseCoompassSection() {
                   index === 1 ? "md:z-20" : "md:z-10"
                 } ${
                   index === 0
-                    ? "md:translate-x-[22px]"
+                    ? "lg:translate-x-[22px]"
                     : index === 2
-                      ? "md:-translate-x-[22px]"
+                      ? "lg:-translate-x-[22px]"
                       : ""
                 }`}
               >

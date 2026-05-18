@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
+import { Reveal } from "@/components/motion";
 
 interface ContentSectionProps {
   children: ReactNode;
@@ -7,12 +8,10 @@ interface ContentSectionProps {
 
 export function ContentSection({ children }: ContentSectionProps) {
   return (
-    <div className="max-w-4xl mx-auto px-6 pb-16 pt-0">
+    <Reveal className="mx-auto max-w-4xl px-6 pb-16 pt-0" variant="fadeIn">
       <Card className="bg-white/70 backdrop-blur-sm">
-        <CardContent className="p-8 prose prose-gray max-w-none">
-          {children}
-        </CardContent>
+        <CardContent className="prose prose-gray max-w-none p-8">{children}</CardContent>
       </Card>
-    </div>
+    </Reveal>
   );
 }

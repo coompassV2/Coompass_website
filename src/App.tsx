@@ -268,14 +268,6 @@ function App() {
             <Route path="*" element={<NotFound />} />
           </Routes>
           <Footer />
-          <div
-            aria-hidden="true"
-            className="pointer-events-none relative z-0 overflow-hidden bg-white pb-2 pt-4 select-none md:pb-4 md:pt-6"
-          >
-            <p className="bg-gradient-to-b from-black/[0.09] via-black/[0.055] to-black/[0.01] bg-clip-text text-center text-[22vw] font-semibold uppercase leading-[0.8] tracking-[-0.04em] text-transparent [mask-image:linear-gradient(to_bottom,rgba(0,0,0,1)_55%,rgba(0,0,0,0)_100%)] md:text-[18vw]">
-              COOMPASS
-            </p>
-          </div>
           <Toaster />
         </AuthProvider>
       </Router>

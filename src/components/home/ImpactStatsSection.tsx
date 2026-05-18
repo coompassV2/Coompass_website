@@ -1,3 +1,5 @@
+import { Reveal, RevealItem, RevealStagger } from "@/components/motion";
+
 type StatCard = {
   value: string;
   title: string;
@@ -27,50 +29,57 @@ const STATS: StatCard[] = [
 
 export function ImpactStatsSection() {
   return (
-    <section className="bg-white">
-      <div className="mx-auto w-full max-w-7xl px-8 py-20 lg:px-12 lg:py-24">
-        <div className="mb-10 max-w-3xl text-center md:mb-12 md:mx-auto">
+    <Reveal as="section" className="bg-white">
+      <div className="mx-auto w-full max-w-7xl px-4 py-16 sm:px-6 sm:py-20 lg:px-12 lg:py-24">
+        <Reveal className="mb-10 max-w-3xl text-center md:mb-12 md:mx-auto">
           <p className="mb-3 text-sm font-light text-black/60">Our Impact</p>
           <h2 className="text-4xl font-light leading-tight text-black md:text-5xl">
             Impact infrastructure already in motion
           </h2>
-        </div>
+        </Reveal>
 
-        <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+        <RevealStagger className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3" stagger={0.12}>
           {STATS.map((stat, index) => (
-            <article
-              key={stat.title}
-              className={`min-h-[260px] rounded-2xl p-6 shadow-[0_24px_44px_-30px_rgba(15,23,42,0.35)] md:p-7 ${
-                index === 0 ? "relative overflow-hidden bg-[#1a1a1a]" : "bg-[#efefef]"
-              }`}
-            >
-              {index === 0 && (
-                <>
-                  <img
-                    src="/covers/impact-hands-sky.png"
-                    alt="Hands reaching connection"
-                    className="absolute inset-0 h-full w-full object-cover"
-                    loading="lazy"
-                  />
-                  <div className="absolute inset-0 bg-black/45" />
-                </>
-              )}
+            <RevealItem key={stat.title}>
+              <article
+                className={`min-h-[260px] rounded-2xl p-6 shadow-[0_24px_44px_-30px_rgba(15,23,42,0.35)] md:p-7 ${
+                  index === 0 ? "relative overflow-hidden bg-[#1a1a1a]" : "bg-[#efefef]"
+                }`}
+              >
+                {index === 0 && (
+                  <>
+                    <img
+                      src="/covers/impact-hands-sky.png"
+                      alt="Hands reaching connection"
+                      className="absolute inset-0 h-full w-full object-cover"
+                      loading="lazy"
+                    />
+                    <div className="absolute inset-0 bg-black/45" />
+                  </>
+                )}
 
-              <div className={`relative z-10 ${index === 0 ? "text-white" : "text-black"}`}>
-                <p className={`mb-3 text-5xl font-semibold leading-none md:text-6xl ${index === 0 ? "text-white" : "text-black"}`}>
-                  {stat.value}
-                </p>
-                <h3 className={`mb-3 text-xl font-light leading-tight ${index === 0 ? "text-white/95" : "text-black/90"}`}>
-                  {stat.title}
-                </h3>
-                <p className={`text-base font-light leading-relaxed ${index === 0 ? "text-white/90" : "text-black/70"}`}>
-                  {stat.description}
-                </p>
-              </div>
-            </article>
+                <div className={`relative z-10 ${index === 0 ? "text-white" : "text-black"}`}>
+                  <p
+                    className={`mb-3 text-5xl font-semibold leading-none md:text-6xl ${index === 0 ? "text-white" : "text-black"}`}
+                  >
+                    {stat.value}
+                  </p>
+                  <h3
+                    className={`mb-3 text-xl font-light leading-tight ${index === 0 ? "text-white/95" : "text-black/90"}`}
+                  >
+                    {stat.title}
+                  </h3>
+                  <p
+                    className={`text-base font-light leading-relaxed ${index === 0 ? "text-white/90" : "text-black/70"}`}
+                  >
+                    {stat.description}
+                  </p>
+                </div>
+              </article>
+            </RevealItem>
           ))}
-        </div>
+        </RevealStagger>
       </div>
-    </section>
+    </Reveal>
   );
 }

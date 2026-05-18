@@ -1,4 +1,4 @@
-import { BarChart3, ClipboardList, HandHeart, Users } from "lucide-react";
+import { Users } from "lucide-react";
 import PersonaLandingTemplate from "@/pages/personas/PersonaLandingTemplate";
 
 export default function NonprofitsPersona() {
@@ -21,17 +21,20 @@ export default function NonprofitsPersona() {
       features={[
         {
           title: "Volunteer coordination",
-          icon: HandHeart,
+          iconSrc: "/covers/nonprofits-feature-volunteer-coordination.png",
+          iconAlt: "Volunteer coordination icon",
           description: "Track assignments, hours and progress with a clear, shared workflow for your team.",
         },
         {
           title: "Program management",
-          icon: ClipboardList,
+          iconSrc: "/covers/nonprofits-feature-program-management.png",
+          iconAlt: "Program management icon",
           description: "Organize activities, beneficiaries and milestones with better consistency across initiatives.",
         },
         {
           title: "Reporting clarity",
-          icon: BarChart3,
+          iconSrc: "/covers/nonprofits-feature-reporting-clarity.png",
+          iconAlt: "Reporting clarity icon",
           description: "Provide reliable program updates backed by activity and participation evidence.",
         },
       ]}

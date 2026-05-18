@@ -1,5 +1,5 @@
-
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
+import { Reveal, RevealStagger } from "@/components/motion";
 
 interface BenefitsSectionProps {
   title: string;
@@ -8,11 +8,13 @@ interface BenefitsSectionProps {
 
 export function BenefitsSection({ title, children }: BenefitsSectionProps) {
   return (
-    <section className="mb-8">
-      <h2 className="text-xl font-semibold mb-2">{title}</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+    <Reveal as="section" className="mb-8">
+      <Reveal>
+        <h2 className="mb-2 text-xl font-semibold">{title}</h2>
+      </Reveal>
+      <RevealStagger className="mt-6 grid grid-cols-1 gap-6 md:grid-cols-2" stagger={0.1}>
         {children}
-      </div>
-    </section>
+      </RevealStagger>
+    </Reveal>
   );
 }
