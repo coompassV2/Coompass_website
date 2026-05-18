@@ -56,6 +56,7 @@ export default function NonprofitsPersona() {
       icon={Users}
       hideWhyCard
       heroBackgroundImageSrc="/covers/nonprofit-hero-handshake.png"
+      heroBackgroundFadeLeft
     />
   );
 }

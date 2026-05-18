@@ -12,8 +12,6 @@ export default function MunicipalitiesPersona() {
       heroTitle={"Bridge the gap between public resources\nand community needs"}
       heroDescription="Coordinate local stakeholders, activate social programs, and track impact across the territory with real-time data."
       heroBackgroundImageSrc="/covers/municipalities-hero.png"
-      heroBackgroundSize="auto 100%"
-      heroBackgroundPosition="right center"
       heroBackgroundFadeLeft
       hideWhyCard
       featuresSection={

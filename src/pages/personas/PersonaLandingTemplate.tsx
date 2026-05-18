@@ -96,6 +96,12 @@ const calendlyUrl = "https://calendly.com/hello-coompass/sessao-coompass";
 const HERO_BG_LEFT_FADE_MASK =
   "linear-gradient(to right, transparent 0%, transparent 34%, rgba(0,0,0,0.35) 48%, rgba(0,0,0,0.82) 58%, #000 70%, #000 100%)";
 
+/** Shared hero layout — aligned to municipalities persona */
+const PERSONA_HERO_MIN_HEIGHT = "min-h-[28rem] sm:min-h-[30rem] lg:min-h-[34rem]";
+const PERSONA_HERO_INNER = "mx-auto w-full max-w-7xl px-4 pb-20 pt-32 sm:px-6 sm:pt-40 lg:px-12 lg:pb-24 lg:pt-48";
+const PERSONA_HERO_BG_SIZE = "auto 100%";
+const PERSONA_HERO_BG_POSITION = "right center";
+
 export default function PersonaLandingTemplate({
   seoTitle,
   seoDescription,
@@ -127,8 +133,8 @@ export default function PersonaLandingTemplate({
   icon: Icon,
   hideWhyCard = false,
   heroBackgroundImageSrc,
-  heroBackgroundSize = "100% auto",
-  heroBackgroundPosition = "right center",
+  heroBackgroundSize = PERSONA_HERO_BG_SIZE,
+  heroBackgroundPosition = PERSONA_HERO_BG_POSITION,
   heroBackgroundFadeLeft = false,
   heroSectionClassName = "bg-[#07263f]",
   heroImageOverlayClassName,
@@ -148,7 +154,7 @@ export default function PersonaLandingTemplate({
       <SEOManager title={seoTitle} description={seoDescription} canonicalUrl={canonicalUrl} />
       <Header />
       <main>
-        <section className={cn("relative overflow-hidden", heroSectionClassName)}>
+        <section className={cn("relative overflow-hidden", PERSONA_HERO_MIN_HEIGHT, heroSectionClassName)}>
           {heroBackgroundImageSrc && (
             <>
               <div
@@ -180,9 +186,14 @@ export default function PersonaLandingTemplate({
               />
             </>
           )}
-          <div className="mx-auto w-full max-w-7xl px-4 pb-20 pt-32 sm:px-6 sm:pt-40 lg:px-12 lg:pb-24 lg:pt-48">
-            <div className={`${heroGridClassName} relative z-10`}>
-            <motion.div variants={heroContainer} initial="hidden" animate="visible">
+          <div className={cn(PERSONA_HERO_INNER, "flex h-full min-h-0 flex-col justify-center")}>
+            <div className={cn(heroGridClassName, "relative z-10 w-full")}>
+            <motion.div
+              variants={heroContainer}
+              initial="hidden"
+              animate="visible"
+              className={cn(hideWhyCard && "flex min-h-[14rem] flex-col justify-center sm:min-h-[15rem] lg:min-h-[16rem]")}
+            >
               {eyebrow ? (
                 <motion.p variants={heroItem} className="text-sm font-light tracking-[0.12em] text-white/80">
                   {eyebrow}
