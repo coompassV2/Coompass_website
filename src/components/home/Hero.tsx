@@ -58,7 +58,7 @@ export function Hero() {
   };
 
   return (
-    <div className="relative flex min-h-full w-full flex-col overflow-hidden">
+    <div className="relative z-10 flex min-h-[100dvh] w-full flex-col overflow-hidden">
       {/* Video Background with overlay */}
       <div className="absolute inset-0 z-0">
         <video 
@@ -107,13 +107,15 @@ export function Hero() {
             variants={textVariants}
           >
             <a
-              href="/login"
+              href="https://app.coompass.org"
               className="inline-flex items-center justify-center rounded-full border border-white/70 bg-black/25 px-6 py-3 text-sm font-medium text-white backdrop-blur-sm transition hover:bg-black/40"
             >
               Open App
             </a>
             <a
-              href="/contact"
+              href="https://calendly.com/hello-coompass/sessao-coompass"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-medium text-black transition hover:bg-white/90"
             >
               Custom Solution

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight, BarChart3, FileText, Settings2, Target, type LucideIcon } from "lucide-react";
+import { BarChart3, FileText, Settings2, Target, type LucideIcon } from "lucide-react";
 
 type WhatWeDoFeature = {
   title: string;
@@ -72,13 +72,6 @@ function FeatureCard({ feature }: FeatureCardProps) {
         </div>
         <h3 className="text-[30px] font-light leading-[1.05] tracking-[-0.01em] text-[#174c43]">{feature.title}</h3>
         <p className="mt-4 text-sm font-light leading-relaxed text-[#174c43]/85">{feature.description}</p>
-        <a
-          href="/contact"
-          className="mt-5 inline-flex items-center gap-2 text-sm font-medium text-[#0f5f4d] transition hover:text-[#0c4b3d]"
-        >
-          Read more
-          <ArrowRight className="h-4 w-4" strokeWidth={1.5} />
-        </a>
       </div>
       <div className="relative mt-auto h-[180px] w-full shrink-0 overflow-hidden border-t border-black/10">
         <img

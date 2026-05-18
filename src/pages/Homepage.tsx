@@ -52,11 +52,8 @@ export default function Homepage() {
       />
 
       <Header />
-      
-      {/* Hero section */}
-      <div className="relative z-10 min-h-[100dvh]">
-        <Hero />
-      </div>
+
+      <Hero />
 
       <WhatWeDoSection />
 
