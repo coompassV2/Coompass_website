@@ -15,7 +15,7 @@ export function ImpactOperationsSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.7, ease: "easeOut" }}
-          className="relative mx-auto flex min-h-[440px] w-full max-w-[760px] flex-col items-center justify-center overflow-hidden rounded-[28px] border border-transparent bg-[linear-gradient(130deg,rgba(141,124,246,1)_0%,rgba(79,70,229,1)_68%,rgba(59,130,246,1)_100%)] px-8 py-12 text-center text-white shadow-[0_24px_48px_-28px_rgba(79,70,229,0.75)] md:px-12"
+          className="relative mx-auto flex min-h-[440px] w-full max-w-[min(100%,1100px)] flex-col items-center justify-center overflow-hidden rounded-[28px] border border-transparent bg-[linear-gradient(130deg,rgba(141,124,246,1)_0%,rgba(79,70,229,1)_68%,rgba(59,130,246,1)_100%)] px-8 py-12 text-center text-white shadow-[0_24px_48px_-28px_rgba(79,70,229,0.75)] md:px-12 lg:max-w-[1200px]"
         >
           <div className="pointer-events-none absolute inset-0 z-0 overflow-hidden opacity-35">
             <img
@@ -26,7 +26,7 @@ export function ImpactOperationsSection() {
               aria-hidden="true"
             />
           </div>
-          <h2 className="relative z-10 my-[29px] max-w-2xl text-3xl font-light leading-[1.12] tracking-[-0.02em] text-white md:text-[38px] lg:text-[40px]">
+          <h2 className="relative z-10 my-[29px] max-w-4xl px-2 text-3xl font-light leading-[1.12] tracking-[-0.02em] text-white md:text-[38px] lg:text-[40px]">
             Good intentions aren&apos;t enough anymore. Impact happens when you have the infrastructure to execute.
           </h2>
 
