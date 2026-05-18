@@ -14,8 +14,10 @@ export default function InvestorsStakeholdersPersona() {
       heroDescription="Give investors, boards, and strategic stakeholders a clear executive layer to evaluate social impact, program performance, governance quality, and long-term value creation."
       heroSectionClassName="bg-black"
       heroBackgroundImageSrc="/covers/investors-esg-globe-hero.png"
+      heroBackgroundSize="min(62%, 760px) auto"
+      heroBackgroundPosition="right center"
       heroBackgroundFadeLeft
-      heroImageOverlayClassName="bg-[linear-gradient(90deg,rgba(0,0,0,0.97)_0%,rgba(0,0,0,0.9)_32%,rgba(0,0,0,0.55)_52%,rgba(0,0,0,0.15)_72%,transparent_100%)]"
+      heroImageOverlayClassName="persona-hero-overlay persona-hero-overlay--dark"
       hideWhyCard
       featuresSection={
         <>

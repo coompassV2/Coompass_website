@@ -99,6 +99,71 @@
   --muted-foreground: 240 3.8% 46.1%;
 }
 
+/* Persona hero: keep photo scale from background-size prop; strong left scrim for copy */
+@layer components {
+  .persona-hero-bg {
+    @apply absolute inset-0 z-0 bg-no-repeat;
+    background-position: right center;
+  }
+
+  .persona-hero-overlay {
+    @apply pointer-events-none absolute inset-0 z-[1];
+    background: linear-gradient(
+      90deg,
+      rgba(7, 38, 63, 1) 0%,
+      rgba(7, 38, 63, 0.98) 26%,
+      rgba(7, 38, 63, 0.92) 38%,
+      rgba(7, 38, 63, 0.72) 48%,
+      rgba(7, 38, 63, 0.42) 58%,
+      rgba(7, 38, 63, 0.14) 70%,
+      transparent 84%
+    );
+  }
+
+  @media (min-width: 1280px) {
+    .persona-hero-overlay {
+      background: linear-gradient(
+        90deg,
+        rgba(7, 38, 63, 1) 0%,
+        rgba(7, 38, 63, 0.99) 32%,
+        rgba(7, 38, 63, 0.95) 44%,
+        rgba(7, 38, 63, 0.82) 54%,
+        rgba(7, 38, 63, 0.5) 62%,
+        rgba(7, 38, 63, 0.15) 72%,
+        transparent 84%
+      );
+    }
+  }
+
+  .persona-hero-overlay--dark {
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.98) 0%,
+      rgba(0, 0, 0, 0.96) 26%,
+      rgba(0, 0, 0, 0.9) 38%,
+      rgba(0, 0, 0, 0.7) 48%,
+      rgba(0, 0, 0, 0.38) 58%,
+      rgba(0, 0, 0, 0.12) 70%,
+      transparent 84%
+    );
+  }
+
+  @media (min-width: 1280px) {
+    .persona-hero-overlay--dark {
+      background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(0, 0, 0, 0.98) 32%,
+        rgba(0, 0, 0, 0.94) 44%,
+        rgba(0, 0, 0, 0.8) 54%,
+        rgba(0, 0, 0, 0.45) 62%,
+        rgba(0, 0, 0, 0.12) 72%,
+        transparent 84%
+      );
+    }
+  }
+}
+
 .glass-card {
   @apply bg-black/30 backdrop-blur-lg border border-white/10 rounded-xl;
 }

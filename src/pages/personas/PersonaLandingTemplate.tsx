@@ -92,15 +92,38 @@ type PersonaLandingTemplateProps = {
 
 const calendlyUrl = "https://calendly.com/hello-coompass/sessao-coompass";
 
-/** Alpha mask: stronger left fade so more of the image blends into the section background */
-const HERO_BG_LEFT_FADE_MASK =
-  "linear-gradient(to right, transparent 0%, transparent 34%, rgba(0,0,0,0.35) 48%, rgba(0,0,0,0.82) 58%, #000 70%, #000 100%)";
-
 /** Shared hero layout — aligned to municipalities persona */
 const PERSONA_HERO_MIN_HEIGHT = "min-h-[28rem] sm:min-h-[30rem] lg:min-h-[34rem]";
 const PERSONA_HERO_INNER = "mx-auto w-full max-w-7xl px-4 pb-20 pt-32 sm:px-6 sm:pt-40 lg:px-12 lg:pb-24 lg:pt-48";
 const PERSONA_HERO_BG_SIZE = "auto 100%";
 const PERSONA_HERO_BG_POSITION = "right center";
+
+/** Alpha mask on the photo layer — stops aligned to each background-size so the left edge softens, not the viewport */
+const HERO_MASK_HEIGHT_FIT =
+  "linear-gradient(to right, transparent 0%, transparent 34%, rgba(0,0,0,0.35) 48%, rgba(0,0,0,0.82) 58%, #000 70%, #000 100%)";
+const HERO_MASK_WIDTH_80 =
+  "linear-gradient(to right, transparent 0%, transparent 17%, rgba(0,0,0,0.2) 20%, rgba(0,0,0,0.55) 25%, rgba(0,0,0,0.88) 30%, #000 35%, #000 100%)";
+const HERO_MASK_WIDTH_100 =
+  "linear-gradient(to right, transparent 0%, transparent 6%, rgba(0,0,0,0.25) 12%, rgba(0,0,0,0.75) 22%, #000 32%, #000 100%)";
+const HERO_MASK_WIDTH_62 =
+  "linear-gradient(to right, transparent 0%, transparent 35%, rgba(0,0,0,0.25) 38%, rgba(0,0,0,0.65) 43%, rgba(0,0,0,0.9) 48%, #000 53%, #000 100%)";
+
+function resolveHeroBackgroundSize(
+  size: string,
+  isDefaultHeightFit: boolean,
+  isWidthFit: boolean,
+): string {
+  if (isDefaultHeightFit) return PERSONA_HERO_BG_SIZE;
+  if (isWidthFit) return "100% auto";
+  return size;
+}
+
+function getHeroPhotoFadeMask(backgroundSize: string): string {
+  if (backgroundSize === "80% auto") return HERO_MASK_WIDTH_80;
+  if (backgroundSize === "100% auto") return HERO_MASK_WIDTH_100;
+  if (backgroundSize.includes("62%")) return HERO_MASK_WIDTH_62;
+  return HERO_MASK_HEIGHT_FIT;
+}
 
 export default function PersonaLandingTemplate({
   seoTitle,
@@ -149,6 +172,14 @@ export default function PersonaLandingTemplate({
     ? "grid grid-cols-1 items-center gap-10"
     : "grid grid-cols-1 items-center gap-10 lg:grid-cols-[1.3fr_1fr]";
 
+  const isWidthFitHero = heroBackgroundSize === "100% auto";
+  const isDefaultHeightFitHero = heroBackgroundSize === PERSONA_HERO_BG_SIZE;
+  const resolvedHeroBgSize = resolveHeroBackgroundSize(
+    heroBackgroundSize,
+    isDefaultHeightFitHero,
+    isWidthFitHero,
+  );
+
   return (
     <div className="min-h-screen bg-white">
       <SEOManager title={seoTitle} description={seoDescription} canonicalUrl={canonicalUrl} />
@@ -159,15 +190,15 @@ export default function PersonaLandingTemplate({
             <>
               <div
                 aria-hidden="true"
-                className="absolute inset-0 z-0 bg-no-repeat"
+                className="persona-hero-bg"
                 style={{
                   backgroundImage: `url(${heroBackgroundImageSrc})`,
                   backgroundPosition: heroBackgroundPosition,
-                  backgroundSize: heroBackgroundSize,
+                  backgroundSize: resolvedHeroBgSize,
                   ...(heroBackgroundFadeLeft
                     ? {
-                        WebkitMaskImage: HERO_BG_LEFT_FADE_MASK,
-                        maskImage: HERO_BG_LEFT_FADE_MASK,
+                        WebkitMaskImage: getHeroPhotoFadeMask(resolvedHeroBgSize),
+                        maskImage: getHeroPhotoFadeMask(resolvedHeroBgSize),
                         WebkitMaskSize: "100% 100%",
                         maskSize: "100% 100%",
                         WebkitMaskRepeat: "no-repeat",
@@ -178,11 +209,7 @@ export default function PersonaLandingTemplate({
               />
               <div
                 aria-hidden="true"
-                className={cn(
-                  "pointer-events-none absolute inset-0 z-[1]",
-                  heroImageOverlayClassName ??
-                    "bg-[linear-gradient(90deg,rgba(7,38,63,0.98)_0%,rgba(7,38,63,0.88)_28%,rgba(7,38,63,0.58)_50%,rgba(7,38,63,0.28)_70%,rgba(7,38,63,0.08)_100%)]",
-                )}
+                className={heroImageOverlayClassName ?? "persona-hero-overlay"}
               />
             </>
           )}

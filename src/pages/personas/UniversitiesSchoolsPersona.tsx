@@ -12,6 +12,8 @@ export default function UniversitiesSchoolsPersona() {
       heroTitle={"Mobilize students, faculty and community\nimpact programs"}
       heroDescription="Coompass helps universities and schools coordinate volunteering, partnerships and social initiatives with better visibility and execution consistency."
       heroBackgroundImageSrc="/covers/universities-schools-hero.png"
+      heroBackgroundSize="80% auto"
+      heroBackgroundPosition="right center"
       heroBackgroundFadeLeft
       hideWhyCard
       centerFeatureHeading

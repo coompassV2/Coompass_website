@@ -11,6 +11,8 @@ export default function CompaniesPersona() {
       heroTitle="Complete CSR solutions for your team."
       heroDescription="Coompass offers companies the platform to better run social initiatives with less manual work, stronger employee engagement and clear ESG evidence."
       heroBackgroundImageSrc="/covers/companies-csr-hero.png"
+      heroBackgroundSize="80% auto"
+      heroBackgroundPosition="right center"
       heroBackgroundFadeLeft
       hideWhyCard
       centerFeatureHeading
