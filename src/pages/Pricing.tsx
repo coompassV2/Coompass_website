@@ -27,7 +27,7 @@ type PricingSegment = {
 };
 
 const ctaRoutes: Record<CtaLabel, string> = {
-  "Get Started": "/register",
+  "Get Started": "https://app.coompass.org",
   Subscribe: "https://buy.stripe.com/00w4gzaYs9Q60Jmc4s1Nu04",
   Request: "https://calendly.com/hello-coompass/sessao-coompass",
 };
