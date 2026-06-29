@@ -36,7 +36,7 @@ export default function PrivacyPolicy() {
           <div className="mb-6 mt-16">
             <h1 className="text-2xl font-bold mb-3">Privacy Policy</h1>
             <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-3 inline-block">
-              <p className="text-sm text-gray-600">Last Updated: May 16, 2025</p>
+              <p className="text-sm text-gray-600">Last Updated: May 16, 2026</p>
             </div>
           </div>
           
@@ -112,11 +112,10 @@ export default function PrivacyPolicy() {
                 If you have any questions about this Privacy Policy, please contact us at:
               </p>
               <p>
-                Email: hello@coompass.org<br />
-                Address: Coompass, Inc., 123 Impact Street, Lisboa 1000-123, Portugal
+                Email: hello@coompass.org
               </p>
               
-              <p className="mt-8 text-sm text-gray-500">Last Updated: May 16, 2025</p>
+              <p className="mt-8 text-sm text-gray-500">Last Updated: May 16, 2026</p>
             </CardContent>
           </Card>
         </div>
